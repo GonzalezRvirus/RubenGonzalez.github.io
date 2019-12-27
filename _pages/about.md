@@ -14,4 +14,4 @@ Currently, I am a predoctoral researcher under the supervision of Professor [San
 **Mail**: ruben.gonzalez@csic.es<br/> 
 **Adress**: Evolutionary Systems Virology  Group, I2SysBio (CSIC-UV), Parc Cientific UV; Catedrático Agustín Escardino 9, Paterna (46980), Valencia, Spain
 
-<img src="images/home.png" alt="hi" class="inline"/>
+<img src="images/home.png" alt="hi" align="middle" class="inline"/>
