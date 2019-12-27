@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rubén González / Site Title"
-title_separator          : "-"
+title                    : "Rubén González"
+title_separator          : 
 name                     : &name "Rubén González"
-description              : &description "personal description"
+description              : &description "Personal web"
 url                      : https://gonzalezrvirus.github.io/RubenGonzalez.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gonzalezrvirus/RubenGonzalez.github.io"
@@ -83,7 +83,7 @@ author:
   name             : "Rubén González"
   avatar           : "profile.png"
   bio              : "Predoctoral researcher"
-  location         : "Valencia, Spain"
+  location         : "[I2SysBio](https://www.uv.es/i2sysbio)"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
