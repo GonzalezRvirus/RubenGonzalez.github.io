@@ -12,4 +12,4 @@ Evolutionary passage.
 <img src="images/passage.png" alt="hi" class="inline"/>
 
 Presenting the research on [how the genetic diversity of hosts affects virus evolution.](https://doi.org/10.1093/ve/vez024)
-<img src="images/populations.jpeg" alt="hi" class="inline"/>
+<img src="images/populations.jpg" alt="hi" class="inline"/>
