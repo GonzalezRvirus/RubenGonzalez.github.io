@@ -8,7 +8,7 @@ author_profile: true
 González, R., Butković, A., Elena, S.F. (2020)<br/>
 *From foes to friends: viral infections expand the limits of host phenotypic plasticity.*<br/>
 Advances in Virus Research. 106: In press.
-
+<hr/>
 González, R., Butković, A., Elena, S.F. (2019)<br/>
 *Role of host genetic diversity for susceptibility-to-infection in the evolution of virulence of a plant virus.*<br/> 
 Virus evolution. 5: vez024. 
