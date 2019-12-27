@@ -10,4 +10,4 @@ redirect_from:
 
 I am interested in studying viruses and evolution, focusing on the genetic and ecological implications of viral evolution.
 
-Currently, I am a predoctoral researcher in the Santiago F. Elena [laboratory](https://sfelenalab.csic.es).
+Currently, I am a predoctoral researcher in the [laboratory](https://sfelenalab.csic.es) of Professor Santiago F. Elena.
