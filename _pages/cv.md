@@ -7,14 +7,14 @@ redirect_from:
   - /resume
 ---
 
-##Education
+## Education
 
 * Ph.D in Biotechnology, Polytechnic University of Valencia (Spain), 2017 – ongoing.
 * M.S. in Plant Molecular and Cellular Biotechnology, Polytechnic University of Valencia (Spain), 2015 – 2017.
 * B.S. in Biology, University of Vigo (Spain), 2011 – 2015.
   * Erasmus+, University of Coimbra (Portugal), 2014.
 
-##Work experience
+## Work experience
 
 * Predoctoral researcher (04/2017-present)
   * Spanish research council (CSIC)
@@ -32,7 +32,7 @@ redirect_from:
   * University of Vigo (Vigo, Spain)
   * Supervisor: Professor Emilio Rolán
 
-##Publications
+## Publications
 
 González, R., Butković, A., Elena, S.F. (2020) “From foes to friends: viral infections expand the limits of host”s phenotypic plasticity”. Adv Virus Res. 106: In press
 
@@ -46,7 +46,7 @@ Rolán-Alvarez, E., Carvajal-Rodríguez, A., de Coo, A., Cortés, B., Estévez, 
 https://doi.org/10.1111/evo.12691
 
   
-##Contributed Presentations
+## Contributed Presentations
 
 **Oral**
 
@@ -73,7 +73,7 @@ González, R.; Butković, A.; Martínez, J.; Melero; I.; Elena, S.F. (2019) “E
 Álvarez-Troncoso, R.; Fernández, F.; González, R.; Miguez, C.; Garrido, J. (2016) “Variación de las comunidades de insectos en el río Fragoso (Ourense, NO España) en relación con el impacto de las minicentrales: 2001-2015”. Iberian Congress of Entomology (Lisbon, Portugal).
 
   
-##Memberships
+## Memberships
 
 Spanish society for virology (SEV)- since May of 2018.
 
