@@ -14,8 +14,8 @@ Currently, I am a predoctoral researcher in the [laboratory](https://sfelenalab.
 
 ## Publications
 
-González, R., Butković, A., Elena, S.F. (2020) 
-From foes to friends: viral infections expand the limits of host phenotypic plasticity. 
+González, R., Butković, A., Elena, S.F. (2020)
+From foes to friends: viral infections expand the limits of host phenotypic plasticity.
 Advances in Virus Research. 106: In press.
 
 González, R., Butković, A., Elena, S.F. (2019)
