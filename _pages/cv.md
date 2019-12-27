@@ -12,7 +12,7 @@ redirect_from:
 * Ph.D in Biotechnology, Polytechnic University of Valencia (Spain), 2017 – ongoing.
 * M.S. in Plant Molecular and Cellular Biotechnology, Polytechnic University of Valencia (Spain), 2015 – 2017.
 * B.S. in Biology, University of Vigo (Spain), 2011 – 2015.
-   ->Erasmus+, University of Coimbra (Portugal), 2014.
+  * Erasmus+, University of Coimbra (Portugal), 2014.
 
 ##Work experience
 
