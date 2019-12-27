@@ -7,13 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-Currently, I am a predoctoral researcher in the [laboratory](https://sfelenalab.csic.es) of Professor Santiago F. Elena. My research focuses on the genetic and ecological implications of viral evolution, studying viruses as complex adaptive systems and using *Arabidopsis thaliana* as host. We carry on our research at the Institute for Integrative Systems Biology [(I²SysBio)](https://www.uv.es/institute-integrative-systems-biology-i2sysbio/en/institute-integrative-systems-biology-i-sysbio.html) 
-
+Currently, I am a predoctoral researcher under the supervision of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/> The focus of my research are the genetic and ecological implications in viral evolution and the study of viruses as complex adaptive systems in the host *Arabidopsis thaliana*.<br/>We are situated at the Institute for Integrative Systems Biology [(I²SysBio)](https://www.uv.es/institute-integrative-systems-biology-i2sysbio/en/institute-integrative-systems-biology-i-sysbio.html) 
 
 ## Contact
 
-**Mail**: ruben.gonzalez@csic.es
-
+**Mail**: ruben.gonzalez@csic.es<br/> 
 **Adress**: Evolutionary Systems Virology  Group, I2SysBio (CSIC-UV), Parc Cientific UV; Catedrático Agustín Escardino 9, Paterna (46980), Valencia, Spain
 
