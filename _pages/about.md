@@ -8,6 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am interested in studying viruses and evolution, focusing on the genetic and ecological implications of viral evolution.
+Currently, I am a predoctoral researcher in the [laboratory](https://sfelenalab.csic.es) of Professor Santiago F. Elena. My research focuses on the genetic and ecological implications of viral evolution, studying viruses as complex adaptive systems and using *Arabidopsis thaliana* as host. We carry on our research at the Institute for Integrative Systems Biology [(I²SysBio)](https://www.uv.es/institute-integrative-systems-biology-i2sysbio/en/institute-integrative-systems-biology-i-sysbio.html) 
 
-Currently, I am a predoctoral researcher in the [laboratory](https://sfelenalab.csic.es) of Professor Santiago F. Elena.
+##Contact
+
+**Mail**: ruben.gonzalez@csic.es
+
