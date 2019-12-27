@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
 * Ph.D in Biotechnology, Polytechnic University of Valencia (Spain), 2017 – ongoing.
