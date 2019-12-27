@@ -7,15 +7,15 @@ redirect_from:
   - /resume
 ---
 
-Education
-======
+##Education
+
 * Ph.D in Biotechnology, Polytechnic University of Valencia (Spain), 2017 – ongoing.
 * M.S. in Plant Molecular and Cellular Biotechnology, Polytechnic University of Valencia (Spain), 2015 – 2017.
 * B.S. in Biology, University of Vigo (Spain), 2011 – 2015.
    ->Erasmus+, University of Coimbra (Portugal), 2014.
 
-Work experience
-======
+##Work experience
+
 * Predoctoral researcher (04/2017-present)
   * Spanish research council (CSIC)
   * Supervisor: Professor Santiago F. Elena
@@ -32,8 +32,7 @@ Work experience
   * University of Vigo (Vigo, Spain)
   * Supervisor: Professor Emilio Rolán
 
-Publications
-======
+##Publications
 
 González, R., Butković, A., Elena, S.F. (2020) “From foes to friends: viral infections expand the limits of host”s phenotypic plasticity”. Adv Virus Res. 106: In press
 
@@ -47,8 +46,7 @@ Rolán-Alvarez, E., Carvajal-Rodríguez, A., de Coo, A., Cortés, B., Estévez, 
 https://doi.org/10.1111/evo.12691
 
   
-Contributed Presentations
-======
+##Contributed Presentations
 
 **Oral**
 
@@ -68,15 +66,14 @@ González, R.; Elena, S.F. (2018) “Evolution of RNA viruses in hosts with vari
 González, R.; Martorell, P.; Ramón, D.; Elena, S.F.; Ambrós, S. (2017) “Evaluation of Caenorhabditis elegans as experimental host for a thrip-transmitted plant RNA virus”. VI Spanish Worm Meeting (Valencia, Spain).
 
 
-**Poster presentation**
+**Poster presentations**
 
 González, R.; Butković, A.; Martínez, J.; Melero; I.; Elena, S.F. (2019) “Evolving in drought conditions: consequences in the interaction between a potyvirus and Arabidopsis thaliana”. 10th Workshop in Virus Evolution (State College Pennsylvania, USA).
 
 Álvarez-Troncoso, R.; Fernández, F.; González, R.; Miguez, C.; Garrido, J. (2016) “Variación de las comunidades de insectos en el río Fragoso (Ourense, NO España) en relación con el impacto de las minicentrales: 2001-2015”. Iberian Congress of Entomology (Lisbon, Portugal).
 
   
-Memberships
-======
+##Memberships
 
 Spanish society for virology (SEV)- since May of 2018.
 
