@@ -9,7 +9,8 @@ redirect_from:
 
 ## Education
 
-* Ph.D in Biotechnology, Polytechnic University of Valencia (Spain), 2017 – ongoing.
+* Ph.D in Biotechnology, 2017 – ongoing.
+  Polytechnic University of Valencia (Spain),
 * M.S. in Plant Molecular and Cellular Biotechnology, Polytechnic University of Valencia (Spain), 2015 – 2017.
 * B.S. in Biology, University of Vigo (Spain), 2011 – 2015.
   * Erasmus+, University of Coimbra (Portugal), 2014.
