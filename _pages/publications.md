@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-González R*, Butković A*, Elena SF. (2020)<br/>
+González R#, Butković A#, Elena SF. (2020)<br/>
 **From foes to friends: viral infections expand the limits of host phenotypic plasticity.**<br/>
 Advances in Virus Research. 106: In press.
 <hr/>
@@ -14,7 +14,7 @@ González R, Butković A, Elena SF. (2019)<br/>
 Virus evolution. 5: vez024. 
 [Read here](https://doi.org/10.1093/ve/vez024)
 <hr/>
-González R*, Wu B*, Li X*, Martínez F, Elena SF. (2019)<br/> 
+González R#, Wu B#, Li X#, Martínez F, Elena SF. (2019)<br/> 
 **Mutagenesis scanning uncovers evolutionary constraints on tobacco etch potyvirus membrane-associated 6K2 protein.**<br/> 
 Genome Biology and Evolution. 11: 1207–1222. 
 [Read here](https://doi.org/10.1093/gbe/evz069)
@@ -24,4 +24,4 @@ Rolán-Alvarez E, Carvajal-Rodríguez A, de Coo A, Cortés B, Estévez D, Ferrei
 Evolution. 69: 1845–1857. 
 [Read here](https://doi.org/10.1111/evo.12691)
 
-*co-authorship
+#co-authorship
