@@ -7,30 +7,26 @@ redirect_from:
   - /resume
 ---
 
-## Experience
-
-* Predoctoral researcher (04/2017-present)
-  * Spanish research council (CSIC)
-  * Supervisor: Professor Santiago F. Elena
-
-* Research Intership (05/2016-12/2016)
-  * Biopolis S.L. (Valencia, Spain)
-  * Supervisor: Professor Daniel Ramón
-  
-* Department research assistant (01/2015-07/2015)
-  * University of Vigo (Vigo, Spain)
-  * Supervisor: Dr. Josefina Garrido
-
-* Volunteer Research Assistant (06/2013-07/2013)
-  * University of Vigo (Vigo, Spain)
-  * Supervisor: Professor Emilio Rolán
-
 ## Education
 
 * Ph.D in Biotechnology (2017 – ongoing). Polytechnic University of Valencia (Spain).
 * M.S. in Plant Molecular and Cellular Biotechnology (2015-2017). Polytechnic University of Valencia (Spain).
 * B.S. in Biology (2011-2015) University of Vigo (Spain).
   * Erasmus+ (2014). University of Coimbra (Portugal).
+
+## Experience
+
+* Predoctoral researcher (04/2017-present)
+  Spanish research council (CSIC) // Supervisor: Professor Santiago F. Elena
+
+* Research Intership (05/2016-12/2016)
+  Biopolis S.L. (Valencia, Spain) // Supervisor: Professor Daniel Ramón
+  
+* Department research assistant (01/2015-07/2015)
+  University of Vigo (Vigo, Spain) // Supervisor: Dr. Josefina Garrido
+
+* Volunteer Research Assistant (06/2013-07/2013)
+  University of Vigo (Vigo, Spain) // Supervisor: Professor Emilio Rolán
 
 ## Awards
 
@@ -55,22 +51,10 @@ European Society for Evolutionary Biology (ESEB)- since November of 2019.
 
 American Association for the Advancement of Science (AAAS)- since January 2020.
 
-
 ## Publications
 
-González, R., Butković, A., Elena, S.F. (2020) “From foes to friends: viral infections expand the limits of host”s phenotypic plasticity”. Adv Virus Res. 106: In press
-https://doi.org/10.1016/bs.aivir.2020.01.003
+<a href="https://gonzalezrvirus.com//publications/" title="Publications list">List</a>
 
-González, R., Butković, A., Elena, S.F. (2019) “Role of host genetic diversity for susceptibility-to-infection in the evolution of virulence of a plant virus”. Virus Evol 5, vez024.
-https://doi.org/10.1093/ve/vez024
-
-González, R., Wu, B., Li, X., Martínez, F., Elena, S.F. (2019) “Mutagenesis scanning uncovers evolutionary constraints on tobacco etch potyvirus membrane-associated 6K2 protein”. Genome Biol Evol 11, 1207–1222. 
-https://doi.org/10.1093/gbe/evz069
-
-Rolán-Alvarez, E., Carvajal-Rodríguez, A., de Coo, A., Cortés, B., Estévez, D., Ferreira, M., González, R., Briscoe, A.D. (2015) “The scale-of-choice effect and how estimates of assortative mating in the wild can be biased due to heterogeneous samples”. Evolution 69, 1845–1857. 
-https://doi.org/10.1111/evo.12691
-
-  
 ## Contributed Presentations
 
 **Oral**
