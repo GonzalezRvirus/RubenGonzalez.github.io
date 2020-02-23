@@ -95,9 +95,9 @@ González, R.; Martorell, P.; Ramón, D.; Elena, S.F.; Ambrós, S. (2017) “Eva
 
 **Poster presentations**
 
-González, R.; Butković, A.; Martínez-Latorre, J.; Melero, I.; Pérez-Parets, E.; de la Iglesia, F.; Elena, S.F. (2020) “Drought conditions shape the evolution of a potyvirus towards a mutualistic relationship with its host”. Wellcome Genome Campus 3rd meeting on Evolutionary Systems Biology (Hixton, UK).
-
 Butković, A., González, R., Rivarez P., de la Iglesia F., Elena, S.F. (2020) Genome-wide association studies (GWAS) to identify genes involved in differential response of Arabidopsis thaliana to infection with generalist and specialist strains of a potyvirus. Wellcome Genome Campus 3rd meeting on Evolutionary Systems Biology (Hixton, UK).
+
+González, R.; Butković, A.; Martínez-Latorre, J.; Melero, I.; Pérez-Parets, E.; de la Iglesia, F.; Elena, S.F. (2020) “Virus evolution in the pathosystem turnip mosaic potyvirus – Arabidopsis thaliana under drought conditions selects for viruses who enhance the host tolerance to water deficiency.”. Wellcome Genome Campus 3rd meeting on Evolutionary Systems Biology (Hixton, UK).
 
 González, R.; Butković, A.; Martínez, J.; Melero; I.; Elena, S.F. (2019) “Evolving in drought conditions: consequences in the interaction between a potyvirus and Arabidopsis thaliana”. 10th Workshop in Virus Evolution (State College Pennsylvania, USA).
 
