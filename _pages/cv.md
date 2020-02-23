@@ -16,16 +16,16 @@ redirect_from:
 
 ## Experience
 
-* Predoctoral researcher (04/2017-present)
+* Predoctoral researcher (04/2017-present)<br/>
   Spanish research council (CSIC) // Supervisor: Professor Santiago F. Elena
 
-* Research Intership (05/2016-12/2016)
+* Research Intership (05/2016-12/2016)<br/>
   Biopolis S.L. (Valencia, Spain) // Supervisor: Professor Daniel Ramón
   
-* Department research assistant (01/2015-07/2015)
+* Department research assistant (01/2015-07/2015)<br/>
   University of Vigo (Vigo, Spain) // Supervisor: Dr. Josefina Garrido
 
-* Volunteer Research Assistant (06/2013-07/2013)
+* Volunteer Research Assistant (06/2013-07/2013)<br/>
   University of Vigo (Vigo, Spain) // Supervisor: Professor Emilio Rolán
 
 ## Awards
