@@ -9,9 +9,12 @@ redirect_from:
 
 ## Education
 
-* Ph.D in Biotechnology (2017 – ongoing). Polytechnic University of Valencia (Spain).
-* M.S. in Plant Molecular and Cellular Biotechnology (2015-2017). Polytechnic University of Valencia (Spain).
-* B.S. in Biology (2011-2015) University of Vigo (Spain).
+* Ph.D in Biotechnology (2017 – ongoing)<br/>
+Polytechnic University of Valencia (Spain)
+* M.S. in Plant Molecular and Cellular Biotechnology (2015-2017)<br/>
+Polytechnic University of Valencia (Spain)
+* B.S. in Biology (2011-2015)<br/>
+University of Vigo (Spain)
   * Erasmus+ (2014). University of Coimbra (Portugal).
 
 ## Experience
@@ -30,26 +33,26 @@ redirect_from:
 
 ## Awards
 
-(2020-2021) AAAS/Science Program for Excellence in Science. 
+(2020-2021) AAAS/Science Program for Excellence in Science
  
-(2020) EMBO Short-Term Fellowship. 
+(2020) EMBO Short-Term Fellowship
 
-(2020) Fisabio-Valencia University Chair for financing research stays in Europe. 
+(2020) Fisabio-Valencia University Chair for financing research stays in Europe
 
-(2017-2021) Research Personnel Training (FPI) grant (BES-2016-077078).
+(2017-2021) Research Personnel Training (FPI) grant (BES-2016-077078)
 
-(2015) Department collaboration grant (BOE-A-2015-700). MINECO-FEDER. 
+(2015) MINECO-FEDER Department collaboration grant (BOE-A-2015-700) 
 
 
 ## Memberships
 
-Spanish Society for Virology (SEV)- since May of 2018.
+Spanish Society for Virology (SEV)- since May of 2018
 
-Society for Molecular Biology and Evolution (SMBE)- since July of 2019.
+Society for Molecular Biology and Evolution (SMBE)- since July of 2019
 
-European Society for Evolutionary Biology (ESEB)- since November of 2019.
+European Society for Evolutionary Biology (ESEB)- since November of 2019
 
-American Association for the Advancement of Science (AAAS)- since January 2020.
+American Association for the Advancement of Science (AAAS)- since January 2020
 
 ## Publications
 
