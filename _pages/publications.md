@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-González R†^, Butković A#, Elena SF†. (2020)<br/>
+González R†^, Butković A^, Elena SF†. (2020)<br/>
 **From foes to friends: viral infections expand the limits of host phenotypic plasticity.**<br/>
 Advances in Virus Research. 106: In press.
 [Read here](https://doi.org/10.1016/bs.aivir.2020.01.003)
