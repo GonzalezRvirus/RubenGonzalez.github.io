@@ -7,7 +7,7 @@ author_profile: true
 
 Butkovic, A., González, R., Cobo, I., Elena, S.F†. (2020)<br/>
 **Adaptation of turnip mosaic potyvirus to a specific niche reduces its genetic and environmental robustness.**<br/> 
-Virus Evol. In press.
+Virus evolution. In press.
 [Read here](https://doi.org/10.1093/ve/veaa041)
 <hr/>
 
