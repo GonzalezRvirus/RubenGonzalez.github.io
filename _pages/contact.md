@@ -1,14 +1,11 @@
 ---
-permalink: /
+layout: archive
 title: "Contact"
-excerpt: "Contact"
+permalink: /contact/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+redirect_from:
+  - /resume
 ---
-## Contact
-
 **Mail**: ruben.gonzalez@csic.es<br/> 
 <br/> 
 We are situated at the Institute for Integrative Systems Biology [(I²SysBio)](https://www.uv.es/institute-integrative-systems-biology-i2sysbio/en/institute-integrative-systems-biology-i-sysbio.html)<br/>
