@@ -35,5 +35,7 @@ author_profile: true
     </div>
     <div class="column"> 
       <img class="demo cursor" src="/images/populations.jpg" style="width:100%" onclick="currentSlide(2)" alt="Presenting the research.">
-    </div>
+</div>
+  </div>
+</div>
     
