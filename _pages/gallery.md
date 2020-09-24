@@ -40,7 +40,7 @@ div.desc {
   
 <div class="gallery">
   <a target="_blank" href="/images/mentor.png">
-    <img src="/images/mentor.png" alt="ment" width="600" height="400">
+    <img src="/images/santi.png" alt="ment" width="600" height="400">
   </a>
   <div class="desc">Discussing data with my mentor</div>
 </div>
