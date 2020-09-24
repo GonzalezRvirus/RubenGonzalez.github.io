@@ -4,26 +4,34 @@ title: "Gallery"
 permalink: /gallery/
 author_profile: true
 ---
+<html>
+<head>
+<style>
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
 
-<!-- The grid: four columns -->
-<div class="row">
-  <div class="column">
-    <img src="/images/6k2.png" alt="Self-assembled vesicles created by the potyviral protein 6K2" onclick="myFunction(this);">
-  </div>
-  <div class="column">
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<figure>
+  <img src="/images/6k2.png" alt="6k2" style="width:100%">
+  <figcaption>Fig.1 - Self-assembled vesicles created by the potyviral protein 6K2</figcaption>
+</figure>
+
+</body>
+</html>
+
+
     <img src="/images/populations.jpg" alt="Presenting research" onclick="myFunction(this);">
-  </div>
-
-</div>
-
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
-</div>
+ 
