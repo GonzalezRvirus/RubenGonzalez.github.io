@@ -33,17 +33,17 @@ div.desc {
 <body>
 
 <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
+  <a target="_blank" href="/images/6k2.png">
     <img src="/images/6k2.png" alt="6K2" width="600" height="400">
   </a>
   <div class="desc">Self-assembled vesicles created by the potyviral protein 6K2</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
+  <a target="_blank" href="/images/populations.jpg">
     <img src="/images/populations.jpg" alt="presenting" width="600" height="400">
   </a>
-  <div class="desc">Presenting research</div>
+  <div class="desc">Presenting research in the EMPSEB24</div>
 </div>
 
 </body>
