@@ -32,7 +32,7 @@ div.desc {
 </head>
 <body>
 <div class="gallery">
-  <a target="_blank" href="/images/fitotron.png">
+  <a target="_blank" href="/images/fitotron.jpeg">
     <img src="/images/fitotron.png" alt="inc" width="600" height="400">
   </a>
   <div class="desc">Evaluating the progression of viral infection</div>
