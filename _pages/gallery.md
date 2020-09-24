@@ -31,6 +31,19 @@ div.desc {
 </style>
 </head>
 <body>
+<div class="gallery">
+  <a target="_blank" href="/images/fitotron.png">
+    <img src="/images/fitotron.png" alt="inc" width="600" height="400">
+  </a>
+  <div class="desc">Evaluating the progression of viral infection</div>
+</div>
+  
+<div class="gallery">
+  <a target="_blank" href="/images/mentor.png">
+    <img src="/images/mentor.png" alt="ment" width="600" height="400">
+  </a>
+  <div class="desc">Discussing data with my mentor</div>
+</div>
 
 <div class="gallery">
   <a target="_blank" href="/images/6k2.png">
