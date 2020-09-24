@@ -161,7 +161,7 @@
 }
 
 .page__hero-image {
-  width: 200%;
+  width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
 }
@@ -174,7 +174,7 @@
   padding: 2px 5px;
   color: #fff;
   font-family: $caption-font-family;
-  font-size: $type-size-12;
+  font-size: $type-size-7;
   background: #000;
   text-align: right;
   z-index: 5;
