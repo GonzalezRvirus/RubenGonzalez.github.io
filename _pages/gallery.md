@@ -12,7 +12,7 @@ div.gallery {
   margin: 7px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 200px;
 }
 
 div.gallery:hover {
