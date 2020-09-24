@@ -9,10 +9,10 @@ author_profile: true
 <head>
 <style>
 div.gallery {
-  margin: 5px;
+  margin: 7px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 200px;
 }
 
 div.gallery:hover {
