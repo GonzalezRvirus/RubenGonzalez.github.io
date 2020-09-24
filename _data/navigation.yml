@@ -6,6 +6,9 @@ main:
   - title: "CV"
     url: /cv/
     
+  - title: "Contact"
+    url: /Contact/
+    
   - title: "Gallery"
     url: /gallery/
     
