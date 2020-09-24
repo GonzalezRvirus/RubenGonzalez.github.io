@@ -8,13 +8,11 @@ redirect_from:
   - /about.html
 ---
 <p>
-I am a predoctoral researcher under the supervision of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).
-</p> 
-<p>
-The focus of my research is the genetic and ecological implications in viral evolution and the study of viruses as complex adaptive systems. Currently we are studying potyviruses in the host *Arabidopsis thaliana*.
-</p> 
-<p>
-We are situated at the Institute for Integrative Systems Biology [(I²SysBio)](https://www.uv.es/institute-integrative-systems-biology-i2sysbio/en/institute-integrative-systems-biology-i-sysbio.html)
+I am a predoctoral researcher under the supervision of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/>
+<br/>
+The focus of my research is the genetic and ecological implications in viral evolution and the study of viruses as complex adaptive systems. Currently we are studying potyviruses in the host *Arabidopsis thaliana*.<br/>
+<br/>
+We are situated at the Institute for Integrative Systems Biology [(I²SysBio)](https://www.uv.es/institute-integrative-systems-biology-i2sysbio/en/institute-integrative-systems-biology-i-sysbio.html)<br/>
 </p> 
 
 ## Contact
