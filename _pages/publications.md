@@ -5,12 +5,16 @@ permalink: /publications/
 author_profile: true
 ---
 
+González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Parets E; Gómez-Cadenas A; Carrasco P; Elena, SF†. (2020)<br/>
+**Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism.**<br/> 
+*Preprint*.
+[Read here](https://doi.org/10.21203/rs.3.rs-78584/v1)
+<hr/>
 Butkovic A; González R; Cobo I; Elena, SF†. (2020)<br/>
 **Adaptation of turnip mosaic potyvirus to a specific niche reduces its genetic and environmental robustness.**<br/> 
 Virus evolution. 6, veaa041.
 [Read here](https://doi.org/10.1093/ve/veaa041)
 <hr/>
-
 González R†^; Butković A^; Elena SF†. (2020)<br/>
 **From foes to friends: viral infections expand the limits of host phenotypic plasticity.**<br/>
 Advances in Virus Research. 106, 85-121.
