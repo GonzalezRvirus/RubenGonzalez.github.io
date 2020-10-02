@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Parets E; Gómez-Cadenas A; Carrasco P; Elena, SF†. (2020)<br/>
+González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Parets E; Gómez-Cadenas A; Carrasco P; Elena SF†. (2020)<br/>
 **Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism.**<br/> 
 *Preprint*.
 [Read here](https://doi.org/10.21203/rs.3.rs-78584/v1)
