@@ -6,7 +6,7 @@ author_profile: true
 ---
 <hr/>
 González R†; Butkovic A; Rivarez MPS; Elena, SF. (2020)<br/>
-**Natural variation in *Arabidopsis thaliana* rosette area unveils new genes involved in plant development**
+**Natural variation in *Arabidopsis thaliana* rosette area unveils new genes involved in plant development**<br/>
 Scientific Reports. In Press.
 <hr/>
 Butkovic A; González R; Cobo I; Elena, SF†. (2020)<br/>
