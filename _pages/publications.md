@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 <hr/>
+González R†; Butkovic A; Rivarez MPS; Elena, SF. (2020)<br/>
+**Natural variation in *Arabidopsis thaliana* rosette area unveils new genes involved in plant development**
+Scientific Reports. In Press.
+<hr/>
 Butkovic A; González R; Cobo I; Elena, SF†. (2020)<br/>
 **Adaptation of turnip mosaic potyvirus to a specific niche reduces its genetic and environmental robustness.**<br/> 
 Virus evolution. 6, veaa041.
