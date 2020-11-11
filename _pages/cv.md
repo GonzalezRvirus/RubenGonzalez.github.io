@@ -1,2 +1,2 @@
 ## Curriculum vitae
-<embed src="https://RubenGonzalez.github.io/images/CV_González_Rubén.pdf" type="application/pdf" />
+<embed src="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/blob/master/images/CV_González_Rubén.pdf" type="application/pdf" />
