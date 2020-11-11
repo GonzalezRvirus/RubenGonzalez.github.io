@@ -5,8 +5,15 @@ permalink: /cv/
 author_profile: true
 ---
 
-<a href="<embed src="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/blob/master/_pages/CV.pdf" type="application/pdf" />
-" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
-
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" style="width:100%; height:100%;">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>kekayan's Resume</title>
+</head>
+  <body style="width:100%; height:100%; margin:0;">
+    <iframe src="https://docs.google.com/gview?url= _pages/CV.pdf &embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
+  </body>
+</html>
 
 
