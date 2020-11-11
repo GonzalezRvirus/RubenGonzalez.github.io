@@ -1,1 +1,5 @@
-<a href="images/CV_González_Rubén.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+</body>
+<script type="text/javascript">
+    document.location = "/images/CV_González_Rubén.pdf"
+</script>
+</html>
