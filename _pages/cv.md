@@ -5,10 +5,6 @@ permalink: /cv/
 author_profile: true
 ---
 
-<div id="cv"></div>
-
-
-<script src="/js/pdfobject.js"></script>
-<script>PDFObject.embed("/images/CV_González_Rubén.pdf", "#cv");</script>
+[embed]https://github.com/GonzalezRvirus/RubenGonzalez.github.io/blob/master/images/CV_González_Rubén.pdf[/embed]
 
 
