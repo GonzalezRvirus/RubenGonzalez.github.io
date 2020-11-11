@@ -6,4 +6,4 @@ author_profile: true
 ---
 
 
-<a href="github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank">PDF.</a>
+<a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank">PDF.</a>
