@@ -6,4 +6,4 @@ author_profile: true
 ---
 
 
-<a href="pdf_server.php?file=github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf">Download CV here</a>
+<a href="pdf_server.php?file=https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf">Download CV here</a>
