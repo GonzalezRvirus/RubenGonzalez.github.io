@@ -5,14 +5,11 @@ permalink: /cv/
 author_profile: true
 ---
 
-
-<a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank">Download here.</a>
-
 <object
   data="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf"
   type="application/pdf"
   width="100%"
   height="100%">
   <p>Your browser does not support PDFs.
-    <a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf">Download the PDF</a>.</p>
+    <a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf">Download here the PDF</a>.</p>
 </object>
