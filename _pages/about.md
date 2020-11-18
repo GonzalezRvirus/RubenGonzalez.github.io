@@ -8,9 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a predoctoral researcher under the supervision of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/>
-<br/>
-The focus of my research is the genetic and ecological implications in viral evolution and the study of viruses as complex adaptive systems. Currently we are studying potyviruses in the host *Arabidopsis thaliana*.<br/>
+
+I am an evolutionary biologist that studies viruses as complex adaptive systems. The focus of my research is the genetic and ecological implications in viral evolution. Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/>
 <br/>
 <hr/>
 <img src="/images/passage.png" alt="hi" class="inline" height="300" width="500"/> <br/>
