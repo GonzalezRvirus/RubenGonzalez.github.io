@@ -9,7 +9,9 @@ redirect_from:
 ---
 
 
-I am an evolutionary biologist that studies viruses as complex adaptive systems. The focus of my research is the genetic and ecological implications in viral evolution. Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/>
+I am an evolutionary biologist that studies viruses as complex adaptive systems. The focus of my research is the genetic and ecological implications in viral evolution.<br/>
+<br/>
+Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/>
 <br/>
 <hr/>
 <img src="/images/passage.png" alt="hi" class="inline" height="300" width="500"/> <br/>
