@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 <hr/>
+Butkovic A; González R; Elena SF.† (2020)<br/>
+**Revisiting *Orthotospovirus* phylogeny using full-genome data and testing the contribution of selection, recombination and segments reassortment in the origin of new species.**<br/> 
+Archives of Virology. *In Press* 
+<hr/>
 González R^†; Butkovic A^; Rivarez MPS; Elena, SF. (2020)<br/>
 **Natural variation in *Arabidopsis thaliana* rosette area unveils new genes involved in plant development**<br/>
 Scientific Reports. 10, 17600.
@@ -40,10 +44,7 @@ Evolution. 69, 1845–1857.
 <hr/>
 ## Preprints
 <br/>
-Butkovic A; González R; Elena SF.† (2020)<br/>
-**Revisiting *Orthotospovirus* Phylogeny Using Whole Genomic Data and a Hypothesis for their Geographic Origin and Diversification.**<br/> 
-[Read here](https://doi.org/10.1101/2020.04.07.031120)
-<hr/>
+
 González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Parets E; Gómez-Cadenas A; Carrasco P; Elena SF†. (2020)<br/>
 **Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism.**<br/> 
 [Read here](https://doi.org/10.21203/rs.3.rs-78584/v1)
