@@ -9,7 +9,7 @@ Butkovic A; González R; Elena SF.† (2020)<br/>
 **Revisiting *Orthotospovirus* phylogeny using full-genome data and testing the contribution of selection, recombination and segments reassortment in the origin of new species.**<br/> 
 Archives of Virology. *In Press* 
 <hr/>
-González R^†; Butkovic A^; Rivarez MPS; Elena, SF. (2020)<br/>
+González R^†; Butkovic A^; Rivarez MPS; Elena, SF.† (2020)<br/>
 **Natural variation in *Arabidopsis thaliana* rosette area unveils new genes involved in plant development**<br/>
 Scientific Reports. 10, 17600.
 [Read here](https://doi.org/10.1038/s41598-020-74723-4)
@@ -52,3 +52,7 @@ González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Paret
 <br/>
 ^co-authorship
 †corresponding
+
+Butković A; González R; Rivarez MPS; Elena, SF.†  (2020)<br/>
+***Arabidopsis thaliana* genes contributing to differences in the outcome of infection with generalist and specialist strains of *Turnip mosaic virus* identified by genome-wide association studies.**<br/> 
+[Read here](https://doi.org/10.1101/2020.11.25.397661)
