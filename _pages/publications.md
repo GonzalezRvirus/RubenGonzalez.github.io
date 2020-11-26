@@ -44,7 +44,6 @@ Evolution. 69, 1845–1857.
 <hr/>
 ## Preprints
 <br/>
-<hr/>
 Butković A; González R; Rivarez MPS; Elena, SF.†  (2020)<br/>
 ***Arabidopsis thaliana* genes contributing to differences in the outcome of infection with generalist and specialist strains of *Turnip mosaic virus* identified by genome-wide association studies.**<br/> 
 [Read here](https://doi.org/10.1101/2020.11.25.397661)
