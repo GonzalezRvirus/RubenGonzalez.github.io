@@ -44,7 +44,11 @@ Evolution. 69, 1845–1857.
 <hr/>
 ## Preprints
 <br/>
-
+<hr/>
+Butković A; González R; Rivarez MPS; Elena, SF.†  (2020)<br/>
+***Arabidopsis thaliana* genes contributing to differences in the outcome of infection with generalist and specialist strains of *Turnip mosaic virus* identified by genome-wide association studies.**<br/> 
+[Read here](https://doi.org/10.1101/2020.11.25.397661)
+<hr/>
 González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Parets E; Gómez-Cadenas A; Carrasco P; Elena SF†. (2020)<br/>
 **Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism.**<br/> 
 [Read here](https://doi.org/10.21203/rs.3.rs-78584/v1)
@@ -53,6 +57,4 @@ González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Paret
 ^co-authorship
 †corresponding
 
-Butković A; González R; Rivarez MPS; Elena, SF.†  (2020)<br/>
-***Arabidopsis thaliana* genes contributing to differences in the outcome of infection with generalist and specialist strains of *Turnip mosaic virus* identified by genome-wide association studies.**<br/> 
-[Read here](https://doi.org/10.1101/2020.11.25.397661)
+
