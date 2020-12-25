@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 <hr/>
+González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Parets E; Gómez-Cadenas A; Carrasco P; Elena SF†. (2020)<br/>
+**Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism.**<br/> 
+Proceedings of the National Academy of Sciences of the United States of America. *In Press* 
+<hr/>
 Butkovic A; González R; Elena SF.† (2020)<br/>
 **Revisiting *Orthotospovirus* phylogeny using full-genome data and testing the contribution of selection, recombination and segments reassortment in the origin of new species.**<br/> 
 Archives of Virology. *In Press* 
@@ -48,10 +52,6 @@ Butković A; González R; Rivarez MPS; Elena, SF.†  (2020)<br/>
 ***Arabidopsis thaliana* genes contributing to differences in the outcome of infection with generalist and specialist strains of *Turnip mosaic virus* identified by genome-wide association studies.**<br/> 
 [Read here](https://doi.org/10.1101/2020.11.25.397661)
 <hr/>
-González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Parets E; Gómez-Cadenas A; Carrasco P; Elena SF†. (2020)<br/>
-**Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism.**<br/> 
-[Read here](https://doi.org/10.21203/rs.3.rs-78584/v1)
-<br/>
 <br/>
 ^co-authorship
 †corresponding
