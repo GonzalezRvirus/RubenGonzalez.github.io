@@ -9,7 +9,7 @@ González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Paret
 **Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism.**<br/> 
 Proceedings of the National Academy of Sciences of the United States of America. *In Press* 
 <hr/>
-Butkovic A; González R; Elena SF.† (2020)<br/>
+Butkovic A; González R; Elena SF.† (2021)<br/>
 **Revisiting *Orthotospovirus* phylogeny using full-genome data and testing the contribution of selection, recombination and segments reassortment in the origin of new species.**<br/> 
 Archives of Virology. *In Press* 
 <hr/>
