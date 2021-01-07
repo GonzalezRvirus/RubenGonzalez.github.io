@@ -12,6 +12,7 @@ Proceedings of the National Academy of Sciences of the United States of America.
 Butkovic A; González R; Elena SF.† (2021)<br/>
 **Revisiting *Orthotospovirus* phylogeny using full-genome data and testing the contribution of selection, recombination and segments reassortment in the origin of new species.**<br/> 
 Archives of Virology. *In Press* 
+[Read here] (https://doi.org/10.1007/s00705-020-04902-1)
 <hr/>
 González R^†; Butkovic A^; Rivarez MPS; Elena, SF.† (2020)<br/>
 **Natural variation in *Arabidopsis thaliana* rosette area unveils new genes involved in plant development**<br/>
