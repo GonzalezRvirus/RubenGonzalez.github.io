@@ -5,6 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 <hr/>
+Butković A; González R; Rivarez MPS; Elena, SF.†  (2020)<br/>
+***Arabidopsis thaliana* genes contributing to differences in the outcome of infection with generalist and specialist strains of *Turnip mosaic virus* identified by genome-wide association studies.**<br/> 
+Virus evolution. veab063.
+[Read here](https://doi.org/10.1093/ve/veab063)
+<br/> 
+<small>Genome-wide study of the *Arabidopsis thaliana* response to viral infection that identified new host genes involved in plant defence and virus replication.</small>
+<hr/>
 González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Parets E; Gómez-Cadenas A; Carrasco P; Elena SF†. (2021)<br/>
 **Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism.**<br/> 
 Proceedings of the National Academy of Sciences of the United States of America. 118, e2020990118.
@@ -62,15 +69,6 @@ Evolution. 69, 1845–1857.
 <br/> 
 <small>This work suggest that the low frequency of negative assortative mating observed in the literature may be due to the investigator's sampling simple.</small>
 <br/>
-<hr/>
-<hr/>
-## Preprints
-<br/>
-Butković A; González R; Rivarez MPS; Elena, SF.†  (2020)<br/>
-***Arabidopsis thaliana* genes contributing to differences in the outcome of infection with generalist and specialist strains of *Turnip mosaic virus* identified by genome-wide association studies.**<br/> 
-[Read here](https://doi.org/10.1101/2020.11.25.397661)
-<br/> 
-<small>Genome-wide study of the *Arabidopsis thaliana* response to viral infection that identified new host genes involved in plant defence and virus replication.</small>
 <hr/>
 <br/>
 ^co-authorship
