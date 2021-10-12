@@ -24,7 +24,7 @@ Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena
     <div class="card">
       <h2>CV</h2>
 <a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank">Download here the PDF.</a>
-
+    </div>
 <div class="footer">
   <h2>Ocotber 2021</h2>
 </div>
