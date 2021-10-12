@@ -20,7 +20,7 @@ Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena
       <h2>Research</h2>
       Experimental evolution. Example of evolutionary passage of viruses in *Arabidopsis thaliana*
 Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/>
-<img src="/images/passage.png" alt="hi" class="inline" height="300" width="500"/> <br/>
+<img src="/images/passage2.png" alt="hi" class="inline" height="300" width="500"/> <br/>
 <hr/>
     </div>
     <div class="card">
