@@ -12,6 +12,7 @@ main:
   - title: "Gallery"
     url: /gallery/
 
+<link rel="shortcut icon" type="image/x-icon" src="gonvir.ico">
 
 <head>
 <link rel="shortcut icon" type="image/x-icon" src="gonvir.ico">
