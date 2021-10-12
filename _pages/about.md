@@ -60,27 +60,26 @@ div.desc {
 <body>
 <div class="gallery">
   <a target="_blank" href="/images/EMBO.png">
-    <img src="/images/EMBO.png" alt="inc" width="600" height="400">
+    <img src="/images/EMBO.png"  width="600" height="400">
   </a>
   <div class="desc"> </div>
 </div>
   
 <div class="gallery">
   <a target="_blank" href="/images/ESA.png">
-    <img src="/images/ESA.png" alt="ment" width="600" height="400">
+    <img src="/images/ESA.png"  width="600" height="400">
   </a>
   <div class="desc"> </div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="/images/ESP.jpg">
-    <img src="/images/ESP.jpg" alt="6K2" width="600" height="400">
+    <img src="/images/ESP.jpg"  width="600" height="400">
   </a>
   <div class="desc"> </div>
 </div>
   
-
-    </div>
+  
 <div class="footer">
-  <h5>Ocotber 2021</h5>
+  <h6>Updated Ocotber 2021</h6>
 </div>
