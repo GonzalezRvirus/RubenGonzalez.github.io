@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <head>
-<link rel="shortcut icon" type="image/x-icon" href="/gonvir.ico">
+<link rel="shortcut icon" type="image/x-icon" src="/gonvir.ico">
 </head>
 
 <hr/>
