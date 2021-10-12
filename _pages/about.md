@@ -20,7 +20,7 @@ Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena
     <div class="card">
       <h2>Research</h2>
       Experimental evolution. Example of evolutionary passage of viruses in <i>Arabidopsis thaliana</i>
-<img src="/images/passage2.png" alt="hi" class="inline" height="300" width="500"/> <br/>
+<img src="/images/passage2.png" alt="hi" class="center" height="300" width="500"/> <br/>
 
     </div>
     <div class="card">
@@ -32,7 +32,7 @@ Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena
       <h5>Past and current funding</h5>
       <div class="row"> 
 
-<img src="/images/funding.png" alt="hi" class="inline" height="300" width="500"/> 
+<img src="/images/funding.png" alt="hi" class="center" height="300" width="500"/> 
   
 <hr/>
 <div class="footer">
