@@ -8,7 +8,12 @@ redirect_from:
   - /about.html
 
 ---
-<div style="text-align:justify"> 
+
+article .entry-content p { 
+	text-align: justify; 
+}
+
+
 <hr/>
 I am an evolutionary biologist that studies viruses as complex adaptive systems. 
 <br/>
