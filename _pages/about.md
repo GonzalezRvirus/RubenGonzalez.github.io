@@ -12,7 +12,7 @@ redirect_from:
 <hr/>
 I am an evolutionary biologist that studies viruses as complex adaptive systems. 
 <br/>
-<br/>Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/). After defend my thesis I will continue my reserch in the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en) <br/>
+<br/>Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/). After my thesis defense I will continue my reserch on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en) <br/>
 
 
 <div class="row">
