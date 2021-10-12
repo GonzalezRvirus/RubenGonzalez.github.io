@@ -56,8 +56,12 @@ div.desc {
   <a target="_blank" href="/images/populations.jpg">
     <img src="/images/populations.jpg" alt="presenting" width="600" height="400">
   </a>
-  <div class="desc">Presenting research in the EMPSEB24</div>
-</div>
+  <div class="desc">Butkovic A; González R; Cobo I; Elena, SF†. (2020)<br/>
+**Adaptation of turnip mosaic potyvirus to a specific niche reduces its genetic and environmental robustness.**<br/> 
+Virus evolution. 6, veaa041.
+[Read here](https://doi.org/10.1093/ve/veaa041)
+<br/> 
+<small>This work shows that viruses highly adapted to their host are more sensitive to random mutations and temperature conditions than non-adapted viruses. </small> </div>
 
 </body>
 </html>
