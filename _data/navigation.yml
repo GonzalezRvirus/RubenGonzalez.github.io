@@ -1,7 +1,4 @@
 # main links links
-theme:
-  favicon: gonvir.ico
-  
 main:
   - title: "Publications"
     url: /publications/
