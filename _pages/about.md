@@ -17,7 +17,7 @@ Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena
   <div class="leftcolumn">
     <div class="card">
       <h2>Research</h2>
-      Experimental evolution. Example of evolutionary passage of viruses in <p class="italic">Arabidopsis thaliana</p>
+      Experimental evolution. Example of evolutionary passage of viruses in <i>Arabidopsis thaliana</i>
 <img src="/images/passage2.png" alt="hi" class="inline" height="300" width="500"/> <br/>
 
     </div>
@@ -26,5 +26,5 @@ Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena
 <a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank">Download here the PDF.</a>
     </div>
 <div class="footer">
-  <h2>Ocotber 2021</h2>
+  <h5>Ocotber 2021</h5>
 </div>
