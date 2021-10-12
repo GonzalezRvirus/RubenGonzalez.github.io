@@ -19,7 +19,7 @@ Proceedings of the National Academy of Sciences of the United States of America.
 <br/> 
 <small>This work shows that if the environment endangers the host, viruses can evolve to provide a host increased tolerance to the adverse conditions.</small>
 <hr/>
-Butkovic A; González R; Elena SF†. )<br/>
+Butkovic A; González R; Elena SF†.<br/>
 •**Revisiting *Orthotospovirus* phylogeny using full-genome data and testing the contribution of selection, recombination and segments reassortment in the origin of new species.**<br/> 
 Archives of Virology. 166, 491–499.
 [Read here](https://doi.org/10.1007/s00705-020-04902-1)
