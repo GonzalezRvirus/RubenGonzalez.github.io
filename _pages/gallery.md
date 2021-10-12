@@ -57,11 +57,56 @@ div.desc {
     <img src="/images/populations.jpg" alt="presenting" width="600" height="400">
   </a>
   <div class="desc">Butkovic A; González R; Cobo I; Elena, SF†. (2020)<br/>
-**Adaptation of turnip mosaic potyvirus to a specific niche reduces its genetic and environmental robustness.**<br/> 
-Virus evolution. 6, veaa041.
-[Read here](https://doi.org/10.1093/ve/veaa041)
-<br/> 
-<small>This work shows that viruses highly adapted to their host are more sensitive to random mutations and temperature conditions than non-adapted viruses. </small> </div>
+**Adapta
+    
+    
+<!-- Container for the image gallery -->
+<div class="container">
 
-</body>
-</html>
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="/images/fitotron.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="/images/santi.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="/images/6k2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="/images/populations.png" style="width:100%">
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="/images/fitotron.png" style="width:100%" onclick="currentSlide(1)" alt="Evaluating infections">
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="/images/santi.png" style="width:100%" onclick="currentSlide(2)" alt="Discussing data">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/images/6k2.png" style="width:100%" onclick="currentSlide(3)" alt="Viral vesicles">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/images/populations.png" style="width:100%" onclick="currentSlide(4)" alt="Presenting work"> 
+</div>
+
+
