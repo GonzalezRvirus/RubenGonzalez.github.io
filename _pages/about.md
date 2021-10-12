@@ -32,6 +32,11 @@ Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena
       <h5>Past and current funding</h5>
       <div class="row"> 
   <div class="column">
+    img {
+    width: 200px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: cover;
+}
     <img src="/images/EMBO.png">
     <img src="/images/ESA.png">
     <img src="/images/ESP.jpg">
