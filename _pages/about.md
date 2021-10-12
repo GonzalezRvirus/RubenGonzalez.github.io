@@ -40,11 +40,19 @@ I am particularly interested in viruses as they allow us to address evolutionary
      </div>
     <div class="card">
       <h2>Projects</h2>
-      •<b>EMBO Postdoctoral Fellowship</b> Microbiome impact on <i>Caenorhabditis elegans</i> viral infection and evolution of Orsay virus<br/>
-      •<b>Open Space Innovation ESA</b> Dynamics of viral infection in simulated microgravity conditions<br/>
-      •<b>EMBO Short-Term Fellowship</b> Implementation of <i>Caenorhabditis elegans</i> as a model host system in virology research<br/>
-      •<b>FISABIO-Valencia University Chair for financing research stays in Europe</b>Implementation of <i>Caenorhabditis elegans</i> as a model host system in virology research<br/>
-      •<b>FPI Spanish research fellowships.</b> Virus adaptation at different levels<br/>
+      <h4>2021</h4>
+      •<b>EMBO Postdoctoral Fellowship</b><br/>
+      Microbiome impact on <i>Caenorhabditis elegans</i> viral infection and evolution of Orsay virus<br/>
+      •<b>Open Space Innovation ESA</b><br/>
+      Dynamics of viral infection in simulated microgravity conditions<br/>
+      <h4>2020</h4>
+      •<b>EMBO Short-Term Fellowship</b><br/>
+      Implementation of <i>Caenorhabditis elegans</i> as a model host system in virology research<br/>
+      •<b>FISABIO-Valencia University Chair for financing research stays in Europe</b><br/>
+      Implementation of <i>Caenorhabditis elegans</i> as a model host system in virology research<br/>
+      <h4>2017</h4>
+      •<b>FPI Spanish research fellowships.</b><br/>
+      Virus adaptation at different levels<br/>
 
     </div>
   
