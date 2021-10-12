@@ -12,7 +12,7 @@ redirect_from:
 <hr/>
 I am an evolutionary biologist that studies viruses as complex adaptive systems. 
 <br/>
-Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/). After defend my thesis I will continue my reserch in the team of [Professor Marie-Anne Félix] (https://www.ibens.ens.fr/?rubrique29&lang=en) <br/>
+Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/). After defend my thesis I will continue my reserch in the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en) <br/>
 
 
 <div class="row">
@@ -23,13 +23,13 @@ Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena
       My main scientific interest is in understanding evolutionary processes while integrating molecular and physiological mechanisms. The focus of my research is the experimental evolution of viruses.
       
 <img src="/images/passage2.png" alt="hi" class="center" height="300" width="500"/> <br/>
-<h7>Example of evolutionary passage of viruses in <i>Arabidopsis thaliana</i></h7>
+<small>Example of evolutionary passage of viruses in <i>Arabidopsis thaliana</i></small>
       
 <hr/>    
 I am particularly interested in viruses as they allow us to address evolutionary questions quite rapidly. After my research on plant viruses, I aim to use the <i>Caenorhabditis elegans</i>-Orsay virus pathosystem, which will allow me to address my current research interests and will surely foster new ones. 
 
 <img src="/images/worms_orv.png" alt="hi" class="center" height="300" width="500"/> <br/>
-      <h7><i>C. elegans</i> showing a GFP marker for viral infection</h7>
+<small><i>C. elegans</i> showing a GFP marker for viral infection</small>
 
     </div>
     <div class="card">
