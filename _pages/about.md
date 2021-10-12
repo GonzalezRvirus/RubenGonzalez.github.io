@@ -1,3 +1,8 @@
+<html>
+<head>
+<meta name="google-site-verification" content="jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A" />
+</head>
+</html>
 ---
 permalink: /
 title: "About me"
@@ -8,9 +13,7 @@ redirect_from:
   - /about.html
 
 ---
-<head>
-<meta name="google-site-verification" content="jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A" />
-</head>
+
 
 <hr/>
 I am an evolutionary biologist that studies viruses as complex adaptive systems. The focus of my research is the genetic and ecological implications of viral evolution.<br/>
