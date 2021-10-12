@@ -6,8 +6,9 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
----
 <link rel="shortcut icon" type="image/x-icon" href="/gonvir.ico">
+---
+
 <hr/>
 I am an evolutionary biologist that studies viruses as complex adaptive systems. The focus of my research is the genetic and ecological implications of viral evolution.<br/>
 <br/>
