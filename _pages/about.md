@@ -36,6 +36,18 @@ I am particularly interested in viruses as they allow us to address evolutionary
       <h2>CV</h2>
 <a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank">Download here the PDF.</a>
     </div>
+    
+     </div>
+    <div class="card">
+      <h2>Projects</h2>
+      •<b>EMBO Postdoctoral Fellowship</b> Microbiome impact on <i>Caenorhabditis elegans</i> viral infection and evolution of Orsay virus<br/>
+      •<b>Open Space Innovation ESA</b> Dynamics of viral infection in simulated microgravity conditions<br/>
+      •<b>EMBO Short-Term Fellowship</b> Implementation of <i>Caenorhabditis elegans</i> as a model host system in virology research<br/>
+      •<b>FISABIO-Valencia University Chair for financing research stays in Europe</b>Implementation of <i>Caenorhabditis elegans</i> as a model host system in virology research<br/>
+      •<b>FPI Spanish research fellowships.</b> Virus adaptation at different levels<br/>
+
+    </div>
+  
     <div class="card">
       <h2>Funding</h2>
       <h5>Past and current funding</h5>
