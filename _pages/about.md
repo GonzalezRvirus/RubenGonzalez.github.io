@@ -9,7 +9,7 @@ redirect_from:
 
 ---
 <head>
-<link rel="shortcut icon" type="image/x-icon" src="gonvir.ico">
+<meta name="google-site-verification" content="jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A" />
 </head>
 
 <hr/>
