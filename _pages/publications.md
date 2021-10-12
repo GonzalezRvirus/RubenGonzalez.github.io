@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 <hr/>
-<img src="/images/6k2.png" align="left">
 Butković A; González R; Rivarez MPS; Elena, SF.†  (2021)<br/>
 **A Genome-Wide Association Study identifies *Arabidopsis thaliana* genes that contribute to differences in the outcome of infection with two *Turnip mosaic potyvirus* strains that differ in their evolutionary history and degree of host specialization**
 Virus evolution. veab063.
