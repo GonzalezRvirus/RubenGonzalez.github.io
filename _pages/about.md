@@ -32,8 +32,8 @@ Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena
       <h5>Past and current funding</h5>
       <div class="row"> 
   <div class="column">
-    <img src="/images/EMBO.jpg">
-    <img src="/images/ESA.jpg">
+    <img src="/images/EMBO.png">
+    <img src="/images/ESA.png">
     <img src="/images/ESP.jpg">
   </div>
 
