@@ -32,52 +32,7 @@ Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena
       <h5>Past and current funding</h5>
       <div class="row"> 
 
-<html>
-<head>
-<style>
-div.gallery {
-  margin: 7px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 200px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
-</head>
-<body>
-<div class="gallery">
-  <a target="_blank" href="/images/EMBO.png">
-    <img src="/images/EMBO.png"  width="600" height="400">
-  </a>
-  <div class="desc"> </div>
-</div>
-  
-<div class="gallery">
-  <a target="_blank" href="/images/ESA.png">
-    <img src="/images/ESA.png"  width="600" height="400">
-  </a>
-  <div class="desc"> </div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="/images/ESP.jpg">
-    <img src="/images/ESP.jpg"  width="600" height="400">
-  </a>
-  <div class="desc"> </div>
-</div>
+<img src="/images/funding.png" alt="hi" class="inline" height="300" width="500"/> 
   
 <hr/>
 <div class="footer">
