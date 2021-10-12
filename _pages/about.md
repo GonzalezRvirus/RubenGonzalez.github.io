@@ -79,7 +79,7 @@ div.desc {
   <div class="desc"> </div>
 </div>
   
-  
+<hr/>
 <div class="footer">
   <h6>Updated Ocotber 2021</h6>
 </div>
