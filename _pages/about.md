@@ -31,16 +31,54 @@ Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena
       <h2>Funding</h2>
       <h5>Past and current funding</h5>
       <div class="row"> 
-  <div class="column">
-    img {
-    width: 200px; /* You can set the dimensions to whatever you want */
-    height: 200px;
-    object-fit: cover;
+
+<html>
+<head>
+<style>
+div.gallery {
+  margin: 7px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
 }
-    <img src="/images/EMBO.png">
-    <img src="/images/ESA.png">
-    <img src="/images/ESP.jpg">
-  </div>
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="gallery">
+  <a target="_blank" href="/images/EMBO.png">
+    <img src="/images/EMBO.png" alt="inc" width="600" height="400">
+  </a>
+  <div class="desc"> </div>
+</div>
+  
+<div class="gallery">
+  <a target="_blank" href="/images/ESA.png">
+    <img src="/images/ESA.png" alt="ment" width="600" height="400">
+  </a>
+  <div class="desc"> </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="/images/ESP.jpg">
+    <img src="/images/ESP.jpg" alt="6K2" width="600" height="400">
+  </a>
+  <div class="desc"> </div>
+</div>
+  
 
     </div>
 <div class="footer">
