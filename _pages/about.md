@@ -2,7 +2,7 @@
 permalink: /
 title: "About me"
 excerpt: "About me"
-logo:gonvir.ico
+logo: "gonvir.ico"
 author_profile: true
 redirect_from: 
   - /about/
