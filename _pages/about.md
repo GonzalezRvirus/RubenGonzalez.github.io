@@ -2,11 +2,12 @@
 permalink: /
 title: "About me"
 excerpt: "About me"
+logo:gonvir.ico
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-logo:gonvir.ico
+
 ---
 <head>
 <link rel="shortcut icon" type="image/x-icon" src="gonvir.ico">
