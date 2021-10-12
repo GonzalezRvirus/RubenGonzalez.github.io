@@ -7,6 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="/gonvir.ico">
+</head>
 
 <hr/>
 I am an evolutionary biologist that studies viruses as complex adaptive systems. The focus of my research is the genetic and ecological implications of viral evolution.<br/>
