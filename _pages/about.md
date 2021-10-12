@@ -9,6 +9,10 @@ redirect_from:
 
 ---
 
+article .entry-content p { 
+	text-align: justify; 
+}
+
 <hr/>
 I am an evolutionary biologist that studies viruses as complex adaptive systems. 
 <br/>
