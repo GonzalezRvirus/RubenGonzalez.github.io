@@ -7,21 +7,19 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-
+<hr/>
 I am an evolutionary biologist that studies viruses as complex adaptive systems. The focus of my research is the genetic and ecological implications of viral evolution.<br/>
 <br/>
 Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/>
-<hr/>
+
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
       <h2>Research</h2>
-      Experimental evolution. Example of evolutionary passage of viruses in *Arabidopsis thaliana*
-Currently I am a predoctoral researcher mentored by Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/>
+      Experimental evolution. Example of evolutionary passage of viruses in <p class="italic">Arabidopsis thaliana</p>
 <img src="/images/passage2.png" alt="hi" class="inline" height="300" width="500"/> <br/>
-<hr/>
+
     </div>
     <div class="card">
       <h2>CV</h2>
