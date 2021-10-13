@@ -40,6 +40,7 @@ I am particularly interested in viruses as they allow us to address evolutionary
      </div>
     <div class="card">
       <h2>Projects</h2>
+      <h5>Past and current funding</h5>
       <h4>2021</h4>
       •<b>EMBO Postdoctoral Fellowship</b><br/>
       Microbiome impact on <i>Caenorhabditis elegans</i> viral infection and evolution of Orsay virus<br/>
@@ -53,15 +54,8 @@ I am particularly interested in viruses as they allow us to address evolutionary
       <h4>2017</h4>
       •<b>FPI Spanish research fellowships.</b><br/>
       Virus adaptation at different levels<br/>
-
-    </div>
-  
-    <div class="card">
-      <h2>Funding</h2>
-      <h5>Past and current funding</h5>
-      <div class="row"> 
-
 <img src="/images/funding.png" alt="hi" class="center" height="300" width="500"/> 
+       </div>
   
 <hr/>
 <div class="footer">
