@@ -5,7 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 <h4>2021</h4>
-Butković A; González R; Rivarez MPS; Elena, SF†.<br/>
+
+Navarro R; Ambrós S; Butković A; Carrasco JL; González R; Martínez F; Wu B; Elena SF†
+•**Defects in plant immunity modulate the rates and patterns of RNA virus evolution**
+bioRxiv
+[Read here](https://www.biorxiv.org/content/10.1101/2020.10.13.337402v2.full)
+<br/> 
+<small>This work illustrates how different host defense signaling pathways constrain virus evolution</small>
+<hr/>
+Butković A; González R; Rivarez MPS; Elena SF†.<br/>
 •**A Genome-Wide Association Study identifies *Arabidopsis thaliana* genes that contribute to differences in the outcome of infection with two *Turnip mosaic potyvirus* strains that differ in their evolutionary history and degree of host specialization**
 Virus evolution. veab063.
 [Read here](https://doi.org/10.1093/ve/veab063)
