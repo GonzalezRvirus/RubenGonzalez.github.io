@@ -5,8 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 <h4>2021</h4>
-
-Navarro R; Ambrós S; Butković A; Carrasco JL; González R; Martínez F; Wu B; Elena SF† <br/>
+González R†; Elena SF. <br/>
+•**The interplay between the host microbiome and pathogenic viral infections.**<br/> 
+mBio. In press
+[Read here](https://doi.org/10.1128/mBio.02496-21)
+<br/> 
+<small>This minireview provides an integrative overview of the microbiome impact on viral infection across different pathosystems.</small>
+<hr/>
+Navarro R; Ambrós S; Butković A; Carrasco JL; González R; Martínez F; Wu B; Elena SF†. <br/>
 •**Defects in plant immunity modulate the rates and patterns of RNA virus evolution** <br/>
 bioRxiv
 [Read here](https://www.biorxiv.org/content/10.1101/2020.10.13.337402v2.full)
