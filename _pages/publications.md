@@ -7,7 +7,7 @@ author_profile: true
 <h4>2021</h4>
 González R†; Elena SF. <br/>
 •**The interplay between the host microbiome and pathogenic viral infections.**<br/> 
-mBio. In press
+mBio. 12: e02496-21.
 [Read here](https://doi.org/10.1128/mBio.02496-21)
 <br/> 
 <small>This minireview provides an integrative overview of the microbiome impact on viral infection across different pathosystems.</small>
