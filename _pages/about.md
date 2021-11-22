@@ -14,7 +14,7 @@ I am an evolutionary biologist that studies viruses as complex adaptive systems.
 <br/>
 <br/> I did a PhD on factors affecting evolution of potyviruses, under the mentorship of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/> 
 <img src="/images/New_20211108_Santi.jpeg" alt="hi" class="center" height="300" width="500"/> <br/>
-<small>Evolutionary Systems Virology Team</small><br/> 
+<small>With my PhD mentor in the Evolutionary Systems Virology Lab</small><br/> 
 <br/> 
 
 Currently I am a EMBO Postodcoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en) <br/>
