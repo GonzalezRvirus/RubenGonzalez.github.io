@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-**Mail**:  <br/> 
+**Mail**: rgonzale@bio.ens.psl.eu  <br/> 
 <hr/>
 We are situated at the Institut de Biologie de l'Ecole Normale Superieure [(IBENS)](https://www.ibens.ens.fr/?lang=en)<br/>
 <br/> 
