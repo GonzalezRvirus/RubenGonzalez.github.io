@@ -10,31 +10,20 @@ redirect_from:
 ---
 
 <hr/>
-I am an evolutionary biologist that studies viruses as complex adaptive systems. 
-<br/>
-<br/> I did a PhD on factors affecting evolution of potyviruses, under the mentorship of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/> 
+I am an biologist interested in evolution and host responses against viruses. After getting a Bachelors degree in Biology in the University of Vigo and a MSc degree in Plant Molecular and Cellular Biotechnology from the Polithecnic University in Valencia, I did a PhD on factors affecting evolution of potyviruses, under the mentorship of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/> 
 <img src="/images/New_20211108_Santi.jpeg" alt="hi" class="center" height="300" width="500"/> <br/>
 <small>With my PhD mentor in the Evolutionary Systems Virology Lab</small><br/> 
 <br/> 
 
-Currently I am a EMBO Postodcoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en) <br/>
+Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en)  <br/>
 <img src="/images/Felix_team.jpg" alt="hi" class="center" height="300" width="500"/> <br/>
-<small>Félix Team on a windy day"</small><br/> 
+<small>Félix Team on a windy day</small><br/> 
 <br/> 
 
 
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>Research</h2>
-      The focus of my research is the genetic and ecological implications of viral evolution. Experimental evolution. 
-      My main scientific interest is in understanding evolutionary processes while integrating molecular and physiological mechanisms. The focus of my research is the experimental evolution of viruses.
-      
-<img src="/images/passage2.png" alt="hi" class="center" height="300" width="500"/> <br/>
-<small>Example of evolutionary passage of viruses in <i>Arabidopsis thaliana</i></small>
-      
+  
 <hr/>    
-I am particularly interested in viruses as they allow us to address evolutionary questions quite rapidly. After my research on plant viruses, I aim to use the <i>Caenorhabditis elegans</i>-Orsay virus pathosystem, which will allow me to address my current research interests and will surely foster new ones. 
+In Félix Team I am using the <i>Caenorhabditis elegans</i>-Orsay virus pathosystem to study host factors and bacterial enviroments that reduce viral infection.
 
 <img src="/images/worms_orv.png" alt="hi" class="center" height="300" width="500"/> <br/>
 <small><i>C. elegans</i> showing a GFP marker for viral infection</small>
