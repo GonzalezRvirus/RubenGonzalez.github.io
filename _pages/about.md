@@ -15,19 +15,12 @@ I am an biologist interested in evolution and host responses against viruses. Af
 <small>With my PhD mentor in the Evolutionary Systems Virology Lab</small><br/> 
 <br/> 
 
-Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en)  <br/>
+Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathosystem to study host factors and bacterial enviroments that reduce viral infection.  <br/>
 <img src="/images/Felix_team.jpg" alt="hi" class="center" height="300" width="500"/> <br/>
 <small>Félix Team on a windy day</small><br/> 
 <br/> 
 
-
-  
-<hr/>    
-In Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathosystem to study host factors and bacterial enviroments that reduce viral infection.
-
-<img src="/images/worms_orv.png" alt="hi" class="center" height="300" width="500"/> <br/>
-<small><i>C. elegans</i> showing a GFP marker for viral infection</small>
-    </div>
+<div>
     <div class="card">
       <h2>CV</h2>
 <a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank">Download here the PDF.</a>
