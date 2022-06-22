@@ -4,20 +4,21 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+<h4>2022</h4>
+Navarro R; Ambrós S; Butković A; Carrasco JL; González R; Martínez F; Wu B; Elena SF†. <br/>
+•**Defects in plant immunity modulate the rates and patterns of RNA virus evolution** <br/>
+Virus Evolution. veac059. 
+[Read here](https://doi.org/10.1093/ve/veac059)
+<br/> 
+<small>This work illustrates how different host defense signaling pathways constrain virus evolution</small>
+<hr/>
 <h4>2021</h4>
 González R†; Elena SF. <br/>
 •**The interplay between the host microbiome and pathogenic viral infections.**<br/> 
-mBio. 12: e02496-21.
+mBio. 12, e02496-21.
 [Read here](https://doi.org/10.1128/mBio.02496-21)
 <br/> 
 <small>This minireview provides an integrative overview of the microbiome impact on viral infection across different pathosystems.</small>
-<hr/>
-Navarro R; Ambrós S; Butković A; Carrasco JL; González R; Martínez F; Wu B; Elena SF†. <br/>
-•**Defects in plant immunity modulate the rates and patterns of RNA virus evolution** <br/>
-bioRxiv
-[Read here](https://www.biorxiv.org/content/10.1101/2020.10.13.337402v2.full)
-<br/> 
-<small>This work illustrates how different host defense signaling pathways constrain virus evolution</small>
 <hr/>
 Butković A; González R; Rivarez MPS; Elena SF†.<br/>
 •**A Genome-Wide Association Study identifies *Arabidopsis thaliana* genes that contribute to differences in the outcome of infection with two *Turnip mosaic potyvirus* strains that differ in their evolutionary history and degree of host specialization** <br/>
