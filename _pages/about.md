@@ -27,14 +27,11 @@ In Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathos
 
 <img src="/images/worms_orv.png" alt="hi" class="center" height="300" width="500"/> <br/>
 <small><i>C. elegans</i> showing a GFP marker for viral infection</small>
-
     </div>
     <div class="card">
       <h2>CV</h2>
 <a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank">Download here the PDF.</a>
     </div>
-    
-     </div>
     <div class="card">
       <h2>Projects</h2>
       <h5>Past and current funding</h5>
@@ -56,5 +53,5 @@ In Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathos
   
 <hr/>
 <div class="footer">
-  <h6>Updated Ocotber 2021</h6>
+  <h6>Updated June 2022</h6>
 </div>
