@@ -18,6 +18,9 @@ I am an evolutionary biologist that studies viruses as complex adaptive systems.
 <br/> 
 
 Currently I am a EMBO Postodcoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en) <br/>
+<img src="/images/Felix_team.jpg" alt="hi" class="center" height="300" width="500"/> <br/>
+<small>Félix Team on a windy day"</small><br/> 
+<br/> 
 
 
 <div class="row">
