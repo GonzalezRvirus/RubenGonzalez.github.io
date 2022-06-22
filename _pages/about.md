@@ -23,7 +23,7 @@ Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne F
 
   
 <hr/>    
-In Félix Team I am using the <i>Caenorhabditis elegans</i>-Orsay virus pathosystem to study host factors and bacterial enviroments that reduce viral infection.
+In Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathosystem to study host factors and bacterial enviroments that reduce viral infection.
 
 <img src="/images/worms_orv.png" alt="hi" class="center" height="300" width="500"/> <br/>
 <small><i>C. elegans</i> showing a GFP marker for viral infection</small>
