@@ -47,5 +47,6 @@ Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne F
 <hr/>
 <div class="footer">
   <h6>Updated October 2022</h6>
+  
 </div>
   <a rel="me" href="https://mstdn.science/@RubenGonzalez">Mastodon</a>
