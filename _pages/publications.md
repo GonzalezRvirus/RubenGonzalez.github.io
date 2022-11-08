@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 <h4>2022</h4>
-González R^†; Butkovic A^†
+González R^†; Butkovic A^†<br/>
 •**A brief view on factors that affect plant virus evolution** <br/>
 Frontiers in Virology. 2:994057.
 [Read here](https://doi.org/10.3389/fviro.2022.994057)
@@ -17,7 +17,7 @@ Melero I; González R†; Elena SF†<br/>
 Philosophical Transactions of the Royal Society B. In Press. 
 [Read here](https://doi.org/10.1098/rtsb.2022.0005)
 <br/> 
-<small>Here we show that </small>
+<small></small>
 <hr/>
 Navarro R; Ambrós S; Butković A; Carrasco JL; González R; Martínez F; Wu B; Elena SF†. <br/>
 •**Defects in plant immunity modulate the rates and patterns of RNA virus evolution** <br/>
