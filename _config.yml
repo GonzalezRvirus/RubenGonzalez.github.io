@@ -84,7 +84,7 @@ author:
   avatar           : "pic.png"
   bio              : "Postdoctoral researcher"
   location         : "Paris, France"
-  employer         :
+  employer         : "https://www.ibens.ens.fr/?rubrique29&lang=en"
   pubmed           : 
   googlescholar    : "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
   email            : "ruben.gonzalez@bio.ens.psl.eu"
@@ -115,7 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
+  mastodon         : "@RubenGonzalez@mstdn.science"
 
 # Reading Files
 include:
