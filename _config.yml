@@ -50,8 +50,8 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : " <meta name="google-site-verification" content="jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A" />"
-bing_site_verification   : " <a rel="me" href="https://mstdn.science/@RubenGonzalez">on Mastodon</a>"
+google_site_verification : meta name="google-site-verification" content="jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A"
+bing_site_verification   : rel="me" href="https://mstdn.science/@RubenGonzalez"
 alexa_site_verification  :
 yandex_site_verification :
 
