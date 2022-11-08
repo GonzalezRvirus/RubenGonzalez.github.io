@@ -15,9 +15,9 @@ I am an biologist interested in evolution and host responses against viruses. Af
 <small>With my PhD mentor in the Evolutionary Systems Virology Lab</small><br/> 
 <br/> 
 
-Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathosystem to study host factors and bacterial enviroments that reduce viral infection.  <br/>
+Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathosystem to study host factors and bacterial enviroments that alter viral infection.  <br/>
 <img src="/images/Felix_team.jpg" alt="hi" class="center" height="300" width="500"/> <br/>
-<small>Félix Team on a windy day</small><br/> 
+<small>Félix Team 2022</small><br/> 
 <br/> 
 
 <div>
