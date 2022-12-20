@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 <hr/>
-I am an biologist interested in evolution and host responses against viruses. After getting a Bachelors degree in Biology in the University of Vigo and a MSc degree in Plant Molecular and Cellular Biotechnology from the Polithecnic University in Valencia, I did a PhD on factors affecting evolution of potyviruses, under the mentorship of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/> 
+I am a biologist interested in evolution and host responses against viruses. After getting a Bachelors degree in Biology in the University of Vigo and a MSc degree in Plant Molecular and Cellular Biotechnology from the Polithecnic University in Valencia, I did a PhD on factors affecting evolution of potyviruses, under the mentorship of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/> 
 <img src="/images/New_20211108_Santi.jpeg" alt="hi" class="center" height="300" width="500"/> <br/>
 <small>With my PhD mentor in the Evolutionary Systems Virology Lab</small><br/> 
 <br/> 
