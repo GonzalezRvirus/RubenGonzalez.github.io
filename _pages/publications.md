@@ -4,20 +4,22 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-<h4>2022</h4>
-González R^†; Butkovic A^†<br/>
-•**A brief view on factors that affect plant virus evolution** <br/>
-Frontiers in Virology. 2:994057.
-[Read here](https://doi.org/10.3389/fviro.2022.994057)
+<h4>2023</h4>
 <br/> 
-<small> This minireview provides an overview of the most important factors in (plant) virus evolution  </small>
-<hr/>
 Melero I; González R†; Elena SF†<br/>
 •**Host developmental stages shape the evolution of a plant RNA virus** <br/>
 Philosophical Transactions of the Royal Society B. In Press. 
 [Read here](https://doi.org/10.1098/rtsb.2022.0005)
 <br/> 
-<small></small>
+<small> We studied virus infections and TuMV evolution in three developmental stages of Arabidopsis thaliana</small>
+<hr/>
+<h4>2022</h4>
+González R^†; Butkovic A^†<br/>
+•**A brief view on factors that affect plant virus evolution** <br/>
+Frontiers in Virology. 2:994057.
+[Read here](https://doi.org/10.3389/fviro.2022.994057)
+
+<small> This minireview provides an overview of the most important factors in (plant) virus evolution  </small>
 <hr/>
 Navarro R; Ambrós S; Butković A; Carrasco JL; González R; Martínez F; Wu B; Elena SF†. <br/>
 •**Defects in plant immunity modulate the rates and patterns of RNA virus evolution** <br/>
