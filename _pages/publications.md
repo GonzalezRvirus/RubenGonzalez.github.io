@@ -8,7 +8,7 @@ author_profile: true
 <br/> 
 Melero I; González R†; Elena SF†<br/>
 •**Host developmental stages shape the evolution of a plant RNA virus** <br/>
-Philosophical Transactions of the Royal Society B. In Press. 
+Philosophical Transactions of the Royal Society B. 378:20220005. 
 [Read here](https://doi.org/10.1098/rtsb.2022.0005)
 <br/> 
 <small> We studied virus infections and TuMV evolution in three developmental stages of Arabidopsis thaliana</small>
