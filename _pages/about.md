@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 <style>
 .polaroid {
   position: relative;
@@ -25,12 +26,14 @@ redirect_from:
 
 .polaroid p {
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
   width: 100%;
   text-align: center;
   color: #888;
   font-size: 14px;
   font-family: Arial, sans-serif;
+  background-color: white;
+  padding: 5px 0;
 }
 
 .gallery-container {
@@ -42,15 +45,11 @@ redirect_from:
 
 <hr/>
 
-<div class="text-justified">
 I am a scientist specializing in host-virus interactions and the study of their co-evolutionary dynamics.
 
 I obtained my Bachelor's degree in Biology from the University of Vigo and later pursued a Master's degree in Plant Molecular and Cellular Biotechnology at the Polytechnic University of Valencia. It was during my Master that Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/) introduced me to the captivating field of virus research. Following this experience, I decided to pursue a PhD under his mentorship, focusing on factors that influence the evolution of viruses, using plant-pathogen systems as model organisms.
-</div>
 
-<div class="text-justified">
 Currently, I am an EMBO Postdoctoral Fellow in the research group led by Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team, I am investigating host factors and bacterial environments that modulate susceptibility to viral infection using the *Caenorhabditis elegans* - Orsay virus pathosystem. My research aims to elucidate the complex interplay between host, virus, and microbial communities, and how these interactions shape the outcomes of viral infections.
-</div>
 
 <br/> 
 
@@ -64,6 +63,7 @@ Currently, I am an EMBO Postdoctoral Fellow in the research group led by Profess
     <p>Félix Team 2022</p>
   </div>
 </div>
+<br/>
 
 
 <div>
