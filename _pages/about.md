@@ -62,7 +62,7 @@ Currently, I am an EMBO Postdoctoral Fellow in the research group led by Profess
   </li>
   <li>
     <div class="polaroid">
-      <img src="/images/Felix_team_2023.jpg" alt="hi" />
+      <img src="/images/Felix_lab_2023.JPEG" alt="hi" />
       <p>Félix Team 2023</p>
     </div>
   </li>
