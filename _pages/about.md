@@ -9,37 +9,27 @@ redirect_from:
 ---
 
 <style>
-.polaroid {
-  position: relative;
-  width: 240px;
-  padding: 10px 10px 30px 10px;
-  border: 1px solid #BFBFBF;
-  background-color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-}
-
-.polaroid img {
-  width: 100%;
-  height: auto;
-}
-
-.polaroid p {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  color: #888;
-  font-size: 14px;
-  font-family: Arial, sans-serif;
-  background-color: white;
-  padding: 5px 0;
-}
-
 .gallery-container {
   display: flex;
   flex-wrap: nowrap;
   padding: 0;
+}
+
+.gallery-item {
+  padding: 10px;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 300px;
+  height: auto;
+}
+
+.gallery-item p {
+  margin-top: 5px;
+  color: #888;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
 }
 </style>
 
@@ -51,16 +41,16 @@ I obtained my Bachelor's degree in Biology from the University of Vigo and later
 
 Currently, I am an EMBO Postdoctoral Fellow in the research group led by Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team, I am investigating host factors and bacterial environments that modulate susceptibility to viral infection using the *Caenorhabditis elegans* - Orsay virus pathosystem. My research aims to elucidate the complex interplay between host, virus, and microbial communities, and how these interactions shape the outcomes of viral infections.
 
-<br/> 
+<br/>
 
 <div class="gallery-container">
-  <div class="polaroid">
-    <img src="/images/New_20211108_Santi.jpeg" alt="hi" class="center" height="300" width="500"/> 
+  <div class="gallery-item">
+    <img src="/images/New_20211108_Santi.jpeg" alt="hi" class="center"/> 
     <p>With my PhD mentor in the Evolutionary Systems Virology Lab</p>
   </div>
-  <div class="polaroid">
-    <img src="/images/Felix_team.jpg" alt="hi" class="center" height="300" width="500"/> 
-    <p>Félix Team 2022</p>
+  <div class="gallery-item">
+    <img src="/images/Felix_team.jpg" alt="hi" class="center"/> 
+    <p>Félix Team 2023</p>
   </div>
 </div>
 <br/>
