@@ -33,15 +33,10 @@ redirect_from:
   font-family: Arial, sans-serif;
 }
 
-ul {
+.gallery-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 0;
-  list-style: none;
-}
-
-ul li {
-  padding: 10px;
 }
 </style>
 
