@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 <h4>2023</h4>
-<br/> 
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: blue;">13</span>•**Host developmental stages shape the evolution of a plant RNA virus** <br/>
 Melero I; González R†; Elena SF†<br/>
 Philosophical Transactions of the Royal Society B. 378:20220005. 
