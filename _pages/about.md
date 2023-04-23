@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 <style>
 .polaroid {
   position: relative;
@@ -33,27 +32,44 @@ redirect_from:
   font-size: 14px;
   font-family: Arial, sans-serif;
 }
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  padding: 10px;
+}
 </style>
 
 <hr/>
 
-I am a biologist interested in evolution and host responses against viruses. After getting a Bachelors degree in Biology in the University of Vigo and a MSc degree in Plant Molecular and Cellular Biotechnology from the Polithecnic University in Valencia, I did a PhD on factors affecting evolution of potyviruses, under the mentorship of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/> 
-<br/> 
-Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathosystem to study host factors and bacterial enviroments that alter viral infection.  <br/>
+I am a scientist specializing in host-virus interactions and the study of their co-evolutionary dynamics.
 
-<div style="display: flex; flex-wrap: wrap;">
-  <div style="padding: 10px;">
-    <img src="/images/New_20211108_Santi.jpeg" alt="hi" class="center" height="300" width="500"/> 
-    <br/>
-    <small>With my PhD mentor in the Evolutionary Systems Virology Lab</small>
-  </div>
-  <div style="padding: 10px;">
-    <img src="/images/Felix_team.jpg" alt="hi" class="center" height="300" width="500"/> 
-    <br/>
-    <small>Félix Team 2022</small>
-  </div>
-</div>
-<br/> 
+I obtained my Bachelor's degree in Biology from the University of Vigo and later pursued a Master's degree in Plant Molecular and Cellular Biotechnology at the Polytechnic University of Valencia. It was during my Master that Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/) introduced me to the captivating field of virus research. Following this experience, I decided to pursue a PhD under his mentorship, focusing on factors that influence the evolution of viruses, using plant-pathogen systems as model organisms.
+
+Currently, I am an EMBO Postdoctoral Fellow in the research group led by Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team, I am investigating host factors and bacterial environments that modulate susceptibility to viral infection using the *Caenorhabditis elegans* - Orsay virus pathosystem. My research aims to elucidate the complex interplay between host, virus, and microbial communities, and how these interactions shape the outcomes of viral infections.
+
+<ul>
+  <li>
+    <div class="polaroid">
+      <img src="/images/New_20211108_Santi.jpeg" alt="hi" />
+      <p>With my PhD mentor in the Evolutionary Systems Virology Lab</p>
+    </div>
+  </li>
+  <li>
+    <div class="polaroid">
+      <img src="/images/Felix_team.jpg" alt="hi" />
+      <p>Félix Team 2022</p>
+    </div>
+  </li>
+  <!-- Add more images as list items, following the same format -->
+</ul>
+
+<div class="light"></div>
 
 
 
@@ -85,4 +101,4 @@ Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne F
 <div class="footer">
   <h6>Updated April 2023</h6>
 </div>
-  <a rel="me" href="https://mstdn.science
+ 
