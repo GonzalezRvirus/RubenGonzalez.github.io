@@ -49,7 +49,7 @@ Currently, I am an EMBO Postdoctoral Fellow in the research group led by Profess
     <p>With my PhD mentor in the Evolutionary Systems Virology Lab</p>
   </div>
   <div class="gallery-item">
-    <img src="/images/Felix_lab_2023.jpg" alt="hi" class="center"/> 
+    <img src="/images/Felix_lab_2023.JPEG" alt="hi" class="center"/> 
     <p>Félix Team 2023</p>
   </div>
 </div>
