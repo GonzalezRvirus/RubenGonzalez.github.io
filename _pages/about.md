@@ -10,6 +10,8 @@ redirect_from:
 
 <hr/>
 I am a biologist interested in evolution and host responses against viruses. After getting a Bachelors degree in Biology in the University of Vigo and a MSc degree in Plant Molecular and Cellular Biotechnology from the Polithecnic University in Valencia, I did a PhD on factors affecting evolution of potyviruses, under the mentorship of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/> 
+<br/> 
+Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathosystem to study host factors and bacterial enviroments that alter viral infection.  <br/>
 
 <div style="display: flex; flex-wrap: wrap;">
   <div style="padding: 10px;">
@@ -23,9 +25,9 @@ I am a biologist interested in evolution and host responses against viruses. Aft
     <small>Félix Team 2022</small>
   </div>
 </div>
-
 <br/> 
-Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathosystem to study host factors and bacterial enviroments that alter viral infection.  <br/>
+
+
 
 <div>
     <div class="card">
