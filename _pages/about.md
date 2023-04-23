@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+
 <style>
 .gallery-container {
   display: flex;
@@ -22,7 +23,8 @@ redirect_from:
 
 .gallery-item img {
   width: 300px;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
 }
 
 .gallery-item p {
