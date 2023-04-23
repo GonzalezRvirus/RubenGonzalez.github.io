@@ -6,19 +6,26 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-
 ---
 
 <hr/>
 I am a biologist interested in evolution and host responses against viruses. After getting a Bachelors degree in Biology in the University of Vigo and a MSc degree in Plant Molecular and Cellular Biotechnology from the Polithecnic University in Valencia, I did a PhD on factors affecting evolution of potyviruses, under the mentorship of Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/).<br/> 
-<img src="/images/New_20211108_Santi.jpeg" alt="hi" class="center" height="300" width="500"/> <br/>
-<small>With my PhD mentor in the Evolutionary Systems Virology Lab</small><br/> 
-<br/> 
 
-Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathosystem to study host factors and bacterial enviroments that alter viral infection.  <br/>
-<img src="/images/Felix_team.jpg" alt="hi" class="center" height="300" width="500"/> <br/>
-<small>Félix Team 2022</small><br/> 
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="padding: 10px;">
+    <img src="/images/New_20211108_Santi.jpeg" alt="hi" class="center" height="300" width="500"/> 
+    <br/>
+    <small>With my PhD mentor in the Evolutionary Systems Virology Lab</small>
+  </div>
+  <div style="padding: 10px;">
+    <img src="/images/Felix_team.jpg" alt="hi" class="center" height="300" width="500"/> 
+    <br/>
+    <small>Félix Team 2022</small>
+  </div>
+</div>
+
 <br/> 
+Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team I am using the <i>Caenorhabditis elegans</i> - Orsay virus pathosystem to study host factors and bacterial enviroments that alter viral infection.  <br/>
 
 <div>
     <div class="card">
@@ -43,10 +50,9 @@ Currently I am a EMBO Postdoctoral Fellow on the team of Professor [Marie-Anne F
       Virus adaptation at different levels<br/>
 <img src="/images/funding.png" alt="hi" class="center" height="300" width="500"/> 
        </div>
-  
+
 <hr/>
 <div class="footer">
-  <h6>Updated October 2022</h6>
-  
+  <h6>Updated April 2023</h6>
 </div>
-  <a rel="me" href="https://mstdn.science/@RubenGonzalez">Mastodon</a>
+  <a rel="me" href="https://mstdn.science
