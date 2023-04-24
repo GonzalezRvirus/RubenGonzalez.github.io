@@ -37,7 +37,7 @@ redirect_from:
 
 <hr/>
 
-I am a scientist specializing in host-virus interactions and the study of their co-evolutionary dynamics.
+I am a scientist focused on the study of host-virus interactions and their evolutionary dynamics.
 
 I obtained my Bachelor's degree in Biology from the University of Vigo and later pursued a Master's degree in Plant Molecular and Cellular Biotechnology at the Polytechnic University of Valencia. It was during my Master that Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/) introduced me to the captivating field of virus research. Following this experience, I decided to pursue a PhD under his mentorship, focusing on factors that influence the evolution of viruses, using plant-pathogen systems as model organisms.
 
