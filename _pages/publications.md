@@ -13,7 +13,7 @@ Philosophical Transactions of the Royal Society B. 378:20220005.
 <hr/>
 <h4>2022</h4>
 
-<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280C;">12</span>•**A brief view on factors that affect plant virus evolution** <br/>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;">12</span>•**A brief view on factors that affect plant virus evolution** <br/>
 González R^†; Butkovic A^†<br/>
 Frontiers in Virology. 2:994057.
 [Read here](https://doi.org/10.3389/fviro.2022.994057)
@@ -71,7 +71,7 @@ Scientific Reports. 10, 17600.
 <small>Genome-wide study of the Arabidopsis thaliana rosette area that identified new genes involved in plant growth.</small>
 <hr/>
 
-<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: blue;">05</span>•**Adaptation of turnip mosaic potyvirus to a specific niche reduces its genetic and environmental robustness.**<br/> 
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;">05</span>•**Adaptation of turnip mosaic potyvirus to a specific niche reduces its genetic and environmental robustness.**<br/> 
 Butkovic A; González R; Cobo I; Elena, SF†.<br/>
 Virus evolution. 6, veaa041.
 [Read here](https://doi.org/10.1093/ve/veaa041)
