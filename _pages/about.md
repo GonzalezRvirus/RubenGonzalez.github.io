@@ -22,7 +22,7 @@ redirect_from:
 }
 
 .gallery-item img {
-  width: 300px;
+  width: auto;
   height: 200px;
   object-fit: cover;
 }
