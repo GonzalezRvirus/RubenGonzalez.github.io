@@ -41,7 +41,7 @@ I am a scientist focused on the study of host-virus interactions and their evolu
 
 I obtained my Bachelor's degree in Biology from the University of Vigo and later pursued a Master's degree in Plant Molecular and Cellular Biotechnology at the Polytechnic University of Valencia. It was during my Master that Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/) introduced me to the captivating field of virus research. Following this experience, I decided to pursue a PhD under his mentorship, focusing on factors that influence the evolution of viruses, using plant-pathogen systems as model organisms.
 
-Currently, I am an EMBO Postdoctoral Fellow in the research group led by Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team, I am investigating host factors and bacterial environments that modulate susceptibility to viral infection using the *Caenorhabditis elegans* - Orsay virus pathosystem. My research aims to elucidate the complex interplay between host, virus, and microbial communities, and how these interactions shape the outcomes of viral infections.
+Currently, I am an [EMBO](https://www.embo.org/about-embo/mission/) Postdoctoral Fellow in the research group led by Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team, I am investigating host factors and bacterial environments that modulate susceptibility to viral infection using the *Caenorhabditis elegans* - Orsay virus pathosystem. My research aims to elucidate the complex interplay between host, virus, and microbial communities, and how these interactions shape the outcomes of viral infections.
 
 <div class="gallery-container">
   <div class="gallery-item">
