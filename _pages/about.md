@@ -52,7 +52,10 @@ Currently, I am an EMBO Postdoctoral Fellow in the research group led by Profess
     <img src="/images/Felix_lab_2023.JPEG" alt="hi" class="center"/> 
     <p>Félix Team 2023</p>
   </div>
-  
+</div>
+<br/>
+ 
+ <div>
     <div class="card">
       <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;"> <h2>CV</h2> </span>
 <a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank">Download here the PDF.</a>
