@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-**Mail**: ruben.gonzalez@bio.ens.psl.eu  <br/> 
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;"> **Mail**: </span>ruben.gonzalez@bio.ens.psl.eu  <br/> 
 <hr/>
 We are situated at the Institut de Biologie de l'Ecole Normale Superieure [(IBENS)](https://www.ibens.ens.fr/?lang=en)<br/>
 <br/> 
