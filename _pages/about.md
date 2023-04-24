@@ -54,11 +54,11 @@ Currently, I am an EMBO Postdoctoral Fellow in the research group led by Profess
   </div>
   
     <div class="card">
-      <h2>CV</h2>
+      <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;"> <h2>CV</h2> </span>
 <a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank">Download here the PDF.</a>
     </div>
     <div class="card">
-      <h2>Projects</h2>
+      <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;"> <h2>Projects</h2> </span>
       <h5>Past and current funding</h5>
       <h4>2021</h4>
       •<b>EMBO Postdoctoral Fellowship</b><br/>
