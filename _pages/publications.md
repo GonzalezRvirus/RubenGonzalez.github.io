@@ -5,8 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 <br/>
-^co-authorship
-†corresponding
+<small>^co-authorship
+†corresponding </small>
 <br/>
 <h4>2023</h4>
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;">14</span>•**Natural monobacterial environments modulate viral infection in *Caenorhabditis elegans*** <br/>
