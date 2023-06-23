@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 <h4>2023</h4>
-<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;">13</span>•**Natural monobacterial environments modulate viral infection in *Caenorhabditis elegans* ** <br/>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;">14</span>•**Natural monobacterial environments modulate viral infection in *Caenorhabditis elegans* ** <br/>
 González R†; Félix M-A†<br/>
 bioRxiv [PREPRINT]. 
 [Read here](https://doi.org/10.1101/2023.06.13.544807)
