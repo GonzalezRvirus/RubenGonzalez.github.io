@@ -5,11 +5,18 @@ permalink: /publications/
 author_profile: true
 ---
 <h4>2023</h4>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;">13</span>•**Natural monobacterial environments modulate viral infection in *Caenorhabditis elegans* ** <br/>
+González R†; Félix M-A†<br/>
+bioRxiv [PREPRINT]. 
+[Read here](https://doi.org/10.1101/2023.06.13.544807)
+<small> We discovered that most natural bacteria significantly reduced host susceptibility to the virus compared to a non-natural bacterial environment commonly used in research. Intriguingly, several bacteria induced resistance to infection without degrading virions or providing poor nutrition. Furthermore, we found that these resistance-inducing bacteria did not act through known antiviral responses in the host; however, some bacteria fail to induce the resistance in animals with a hampered DRH-1, a RIG-1 homolog. </small>
+<hr/>
+
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;">13</span>•**Host developmental stages shape the evolution of a plant RNA virus** <br/>
 Melero I; González R†; Elena SF†<br/>
 Philosophical Transactions of the Royal Society B. 378:20220005. 
 [Read here](https://doi.org/10.1098/rtsb.2022.0005)
-<small> We studied virus infections and TuMV evolution in three developmental stages of Arabidopsis thaliana</small>
+<small> We studied virus infections and TuMV evolution in three developmental stages of *Arabidopsis thaliana*</small>
 <hr/>
 <h4>2022</h4>
 
