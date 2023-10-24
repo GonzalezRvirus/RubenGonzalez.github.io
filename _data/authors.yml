@@ -7,4 +7,7 @@ Name Name:
   bio         : "Postdoctoral researcher"
   avatar      : "pic.png"
   twitter     : "@GonzalezRvirus"
-  bluesky     : "@rubengonzalez.bsky.social"  
+  bluesky:
+    label: "Bluesky"
+    icon: 
+     url: "https://bluesky.com/@rubengonzalez.bsky.social" 
