@@ -9,6 +9,13 @@ author_profile: true
 †corresponding </small>
 <br/>
 <h4>2023</h4>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;">15</span>•**Genetic basis of *Arabidopsis thaliana* responses to infection by naïve and adapted isolates of turnip mosaic virus** <br/>
+Butkovic A^; Ellis TJ^; González R^; Jaegle B; Nordborg M†; Elena, SF†<br/>
+eLife. 
+[Read here](https://doi.org/10.7554/eLife.89749.1)
+<br/> 
+<small> This manuscript presents findings that inform our understanding of the genetic underpinnings of the model plant Arabidopsis' resistance to turnip mosaic virus </small>
+
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;">14</span>•**Natural monobacterial environments modulate viral infection in *Caenorhabditis elegans*** <br/>
 González R†; Félix M-A†<br/>
 bioRxiv [PREPRINT]. 
@@ -77,7 +84,7 @@ Archives of Virology. 166, 491–499.
 <h4>2020</h4>
 
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;">06</span>•**Natural variation in *Arabidopsis thaliana* rosette area unveils new genes involved in plant development**<br/>
-González R^†; Butkovic A^; Rivarez MPS; Elena, SF.† <br/>
+González R^†; Butkovic A^; Rivarez MPS; Elena, SF†. <br/>
 Scientific Reports. 10, 17600.
 [Read here](https://doi.org/10.1038/s41598-020-74723-4)
 <br/> 
