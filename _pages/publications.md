@@ -9,7 +9,7 @@ author_profile: true
 †corresponding </small>
 <br/>
 <h4>2023</h4>
-<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: smaller;">15</span>•**Genetic basis of *Arabidopsis thaliana* responses to infection by naïve and adapted isolates of turnip mosaic virus** <br/>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 10px;">15</span>•**Genetic basis of *Arabidopsis thaliana* responses to infection by naïve and adapted isolates of turnip mosaic virus** <br/>
 Butkovic A^; Ellis TJ^; González R^; Jaegle B; Nordborg M†; Elena, SF†<br/>
 eLife. 
 [Read here](https://doi.org/10.7554/eLife.89749.1)
