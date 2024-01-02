@@ -37,11 +37,13 @@ redirect_from:
 
 <hr/>
 
-I am a scientist focused on the study of host-virus interactions and their evolutionary dynamics.
+I am a scientist focused on the study of host-virus interactions and their evolutionary dynamics. My research aims to elucidate the complex interplay between host, virus, and microbial communities, and how these interactions shape the outcomes of viral infections.
 
-I obtained my Bachelor's degree in Biology from the University of Vigo and later pursued a Master's degree in Plant Molecular and Cellular Biotechnology at the Polytechnic University of Valencia. It was during my Master that Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/) introduced me to the captivating field of virus research. Following this experience, I decided to pursue a PhD under his mentorship, focusing on factors that influence the evolution of viruses, using plant-pathogen systems as model organisms.
+I obtained my Bachelor's degree in Biology from the University of Vigo (Spain) and later pursued a Master's degree in Plant Molecular and Cellular Biotechnology at the Polytechnic University of Valencia (Spain). It was during my Master that Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/) introduced me to the captivating field of virus research. Following this experience, I decided to pursue a PhD under his mentorship at the I2SysBio, focusing on factors that influence the evolution of viruses, using plant-pathogen systems as model organisms.
 
-Currently, I am an [EMBO](https://www.embo.org/about-embo/mission/) Postdoctoral Fellow in the research group led by Professor [Marie-Anne Félix](https://www.ibens.ens.fr/?rubrique29&lang=en). In the Félix Team, I am investigating host factors and bacterial environments that modulate susceptibility to viral infection using the *Caenorhabditis elegans* - Orsay virus pathosystem. My research aims to elucidate the complex interplay between host, virus, and microbial communities, and how these interactions shape the outcomes of viral infections.
+After my PhD, I obtained an [EMBO](https://www.embo.org/about-embo/mission/) Postdoctoral Fellowship and joined the [Marie-Anne Félix Laboratory](https://www.ibens.ens.fr/?rubrique29&lang=en) (IBENS, France). There I investigated host factors and bacterial environments that modulate the nematode *Caenorhabditis elegans* susceptibility to Orsay virus infection.
+
+Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://salehlab.eu) (Institut Pasteur, France). In here I am a happy researcher studying viral infection in the fly *Drosophila melanogaster*.
 
 <div class="gallery-container">
   <div class="gallery-item">
