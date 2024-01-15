@@ -6,10 +6,12 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;"> **Mail**: </span>ruben.gonzalez@bio.ens.psl.eu  <br/> 
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;"> **Mail**: </span>ruben.gonzalez-miguelez@pasteur.fr  <br/> 
 <hr/>
-We are situated at the Institut de Biologie de l'Ecole Normale Superieure [(IBENS)](https://www.ibens.ens.fr/?lang=en)<br/>
+We are situated at the Viruses and RNAi Unit [(Institut Pasteur, Paris)](http://salehlab.eu)<br/>
 <br/> 
 <img src="/images/lab2.png" alt="hi" class="center" height="300" width="500"/> <br/>
 <br/> 
-**Adress**: Marie-Anne Félix Team, 46 Rue d'Ulm, 75005 Paris (France)
+**Adress**: Institut Pasteur
+28 Rue du docteur Roux
+75015 PARIS (France)
