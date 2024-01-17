@@ -8,21 +8,24 @@ author_profile: true
 <small>^co-authorship
 †corresponding </small>
 <br/>
+
+<h4>2024</h4>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">15</span>•**Natural monobacterial environments modulate viral infection in *Caenorhabditis elegans*** <br/>
+González R†; Félix M-A†<br/>
+PLoS Pathogens. 20,e1011947. 
+[Read here](https://doi.org/10.1371/journal.ppat.1011947)
+<br/> 
+<small> We discovered that most natural bacteria significantly reduced host susceptibility to the virus compared to a non-natural bacterial environment commonly used in research. Intriguingly, several bacteria induced resistance to infection without degrading virions or providing poor nutrition. Furthermore, we found that these resistance-inducing bacteria did not act through known antiviral responses in the host; however, some bacteria fail to induce the resistance in animals with a hampered DRH-1, a RIG-1 homolog. </small>
+<hr/>
+
 <h4>2023</h4>
-<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">15</span>•**Genetic basis of *Arabidopsis thaliana* responses to infection by naïve and adapted isolates of turnip mosaic virus** <br/>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">14</span>•**Genetic basis of *Arabidopsis thaliana* responses to infection by naïve and adapted isolates of turnip mosaic virus** <br/>
 Butkovic A^; Ellis TJ^; González R^; Jaegle B; Nordborg M†; Elena, SF†<br/>
 eLife. 
 [Read here](https://doi.org/10.7554/eLife.89749.1)
 <br/> 
 <small> This manuscript presents findings that inform our understanding of the genetic underpinnings of the model plant Arabidopsis' resistance to turnip mosaic virus </small>
 
-<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">14</span>•**Natural monobacterial environments modulate viral infection in *Caenorhabditis elegans*** <br/>
-González R†; Félix M-A†<br/>
-bioRxiv [PREPRINT]. 
-[Read here](https://doi.org/10.1101/2023.06.13.544807)
-<br/> 
-<small> We discovered that most natural bacteria significantly reduced host susceptibility to the virus compared to a non-natural bacterial environment commonly used in research. Intriguingly, several bacteria induced resistance to infection without degrading virions or providing poor nutrition. Furthermore, we found that these resistance-inducing bacteria did not act through known antiviral responses in the host; however, some bacteria fail to induce the resistance in animals with a hampered DRH-1, a RIG-1 homolog. </small>
-<hr/>
 
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">13</span>•**Host developmental stages shape the evolution of a plant RNA virus** <br/>
 Melero I; González R†; Elena SF†<br/>
