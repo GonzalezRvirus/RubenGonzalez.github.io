@@ -43,16 +43,21 @@ I obtained my Bachelor's degree in Biology from the University of Vigo (Spain) a
 
 After my PhD, I obtained an [EMBO](https://www.embo.org/about-embo/mission/) Postdoctoral Fellowship and joined the [Marie-Anne Félix Laboratory](https://www.ibens.ens.fr/?rubrique29&lang=en) (IBENS, France). There I investigated host factors and bacterial environments that modulate the nematode *Caenorhabditis elegans* susceptibility to Orsay virus infection.
 
-Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://salehlab.eu) (Institut Pasteur, France). In here I am a happy researcher studying viral infection in the fly *Drosophila melanogaster*.
+Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://salehlab.eu) (Institut Pasteur, France). In here I am a happy researcher studying viral infections in the fly *Drosophila melanogaster*. My research here focuses in the aging induced by viruses and the impact of the microbiome in infections and the evolution of viruses.
 
 <div class="gallery-container">
   <div class="gallery-item">
+    <img src="/images/VIA_2024.jpg" alt="hi" class="center"/> 
+    <p>Proud member of the Viruses and RNAi Unit (2024) </p>
+  </div>
+  <div class="gallery-container">
+  <div class="gallery-item">
     <img src="/images/New_20211108_Santi.jpeg" alt="hi" class="center"/> 
-    <p>With my PhD mentor in the Evolutionary Systems Virology Lab</p>
+    <p>With my PhD mentor in the Evolutionary Systems Virology Lab (2021)</p>
   </div>
   <div class="gallery-item">
     <img src="/images/Felix_lab_2023.JPEG" alt="hi" class="center"/> 
-    <p>Félix Team 2023</p>
+    <p>Félix Team (2023)</p>
   </div>
 </div>
 <br/>
