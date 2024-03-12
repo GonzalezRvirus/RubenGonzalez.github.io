@@ -45,23 +45,69 @@ After my PhD, I obtained an [EMBO](https://www.embo.org/about-embo/mission/) Pos
 
 Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://salehlab.eu) (Institut Pasteur, France). In here I am a happy researcher studying viral infections in the fly *Drosophila melanogaster*. My research here focuses in the aging induced by viruses and the impact of the microbiome in infections and the evolution of viruses.
 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery Layout</title>
+<style>
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+
+  .gallery-item {
+    flex: 0 0 100%; /* Make the first image take the full row */
+    text-align: center; /* Center the image and text */
+  }
+
+  .gallery-item img {
+    width: 100%; /* Adjust based on your preference */
+    height: auto;
+  }
+
+  .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gallery-row .gallery-item {
+    flex: 1; /* Make these images share the row equally */
+  }
+
+  /* Additional styling for images and paragraphs if needed */
+  .gallery-item p {
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
 <div class="gallery-container">
+  <!-- First row with a single image -->
   <div class="gallery-item">
-    <img src="/images/VIA_2024.jpg" alt="hi" class="center"/> 
-    <p>Proud member of the Viruses and RNAi Unit (2024) </p>
+    <img src="/images/VIA_2024.jpg" alt="Proud member of the Viruses and RNAi Unit (2024)" />
+    <p>Proud member of the Viruses and RNAi Unit (2024)</p>
   </div>
-  <div class="gallery-container">
-  <div class="gallery-item">
-    <img src="/images/New_20211108_Santi.jpeg" alt="hi" class="center"/> 
-    <p>With my PhD mentor in the Evolutionary Systems Virology Lab (2021)</p>
-  </div>
-  <div class="gallery-item">
-    <img src="/images/Felix_lab_2023.JPEG" alt="hi" class="center"/> 
-    <p>Félix Team (2023)</p>
+
+  <!-- Second row with two images -->
+  <div class="gallery-row">
+    <div class="gallery-item">
+      <img src="/images/New_20211108_Santi.jpeg" alt="With my PhD mentor in the Evolutionary Systems Virology Lab (2021)" />
+      <p>With my PhD mentor in the Evolutionary Systems Virology Lab (2021)</p>
+    </div>
+    <div class="gallery-item">
+      <img src="/images/Felix_lab_2023.JPEG" alt="Félix Team (2023)" />
+      <p>Félix Team (2023)</p>
+    </div>
   </div>
 </div>
-<br/>
- 
+
+</body>
+</html>
+
  <div>
     <div class="card">
       <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;"> <h2>CV</h2> </span>
