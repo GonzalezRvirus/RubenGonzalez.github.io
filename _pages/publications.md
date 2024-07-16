@@ -11,7 +11,7 @@ author_profile: true
 
 <h4>2024</h4>
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">19</span>•**Experimental evolution of an RNA virus in *Caenorhabditis elegans*** <br/>
-Castiglioni VG, Olmo-Uceda MJ, Martín SFélix M-A; González R†; Elena SF†<br/>
+Castiglioni VG, Olmo-Uceda MJ, Martín S, Félix M-A; González R†; Elena SF†<br/>
 Infection, Genetics and Evolution. 123, 105623
 [Read here](https://doi.org/10.1016/j.meegid.2024.105623)
 <br/> 
