@@ -18,8 +18,6 @@ Infection, Genetics and Evolution. 123, 105623
 <small> This work identified genomic hotspots regions of nucleotide diversity important for the evolution of Orsay virus and established the grounds for future experimental virus evolution studies using *Caenorhabditis* nematodes.</small>
 <hr/>
 
-
-<h4>2024</h4>
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">18</span>•***Caenorhabditis elegans* defective-pharynx and constipated mutants are resistant to Orsay virus infection** <br/>
 González R†; Félix M-A<br/>
 microPublication Biology
@@ -28,7 +26,6 @@ microPublication Biology
 <small> We identified mutants resistant to viral infection</small>
 <hr/>
 
-<h4>2024</h4>
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">17</span>•***Caenorhabditis elegans* immune responses to intracellular pathogens** <br/>
 González R†; Félix M-A<br/>
 Developmental & Comparative Immunology 154, 105148. 
