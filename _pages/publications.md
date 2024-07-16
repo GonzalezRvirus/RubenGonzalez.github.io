@@ -10,7 +10,34 @@ author_profile: true
 <br/>
 
 <h4>2024</h4>
-<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">15</span>•**Natural monobacterial environments modulate viral infection in *Caenorhabditis elegans*** <br/>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">19</span>•**Experimental evolution of an RNA virus in *Caenorhabditis elegans*** <br/>
+Castiglioni VG, Olmo-Uceda MJ, Martín SFélix M-A; González R†; Elena SF†<br/>
+Infection, Genetics and Evolution. 123, 105623
+[Read here](https://doi.org/10.1016/j.meegid.2024.105623)
+<br/> 
+<small> This work identified genomic hotspots regions of nucleotide diversity important for the evolution of Orsay virus and established the grounds for future experimental virus evolution studies using *Caenorhabditis* nematodes.</small>
+<hr/>
+
+
+<h4>2024</h4>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">18</span>•***Caenorhabditis elegans* defective-pharynx and constipated mutants are resistant to Orsay virus infection** <br/>
+González R†; Félix M-A<br/>
+microPublication Biology
+[Read here](https://doi.org/10.17912/micropub.biology.001166)
+<br/> 
+<small> We identified mutants resistant to viral infection</small>
+<hr/>
+
+<h4>2024</h4>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">17</span>•***Caenorhabditis elegans* immune responses to intracellular pathogens** <br/>
+González R†; Félix M-A<br/>
+Developmental & Comparative Immunology 154, 105148. 
+[Read here](https://doi.org/10.1016/j.dci.2024.105148)
+<br/> 
+<small> Review on known responses of the model organism *C. elegans* to microsporidia and viruses</small>
+<hr/>
+
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">16</span>•**Natural monobacterial environments modulate viral infection in *Caenorhabditis elegans*** <br/>
 González R†; Félix M-A†<br/>
 PLoS Pathogens. 20,e1011947. 
 [Read here](https://doi.org/10.1371/journal.ppat.1011947)
@@ -19,6 +46,16 @@ PLoS Pathogens. 20,e1011947.
 <hr/>
 
 <h4>2023</h4>
+
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">15</span>•**Viral strain-dependent impact of plant developmental stages on the nestedness and modularity of plant-virus interaction matrices** <br/>
+Melero I; Elena SF; González R†<br/>
+microPublication Biology
+[Read here](https://doi.org/10.17912/micropub.biology.000943)
+<br/> 
+<small> Our findings suggest that the past adaptation history of the ancestral viral strain influences its future evolution, and each plant developmental stage imposes unique selective constraints on virus evolution </small>
+<hr/>
+
+
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">14</span>•**Genetic basis of *Arabidopsis thaliana* responses to infection by naïve and adapted isolates of turnip mosaic virus** <br/>
 Butkovic A^; Ellis TJ^; González R^; Jaegle B; Nordborg M†; Elena, SF†<br/>
 eLife. 
