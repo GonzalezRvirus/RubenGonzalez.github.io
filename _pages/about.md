@@ -88,20 +88,25 @@ Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://saleh
 <div class="gallery-container">
   <!-- First row with a single image -->
   <div class="gallery-item">
-    <img src="/images/VIA_2024.jpg" alt="Proud member of the Viruses and RNAi Unit (2024)" />
-    <p>Proud member of the Viruses and RNAi Unit (2024)</p>
+    <img src="/images/VIA_2024.jpg" alt="Happy member of the Viruses and RNAi Unit (2024)" />
+    <p>Viruses and RNAi (Carla Saleh Lab, 2024)</p>
   </div>
 
   <!-- Second row with two images -->
   <div class="gallery-row">
     <div class="gallery-item">
       <img src="/images/New_20211108_Santi.jpeg" alt="With my PhD mentor in the Evolutionary Systems Virology Lab (2021)" />
-      <p>With my PhD mentor in the Evolutionary Systems Virology Lab (2021)</p>
+      <p>Setting up C. elegans facilities (2021)</p>
     </div>
     <div class="gallery-item">
       <img src="/images/Felix_lab_2023.JPEG" alt="Félix Team (2023)" />
-      <p>Félix Team (2023)</p>
+      <p> Evolution of Caenorhabditis (Marie-Anne Félix Lab, 2023)</p>
     </div>
+      <!-- Last row with a single image -->
+  <div class="gallery-item">
+    <img src="/images/EvoSysVir_2021.jpg" alt="Evolutionary Systems Virology Lab (2024)" />
+    <p> Evolutionary Systems Virology (Santiago F. Elena Lab, 2021)</p>
+  </div>
   </div>
 </div>
 
