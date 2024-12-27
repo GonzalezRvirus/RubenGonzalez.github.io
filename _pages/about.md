@@ -50,37 +50,29 @@ Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://saleh
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gallery Layout</title>
-<style>
-  .gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
-  }
+Below is a simple example using CSS Grid. It places four images in two rows and two columns of equal size. Adjust the width, gap, or image dimensions as needed for your layout.
 
-  .gallery-item {
-    flex: 0 0 100%; /* Make the first image take the full row */
-    text-align: center; /* Center the image and text */
-  }
+HTML (example):
 
-  .gallery-item img {
-    width: 100%; /* Adjust based on your preference */
-    height: auto;
-  }
+<!DOCTYPE html> <html> <head> <meta charset="UTF-8" /> <title>2x2 Images</title> <link rel="stylesheet" href="styles.css" /> </head> <body> <div class="image-grid"> <img src="image1.jpg" alt="Image 1" /> <img src="image2.jpg" alt="Image 2" /> <img src="image3.jpg" alt="Image 3" /> <img src="image4.jpg" alt="Image 4" /> </div> </body> </html>
+CSS (styles.css):
 
-  .gallery-row {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.image-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;  /* Two columns /
+gap: 10px;                       / Space between images /
+max-width: 600px;               / Optional: control the overall width /
+margin: 0 auto;                 / Center the grid, optional */
+}
 
-  .gallery-row .gallery-item {
-    flex: 1; /* Make these images share the row equally */
-  }
+.image-grid img {
+width: 100%;
+height: auto;      /* Keep the aspect ratio /
+display: block;    / Remove any inline gaps below images /
+object-fit: cover; / Makes images fill their grid area if needed */
+}
 
-  /* Additional styling for images and paragraphs if needed */
-  .gallery-item p {
-    text-align: center;
-  }
+
 </style>
 </head>
 <body>
