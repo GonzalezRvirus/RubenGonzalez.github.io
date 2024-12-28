@@ -9,13 +9,13 @@ redirect_from:
 ---
 
 
-<style> .gallery-container { display: grid; /* Two columns, each 300px wide */ grid-template-columns: 300px 300px; gap: 10px; padding: 0; } .gallery-item { text-align: center; } .gallery-item img { /* Fixed width, auto height = no cropping */ width: 300px; height: auto; /* Either remove or use object-fit: contain if you want to keep empty space instead of cropping. */ object-fit: contain; } .gallery-item p { margin-top: 5px; color: #888; font-size: 12px; font-family: Arial, sans-serif; } </style>
+<style> .gallery-container { display: grid; /* Two columns, each 300px wide */ grid-template-columns: 300px 300px; gap: 10px; padding: 0; } .gallery-item { /* Fixed 300×300 container so all items are the same size */ width: 300px; height: 300px; text-align: center; } .gallery-item img { /* Make the image fill the 300×300 container, fully visible (no crop) */ width: 100%; height: 100%; object-fit: contain; } .gallery-item p { margin-top: 5px; color: #888; font-size: 12px; font-family: Arial, sans-serif; } </style>
 
 <hr/>
 
 I am a scientist focused on the study of viral interactions. My research aims to elucidate (i) evolutionary dynamics of viruses, (ii) the interplay between host, virus, and microbial communities, and (iii) the consequences of infections for the host.
 
-I obtained my Bachelor's degree in Biology from the University of Vigo (Spain) and later pursued a Master's degree in Plant Molecular and Cellular Biotechnology at the Polytechnic University of Valencia (Spain). It was during my Master that Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/) introduced me to the captivating field of virus research. Following this experience, I decided to pursue a PhD under his mentorship at the I2SysBio, focusing on factors that influence the evolution of viruses, using plant-pathogen systems as model organisms.
+I own my interest for viruses to Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/). I did my PhD under his mentorship at the I2SysBio (Valencia, Spain), where I studied factors that influence the evolution of viruses, using plant-pathogen systems as model organisms.
 
 After my PhD, I obtained an [EMBO](https://www.embo.org/about-embo/mission/) Postdoctoral Fellowship and joined the [Marie-Anne Félix Laboratory](https://www.ibens.ens.fr/?rubrique29&lang=en) (IBENS, France). There I investigated host factors and bacterial environments that modulate the nematode *Caenorhabditis elegans* susceptibility to Orsay virus infection.
 
