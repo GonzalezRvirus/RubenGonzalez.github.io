@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<style> .gallery-container { display: grid; grid-template-columns: 1fr 1fr; /* 2 columns */ gap: 10px; /* space between items */ padding: 0; } .gallery-item { text-align: center; } .gallery-item img { width: 100%; height: 200px; object-fit: cover; } .gallery-item p { margin-top: 5px; color: #888; font-size: 14px; font-family: Arial, sans-serif; } </style>
+<style> .gallery-container { display: grid; grid-template-columns: 1fr 1fr; /* 2 columns */ gap: 10px; /* space between items */ padding: 0; } .gallery-item { text-align: center; } .gallery-item img { width: 100%; height: 300px; object-fit: cover; } .gallery-item p { margin-top: 5px; color: #888; font-size: 12px; font-family: Arial, sans-serif; } </style>
 
 <hr/>
 
