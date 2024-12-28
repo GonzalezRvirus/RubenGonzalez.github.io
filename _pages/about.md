@@ -41,7 +41,7 @@ Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://saleh
       <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;"> <h2>Projects</h2> </span>
       <h5>Past and current funding</h5>
       <h4>2025</h4>
-      •<b>PAsteur-Roux-Cantarini Postdoctoral Fellowship</b><br/>
+      •<b>Pasteur-Roux-Cantarini Postdoctoral Fellowship</b><br/>
       How host bacteriomes drive viral evolution and virulence<br/>
       <h4>2021</h4>
       •<b>EMBO Postdoctoral Fellowship</b><br/>
