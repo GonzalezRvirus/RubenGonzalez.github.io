@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<style> .gallery-container { display: grid; /* Two columns, each 300px wide */ grid-template-columns: 300px 300px; gap: 10px; padding: 0; } .gallery-item { /* Fixed 300×300 container so all items are the same size */ width: 300px; height: 300px; text-align: center; } .gallery-item img { /* Make the image fill the 300×300 container, fully visible (no crop) */ width: 100%; height: 100%; object-fit: contain; } .gallery-item p { margin-top: 5px; color: #888; font-size: 12px; font-family: Arial, sans-serif; } </style>
+<style> .gallery-container { /* Two columns, each 300px wide, with a 10px gap */ display: grid; grid-template-columns: 300px 300px; gap: 10px; padding: 0; } /* Give each item a fixed 300x300 box so they're all the same size */ .gallery-item { width: 300px; height: 300px; background-color: #f0f0f0; /* Optional background to show the box size */ display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; box-sizing: border-box; } .gallery-item img { /* Prevent the image from surpassing the box, no cropping, no distortion */ max-width: 100%; max-height: 100%; height: auto; width: auto; } .gallery-item p { margin-top: 5px; color: #888; font-size: 14px; font-family: Arial, sans-serif; } </style>
 
 <hr/>
 
