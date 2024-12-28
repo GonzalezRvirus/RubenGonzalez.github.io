@@ -8,9 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-
-<style> .gallery-container { display: grid; grid-template-columns: 200px; /* Two columns, each 300px wide */ gap: 10px; padding: 0; } /* Each gallery-item is a 300×300 square */ .gallery-item { width: 200px; display: flex; flex-direction: column; justify-content: space-between; /* Separates top (image) and bottom (text) */ align-items: center; box-sizing: border-box; text-align: center; } /* A nested container that fills the leftover vertical space for the image */ .gallery-image { flex: 1; /* Take all available space above the p */ display: flex; justify-content: center; align-items: center; } /* Scale image proportionally within that space (no cropping) */ .gallery-image img { max-width: 100%; max-height: 100%; object-fit: contain; } /* Paragraph pinned to bottom by flex “space-between” */ .gallery-item p { margin: 0px 0 0 0; color: #888; font-size: 16px; font-family: Arial, sans-serif; } </style>
-
 <hr/>
 
 I am a scientist focused on the study of viral interactions. My research aims to elucidate (i) the evolutionary dynamics of viruses, (ii) the interplay among the host, virus, and microbial communities, and (iii) the consequences of infections for the host.
@@ -21,14 +18,42 @@ After my PhD, I obtained an [EMBO](https://www.embo.org/about-embo/mission/) Pos
 
 Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://salehlab.eu) (Institut Pasteur, France). In here I am a happy researcher studying viral infections in the fly *Drosophila melanogaster*. My research here focuses in the aging induced by viruses, the impact of the microbiome on infections, and the evolution of RNA viruses.
 
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<div class="gallery-container"> <div class="gallery-item"> <img src="/images/VIA_2024.jpg" alt="..." /> <p>Viruses and RNAi<br>(Carla Saleh Lab, 2024)</p> </div>
-  <div class="gallery-item"> <img src="/images/New_20211108_Santi.jpeg" alt="..." /> <p>Setting up C. elegans facilities<br>(2021)</p> </div> 
-  <div class="gallery-item"> <img src="/images/Felix_lab_2023.JPEG" alt="..." /> <p>Evolution of Caenorhabditis<br>(Marie-Anne Félix Lab, 2023)</p> </div> 
-  <div class="gallery-item"> <img src="/images/EvoSysVir_2021.jpg" alt="..." /> <p>Evolutionary Systems Virology<br>(Santiago F. Elena Lab, 2021)</p> </div> </div> 
+<!-- Large image area (initial image + text behind) -->
+<div class="main-image">
+  <p class="overlay-text" id="displayed-text">Viruses and RNAi (Carla Saleh Lab, 2024)</p>
+  <img id="displayed-image" src="/images/VIA_2024.jpg" alt="Large displayed image">
+</div>
+
+<!-- Thumbnails (click to change the big image) -->
+<div class="thumbnails">
+  <div class="thumbnail" 
+       data-large-src="/images/VIA_2024.jpg"
+       data-text="Viruses and RNAi (Carla Saleh Lab, 2024)">
+    <img src="/images/VIA_2024-thumb.jpg" alt="Thumb 1">
+    <p>Viruses & RNAi</p>
+  </div>
+
+  <div class="thumbnail" 
+       data-large-src="/images/New_20211108_Santi.jpeg"
+       data-text="Setting up C. elegans facilities (2021)">
+    <img src="/images/New_20211108_Santi-thumb.jpeg" alt="Thumb 2">
+    <p>C. elegans Setup</p>
+  </div>
+
+  <div class="thumbnail" 
+       data-large-src="/images/Felix_lab_2023.JPEG"
+       data-text="Evolution of Caenorhabditis (Marie-Anne Félix Lab, 2023)">
+    <img src="/images/Felix_lab_2023-thumb.JPEG" alt="Thumb 3">
+    <p>Félix Lab, 2023</p>
+  </div>
+
+  <div class="thumbnail" 
+       data-large-src="/images/EvoSysVir_2021.jpg"
+       data-text="Evolutionary Systems Virology (Santiago F. Elena Lab, 2021)">
+    <img src="/images/EvoSysVir_2021-thumb.jpg" alt="Thumb 4">
+    <p>EvoSysVir, 2021</p>
+  </div>
+</div>
 
 
 
