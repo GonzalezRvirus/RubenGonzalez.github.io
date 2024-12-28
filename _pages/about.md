@@ -31,7 +31,6 @@ Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://saleh
   <div class="gallery-item"> <img src="/images/EvoSysVir_2021.jpg" alt="..." /> <p>Evolutionary Systems Virology<br>(Santiago F. Elena Lab, 2021)</p> </div> </div> 
 
 
-</html>
 
  <div>
     <div class="card">
