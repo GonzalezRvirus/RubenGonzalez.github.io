@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<style> .gallery-container { display: grid; /* Two columns at 300px each */ grid-template-columns: 300px 300px; gap: 10px; /* space between items */ padding: 0; } .gallery-item { text-align: center; } /* Make each image exactly 300×300 */ .gallery-item img { width: 300px; height: 300px; object-fit: cover; } .gallery-item p { margin-top: 5px; color: #888; font-size: 12px; font-family: Arial, sans-serif; } </style>
+<style> .gallery-container { display: grid; /* Two columns, each 300px wide */ grid-template-columns: 300px 300px; gap: 10px; padding: 0; } .gallery-item { text-align: center; } .gallery-item img { /* Fixed width, auto height = no cropping */ width: 300px; height: auto; /* Either remove or use object-fit: contain if you want to keep empty space instead of cropping. */ object-fit: contain; } .gallery-item p { margin-top: 5px; color: #888; font-size: 12px; font-family: Arial, sans-serif; } </style>
 
 <hr/>
 
