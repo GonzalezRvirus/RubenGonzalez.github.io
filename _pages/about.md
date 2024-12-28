@@ -18,6 +18,7 @@ After my PhD, I obtained an [EMBO](https://www.embo.org/about-embo/mission/) Pos
 
 Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://salehlab.eu) (Institut Pasteur, France). In here I am a happy researcher studying viral infections in the fly *Drosophila melanogaster*. My research here focuses in the aging induced by viruses, the impact of the microbiome on infections, and the evolution of RNA viruses.
 
+</style> </head> <body> <div class="gallery-container">
 <!-- Large image area (initial image + text behind) -->
 <div class="main-image">
   <p class="overlay-text" id="displayed-text">Viruses and RNAi (Carla Saleh Lab, 2024)</p>
