@@ -61,6 +61,6 @@ Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://saleh
 
 <hr/>
 <div class="footer">
-  <h6>Updated April 2023</h6>
+  <h6>Updated December 2024</h6>
 </div>
  
