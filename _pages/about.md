@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<style> .gallery-container { /* Two columns, each 300px wide, with a 10px gap */ display: grid; grid-template-columns: 250px 250px; gap: 10px; padding: 0; } /* Give each item a fixed 300x300 box so they're all the same size */ .gallery-item { width: 250px; height: 250px; background-color: #f0f0f0; /* Optional background to show the box size */ display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; box-sizing: border-box; } .gallery-item img { /* Prevent the image from surpassing the box, no cropping, no distortion */ max-width: 100%; max-height: 100%; height: auto; width: auto; } .gallery-item p { margin-top: 0px; color: #888; font-size: 16px; font-family: Arial, sans-serif; } </style>
+<style> .gallery-container { display: grid; grid-template-columns: 300px 300px; /* Two columns, each 300px wide */ gap: 10px; padding: 0; } /* Each gallery-item is a 300×300 square */ .gallery-item { width: 300px; height: 300px; display: flex; flex-direction: column; justify-content: space-between; /* Separates top (image) and bottom (text) */ align-items: center; box-sizing: border-box; text-align: center; } /* A nested container that fills the leftover vertical space for the image */ .gallery-image { flex: 1; /* Take all available space above the p */ display: flex; justify-content: center; align-items: center; } /* Scale image proportionally within that space (no cropping) */ .gallery-image img { max-width: 100%; max-height: 100%; object-fit: contain; } /* Paragraph pinned to bottom by flex “space-between” */ .gallery-item p { margin: 0px 0 0 0; color: #888; font-size: 16px; font-family: Arial, sans-serif; } </style>
 
 <hr/>
 
@@ -40,6 +40,9 @@ Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://saleh
     <div class="card">
       <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD;"> <h2>Projects</h2> </span>
       <h5>Past and current funding</h5>
+      <h4>2025</h4>
+      •<b>PAsteur-Roux-Cantarini Postdoctoral Fellowship</b><br/>
+      How host bacteriomes drive viral evolution and virulence<br/>
       <h4>2021</h4>
       •<b>EMBO Postdoctoral Fellowship</b><br/>
       Microbiome impact on <i>Caenorhabditis elegans</i> viral infection and evolution of Orsay virus<br/>
