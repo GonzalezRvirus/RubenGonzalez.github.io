@@ -56,7 +56,7 @@ Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://saleh
       <h4>2017</h4>
       •<b>FPI Spanish research fellowships.</b><br/>
       Virus adaptation at different levels<br/>
-<img src="/images/funding.png" alt="hi" class="center" height="300" width="500"/> 
+<img src="/images/funding.jpg" alt="hi" class="center" height="300" width="500"/> 
        </div>
 
 <hr/>
