@@ -52,10 +52,6 @@ Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://saleh
 <title>Gallery Layout</title>
 Below is a simple example using CSS Grid. It places four images in two rows and two columns of equal size. Adjust the width, gap, or image dimensions as needed for your layout.
 
-HTML (example):
-
-<!DOCTYPE html> <html> <head> <meta charset="UTF-8" /> <title>2x2 Images</title> <link rel="stylesheet" href="styles.css" /> </head> <body> <div class="image-grid"> <img src="image1.jpg" alt="Image 1" /> <img src="image2.jpg" alt="Image 2" /> <img src="image3.jpg" alt="Image 3" /> <img src="image4.jpg" alt="Image 4" /> </div> </body> </html>
-CSS (styles.css):
 
 .image-grid {
 display: grid;
