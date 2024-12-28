@@ -25,9 +25,12 @@ Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://saleh
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<div class="gallery-container"> <div class="gallery-item"> <img src="/images/VIA_2024.jpg" alt="..." /> <p>Viruses and RNAi (Carla Saleh Lab, 2024)</p> </div> <div class="gallery-item"> <img src="/images/New_20211108_Santi.jpeg" alt="..." /> <p>Setting up C. elegans facilities (2021)</p> </div> <div class="gallery-item"> <img src="/images/Felix_lab_2023.JPEG" alt="..." /> <p>Evolution of Caenorhabditis (Marie-Anne Félix Lab, 2023)</p> </div> <div class="gallery-item"> <img src="/images/EvoSysVir_2021.jpg" alt="..." /> <p>Evolutionary Systems Virology (Santiago F. Elena Lab, 2021)</p> </div> </div> 
+<div class="gallery-container"> <div class="gallery-item"> <img src="/images/VIA_2024.jpg" alt="..." /> <p>Viruses and RNAi<br>(Carla Saleh Lab, 2024)</p> </div>
+  <div class="gallery-item"> <img src="/images/New_20211108_Santi.jpeg" alt="..." /> <p>Setting up C. elegans facilities<br>(2021)</p> </div> 
+  <div class="gallery-item"> <img src="/images/Felix_lab_2023.JPEG" alt="..." /> <p>Evolution of Caenorhabditis<br>(Marie-Anne Félix Lab, 2023)</p> </div> 
+  <div class="gallery-item"> <img src="/images/EvoSysVir_2021.jpg" alt="..." /> <p>Evolutionary Systems Virology<br>(Santiago F. Elena Lab, 2021)</p> </div> </div> 
 
-</body>
+
 </html>
 
  <div>
