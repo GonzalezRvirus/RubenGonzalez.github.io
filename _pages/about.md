@@ -50,23 +50,29 @@ Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://saleh
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gallery Layout</title>
-Below is a simple example using CSS Grid. It places four images in two rows and two columns of equal size. Adjust the width, gap, or image dimensions as needed for your layout.
-
-
 .image-grid {
+/* A fixed width ensures images don’t wrap on smaller screens.
+Adjust this as needed. /
+width: 600px;
+margin: 0 auto;           / Center the grid on the page (optional) */
+
 display: grid;
-grid-template-columns: 1fr 1fr;  /* Two columns /
-gap: 10px;                       / Space between images /
-max-width: 600px;               / Optional: control the overall width /
-margin: 0 auto;                 / Center the grid, optional */
+/* Force exactly 2 columns and 2 rows for 4 images */
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+
+/* Control spacing between images */
+gap: 10px;
 }
 
 .image-grid img {
+/* Make images fill their grid cell without distortion /
 width: 100%;
-height: auto;      /* Keep the aspect ratio /
-display: block;    / Remove any inline gaps below images /
-object-fit: cover; / Makes images fill their grid area if needed */
+height: 100%;
+object-fit: cover;  / Crops instead of stretching */
+display: block;
 }
+
 
 
 </style>
