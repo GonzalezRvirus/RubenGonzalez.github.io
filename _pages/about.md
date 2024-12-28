@@ -13,13 +13,13 @@ redirect_from:
 
 <hr/>
 
-I am a scientist focused on the study of viral interactions. My research aims to elucidate (i) evolutionary dynamics of viruses, (ii) the interplay between host, virus, and microbial communities, and (iii) the consequences of infections for the host.
+I am a scientist focused on the study of viral interactions. My research aims to elucidate (i) the evolutionary dynamics of viruses, (ii) the interplay among the host, virus, and microbial communities, and (iii) the consequences of infections for the host.
 
-I own my interest for viruses to Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/). I did my PhD under his mentorship at the I2SysBio (Valencia, Spain), where I studied factors that influence the evolution of viruses, using plant-pathogen systems as model organisms.
+I owe my interest in viruses to Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/). I completed my PhD under his mentorship at I2SysBio (Valencia, Spain), where I studied factors influencing the evolution of viruses, using plant-pathogen systems as model organisms.
 
 After my PhD, I obtained an [EMBO](https://www.embo.org/about-embo/mission/) Postdoctoral Fellowship and joined the [Marie-Anne Félix Laboratory](https://www.ibens.ens.fr/?rubrique29&lang=en) (IBENS, France). There I investigated host factors and bacterial environments that modulate the nematode *Caenorhabditis elegans* susceptibility to Orsay virus infection.
 
-Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://salehlab.eu) (Institut Pasteur, France). In here I am a happy researcher studying viral infections in the fly *Drosophila melanogaster*. My research here focuses in the aging induced by viruses, the impact of the microbiome in infections, and the evolution of RNA viruses.
+Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://salehlab.eu) (Institut Pasteur, France). In here I am a happy researcher studying viral infections in the fly *Drosophila melanogaster*. My research here focuses in the aging induced by viruses, the impact of the microbiome on infections, and the evolution of RNA viruses.
 
 <html lang="en">
 <head>
