@@ -9,31 +9,7 @@ redirect_from:
 ---
 
 
-<style>
-.gallery-container {
-  display: flex;
-  flex-wrap: nowrap;
-  padding: 0;
-}
-
-.gallery-item {
-  padding: 10px;
-  text-align: center;
-}
-
-.gallery-item img {
-  width: auto;
-  height: 200px;
-  object-fit: cover;
-}
-
-.gallery-item p {
-  margin-top: 5px;
-  color: #888;
-  font-size: 14px;
-  font-family: Arial, sans-serif;
-}
-</style>
+<style> .gallery-container { display: grid; grid-template-columns: 1fr 1fr; /* 2 columns */ gap: 10px; /* space between items */ padding: 0; } .gallery-item { text-align: center; } .gallery-item img { width: 100%; height: 200px; object-fit: cover; } .gallery-item p { margin-top: 5px; color: #888; font-size: 14px; font-family: Arial, sans-serif; } </style>
 
 <hr/>
 
@@ -49,60 +25,7 @@ Currently, I am postdoctoral researcher at [Carla Saleh Laboratory](http://saleh
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gallery Layout</title>
-.image-grid {
-/* A fixed width ensures images don’t wrap on smaller screens.
-Adjust this as needed. /
-width: 600px;
-margin: 0 auto;           / Center the grid on the page (optional) */
-
-display: grid;
-/* Force exactly 2 columns and 2 rows for 4 images */
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-
-/* Control spacing between images */
-gap: 10px;
-}
-
-.image-grid img {
-/* Make images fill their grid cell without distortion /
-width: 100%;
-height: 100%;
-object-fit: cover;  / Crops instead of stretching */
-display: block;
-}
-
-
-
-</style>
-</head>
-<body>
-
-<div class="gallery-container">
-  <!-- First row with a single image -->
-  <div class="gallery-item">
-    <img src="/images/VIA_2024.jpg" alt="Happy member of the Viruses and RNAi Unit (2024)" />
-    <p>Viruses and RNAi (Carla Saleh Lab, 2024)</p>
-  </div>
-
-  <!-- Second row with two images -->
-  <div class="gallery-row">
-    <div class="gallery-item">
-      <img src="/images/New_20211108_Santi.jpeg" alt="With my PhD mentor in the Evolutionary Systems Virology Lab (2021)" />
-      <p>Setting up C. elegans facilities (2021)</p>
-    </div>
-    <div class="gallery-item">
-      <img src="/images/Felix_lab_2023.JPEG" alt="Félix Team (2023)" />
-      <p> Evolution of Caenorhabditis (Marie-Anne Félix Lab, 2023)</p>
-    </div>
-      <!-- Last row with a single image -->
-  <div class="gallery-item">
-    <img src="/images/EvoSysVir_2021.jpg" alt="Evolutionary Systems Virology Lab (2024)" />
-    <p> Evolutionary Systems Virology (Santiago F. Elena Lab, 2021)</p>
-  </div>
-  </div>
-</div>
+<div class="gallery-container"> <div class="gallery-item"> <img src="/images/VIA_2024.jpg" alt="..." /> <p>Viruses and RNAi (Carla Saleh Lab, 2024)</p> </div> <div class="gallery-item"> <img src="/images/New_20211108_Santi.jpeg" alt="..." /> <p>Setting up C. elegans facilities (2021)</p> </div> <div class="gallery-item"> <img src="/images/Felix_lab_2023.JPEG" alt="..." /> <p>Evolution of Caenorhabditis (Marie-Anne Félix Lab, 2023)</p> </div> <div class="gallery-item"> <img src="/images/EvoSysVir_2021.jpg" alt="..." /> <p>Evolutionary Systems Virology (Santiago F. Elena Lab, 2021)</p> </div> </div> 
 
 </body>
 </html>
