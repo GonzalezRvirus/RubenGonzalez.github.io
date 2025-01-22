@@ -8,8 +8,24 @@ author_profile: true
 <small>^co-authorship
 †corresponding </small>
 <br/>
-
+Updated January 2025
 <h4>2024</h4>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">21</span>•**Microgravity and low muon radiation affect viral pathogenesis and physiology in *Caenorhabditis elegans*** <br/>
+Villena-Giménez A; Castiglioni VG; Legarda EG; Muñoz-Sánchez JC; González R; Elena SF†<br/>
+BioRXiv (PREPRINT)
+[Read here](https://doi.org/10.1101/2024.10.03.616447)
+<br/> 
+<small> Our findings reveal that microgravity and below-background radiation affect fecundity, with significant negative impacts on reproductive success and developmental abnormalities in infected animals.</small>
+<hr/>
+
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">20</span>•**Transcriptional and hormonal profiling uncovers the interactions between plant developmental stages and RNA virus infection*** <br/>
+Melero I; Gómez-Cadenas A; González R†; Elena SF†<br/>
+Journal of General Virology. 105, 002023
+[Read here](https://doi.org/10.1099/jgv.0.002023)
+<br/> 
+<small> In late-stage infections, plants downregulate cell wall biosynthetic genes to facilitate viral spread but exhibit higher fertility. Salicylic acid boosts resistance while reducing seed production, revealing a developmental trade-off between viral susceptibility and reproductive success.</small>
+<hr/>
+
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">19</span>•**Experimental evolution of an RNA virus in *Caenorhabditis elegans*** <br/>
 Castiglioni VG; Olmo-Uceda MJ; Martín S; Félix M-A; González R†; Elena SF†<br/>
 Infection, Genetics and Evolution. 123, 105623
@@ -42,24 +58,22 @@ PLoS Pathogens. 20,e1011947.
 <small> We discovered that most natural bacteria significantly reduced host susceptibility to the virus compared to a non-natural bacterial environment commonly used in research. Intriguingly, several bacteria induced resistance to infection without degrading virions or providing poor nutrition. Furthermore, we found that these resistance-inducing bacteria did not act through known antiviral responses in the host; however, some bacteria fail to induce the resistance in animals with a hampered DRH-1, a RIG-1 homolog. </small>
 <hr/>
 
-<h4>2023</h4>
-
-<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">15</span>•**Viral strain-dependent impact of plant developmental stages on the nestedness and modularity of plant-virus interaction matrices** <br/>
-Melero I; Elena SF; González R†<br/>
-microPublication Biology
-[Read here](https://doi.org/10.17912/micropub.biology.000943)
-<br/> 
-<small> Our findings suggest that the past adaptation history of the ancestral viral strain influences its future evolution, and each plant developmental stage imposes unique selective constraints on virus evolution </small>
-<hr/>
-
-
-<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">14</span>•**Genetic basis of *Arabidopsis thaliana* responses to infection by naïve and adapted isolates of turnip mosaic virus** <br/>
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">15</span>•**Genetic basis of *Arabidopsis thaliana* responses to infection by naïve and adapted isolates of turnip mosaic virus** <br/>
 Butkovic A^; Ellis TJ^; González R^; Jaegle B; Nordborg M†; Elena, SF†<br/>
 eLife. 
 [Read here](https://doi.org/10.7554/eLife.89749.1)
 <br/> 
 <small> This manuscript presents findings that inform our understanding of the genetic underpinnings of the model plant Arabidopsis' resistance to turnip mosaic virus </small>
 
+<h4>2023</h4>
+
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">14</span>•**Viral strain-dependent impact of plant developmental stages on the nestedness and modularity of plant-virus interaction matrices** <br/>
+Melero I; Elena SF; González R†<br/>
+microPublication Biology
+[Read here](https://doi.org/10.17912/micropub.biology.000943)
+<br/> 
+<small> Our findings suggest that the past adaptation history of the ancestral viral strain influences its future evolution, and each plant developmental stage imposes unique selective constraints on virus evolution </small>
+<hr/>
 
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">13</span>•**Host developmental stages shape the evolution of a plant RNA virus** <br/>
 Melero I; González R†; Elena SF†<br/>
