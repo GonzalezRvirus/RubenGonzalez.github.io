@@ -4,11 +4,12 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+Updated January 2025
 <br/>
 <small>^co-authorship
 †corresponding </small>
 <br/>
-Updated January 2025
+
 <h4>2024</h4>
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">21</span>•**Microgravity and low muon radiation affect viral pathogenesis and physiology in *Caenorhabditis elegans*** <br/>
 Villena-Giménez A; Castiglioni VG; Legarda EG; Muñoz-Sánchez JC; González R; Elena SF†<br/>
