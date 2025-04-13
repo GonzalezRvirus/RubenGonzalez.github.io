@@ -9,6 +9,32 @@ Updated January 2025
 <small>^co-authorship
 †corresponding </small>
 <br/>
+<h4>2025</h4>
+
+
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">24</span>•**Viral infections reduce *Drosophila* lifespan through accelerated aging** <br/>
+González R; Castelló-Sanuán M; Saleh M-C†<br/>
+BioRXiv (PREPRINT)
+[Read here](https://doi.org/10.1101/2025.03.13.643076)
+<br/> 
+<small> We found that (i) enteric viral infections accelerate aging, (ii) even if the infection is cleared, aging process remains triggered, and (iii) accelerated aging correlates with reduced lifespan.</small>
+<hr/>
+
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">23</span>•**Persistent viral infections impact key biological traits in *Drosophila melanogaster*** <br/>
+Castelló-Sanuán M; González R; Romoli O; Blanc H; Nigg J†; Saleh M-C†<br/>
+BioRXiv (PREPRINT)
+[Read here](https://doi.org/10.1101/2025.03.12.642769)
+<br/> 
+<small> Broad characterization of the impacts of persistent viral infections on insects.</small>
+<hr/>
+
+<span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">22</span>•**A look back at the departmental Virology Days of the Institut Pasteur (Le Touquet, May 13–15, 2024)** <br/>
+González R^; Koh C^; Virlon B^; Merkling SH†; Vartanian J-P†<br/>
+Journal of Molecular Cell Biology. mjae052
+[Read here](https://doi.org/10.1093/jmcb/mjae052)
+<br/> 
+<small> Meeting report on the Journées Départementales de Virologie and the Institut Pasteur.</small>
+<hr/>
 
 <h4>2024</h4>
 <span style="font-family: 'Arial', sans-serif; font-weight: bold; color: #1280CD; font-size: 8px;">21</span>•**Microgravity and low muon radiation affect viral pathogenesis and physiology in *Caenorhabditis elegans*** <br/>
