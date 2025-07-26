@@ -141,7 +141,7 @@ redirect_from:
 </style>
 
 <div class="connect-header">
-  <h1>Let's Connect</h1>
+  <h1>Let's connect</h1>
   <p>
     I'm always interested in discussing new ideas and potential collaborations.<br>
     Feel free to reach out if you share interests in viral evolution, host-pathogen interactions, or model system biology.
@@ -149,18 +149,10 @@ redirect_from:
 </div>
 
 <div class="contact-info">
-  <h2>Contact Information</h2>
+  <h2>Email</h2>
   
   <div class="contact-item">
-    <div class="contact-label">Email</div>
     <div class="email-display">ruben.gonzalez-miguelez@pasteur.fr</div>
-  </div>
-  
-  <div class="contact-item">
-    <div class="contact-label">Google Scholar</div>
-    <div class="contact-value">
-      <a href="https://scholar.google.com/citations?user=USERID" target="_blank">View Publications</a>
-    </div>
   </div>
 </div>
 
