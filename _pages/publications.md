@@ -8,96 +8,117 @@ author_profile: true
 <style>
 .research-area {
     margin-bottom: 30px;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .area-header {
-    padding: 20px;
+    padding: 20px 24px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: background-color 0.2s;
+}
+.area-header:hover {
+    filter: brightness(0.95);
 }
 .area-header h2 {
     margin: 0;
     color: white;
+    font-weight: 500;
+    font-size: 1.5em;
 }
 .area-subtitle {
-    color: rgba(255,255,255,0.9);
-    font-style: italic;
+    color: rgba(255,255,255,0.85);
+    font-style: normal;
     margin-top: 5px;
+    font-size: 0.95em;
 }
 .collapse-icon {
-    font-size: 24px;
-    color: white;
+    font-size: 20px;
+    color: rgba(255,255,255,0.9);
     transition: transform 0.3s;
 }
 .collapsed .collapse-icon {
     transform: rotate(-90deg);
 }
 .area-content {
-    padding: 0 20px 20px 20px;
+    padding: 24px;
     max-height: 10000px;
     transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    background-color: #fafbfc;
 }
 .collapsed .area-content {
     max-height: 0;
-    padding: 0 20px;
+    padding: 0 24px;
     overflow: hidden;
 }
 .paper {
-    margin-bottom: 15px;
-    padding: 15px;
-    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s;
+}
+.paper:hover {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 .paper-title {
-    font-size: 1.1em;
-    font-weight: bold;
-    margin-bottom: 5px;
-    line-height: 1.3;
+    font-size: 1.05em;
+    font-weight: 600;
+    margin-bottom: 6px;
+    line-height: 1.4;
+    color: #1a1a1a;
 }
 .paper-meta {
     font-size: 0.85em;
-    color: #546e7a;
+    color: #5f6368;
     margin-bottom: 8px;
 }
+.paper-meta a {
+    color: #2962ff;
+    text-decoration: none;
+}
+.paper-meta a:hover {
+    text-decoration: underline;
+}
 .paper-description {
-    font-size: 0.95em;
-    line-height: 1.4;
-    color: #37474f;
+    font-size: 0.92em;
+    line-height: 1.5;
+    color: #3c4043;
 }
 .award {
     display: inline-block;
-    background-color: #1565c0;
-    color: white;
-    padding: 2px 8px;
-    border-radius: 3px;
-    font-size: 0.8em;
+    background-color: #e8f0fe;
+    color: #1967d2;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
     margin-left: 10px;
+    font-weight: 500;
 }
 .highlight-paper {
-    border-left: 4px solid;
+    border-left: 3px solid;
+    background-color: #f8f9fa;
 }
 
-/* Professional Blue-based Color Palette */
-.area-evolution { background-color: #1565c0; }
-.area-evolution .paper { background-color: #f5f9fc; }
-.area-evolution .highlight-paper { border-left-color: #1565c0; background-color: #e8f1f9; }
+/* Sophisticated blue palette */
+.area-evolution { background-color: #1e3a5f; }
+.area-evolution .highlight-paper { border-left-color: #1e3a5f; }
 
-.area-physiology { background-color: #00838f; }
-.area-physiology .paper { background-color: #f0f7f8; }
-.area-physiology .highlight-paper { border-left-color: #00838f; background-color: #e0f2f4; }
+.area-physiology { background-color: #2c4a6d; }
+.area-physiology .highlight-paper { border-left-color: #2c4a6d; }
 
-.area-genetics { background-color: #2e7d32; }
-.area-genetics .paper { background-color: #f1f8f4; }
-.area-genetics .highlight-paper { border-left-color: #2e7d32; background-color: #e8f5e9; }
+.area-genetics { background-color: #3a5978; }
+.area-genetics .highlight-paper { border-left-color: #3a5978; }
 
-.area-environment { background-color: #5d4037; }
-.area-environment .paper { background-color: #faf9f8; }
-.area-environment .highlight-paper { border-left-color: #5d4037; background-color: #f5f2f0; }
+.area-environment { background-color: #4a6983; }
+.area-environment .highlight-paper { border-left-color: #4a6983; }
 
-.area-other { background-color: #455a64; }
-.area-other .paper { background-color: #f8f9fa; }
+.area-other { background-color: #5a748e; }
+.area-other .highlight-paper { border-left-color: #5a748e; }
 </style>
 
 <script>
@@ -107,8 +128,8 @@ function toggleSection(sectionId) {
 }
 </script>
 
-<div style="background-color: #e3f2fd; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-<p style="font-size: 1.1em; line-height: 1.6; color: #1a237e;">
+<div style="background-color: #f0f7ff; padding: 24px; border-radius: 8px; margin-bottom: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.08);">
+<p style="font-size: 1.1em; line-height: 1.6;">
 My research investigates the fundamental principles governing host-pathogen interactions across model systems. By integrating evolutionary biology, molecular virology, and systems approaches, we uncover how viruses evolve, impact host biology, and interact with environmental factors to shape infection outcomes.
 </p>
 </div>
@@ -119,7 +140,7 @@ My research investigates the fundamental principles governing host-pathogen inte
 <div id="evolution" class="research-area area-evolution">
     <div class="area-header" onclick="toggleSection('evolution')">
         <div>
-            <h2>Virus Evolution</h2>
+            <h2>Virus evolution</h2>
             <p class="area-subtitle">Understanding evolutionary dynamics and constraints shaping viral adaptation</p>
         </div>
         <span class="collapse-icon">▼</span>
@@ -181,7 +202,7 @@ My research investigates the fundamental principles governing host-pathogen inte
 <div id="physiology" class="research-area area-physiology collapsed">
     <div class="area-header" onclick="toggleSection('physiology')">
         <div>
-            <h2>Viral Impacts on Host Physiology</h2>
+            <h2>Viral impacts on host physiology</h2>
             <p class="area-subtitle">How viral infections fundamentally alter host biology and development</p>
         </div>
         <span class="collapse-icon">▼</span>
@@ -230,7 +251,7 @@ My research investigates the fundamental principles governing host-pathogen inte
 <div id="genetics" class="research-area area-genetics collapsed">
     <div class="area-header" onclick="toggleSection('genetics')">
         <div>
-            <h2>Genetic Architecture of Host-Virus Interactions</h2>
+            <h2>Genetic architecture of host-virus interactions</h2>
             <p class="area-subtitle">Uncovering the molecular basis of susceptibility and resistance</p>
         </div>
         <span class="collapse-icon">▼</span>
@@ -267,7 +288,7 @@ My research investigates the fundamental principles governing host-pathogen inte
 <div id="environment" class="research-area area-environment collapsed">
     <div class="area-header" onclick="toggleSection('environment')">
         <div>
-            <h2>Environmental Modulation of Host-Virus Interactions</h2>
+            <h2>Environmental modulation of host-virus interactions</h2>
             <p class="area-subtitle">How ecological context shapes viral infections</p>
         </div>
         <span class="collapse-icon">▼</span>
@@ -298,7 +319,7 @@ My research investigates the fundamental principles governing host-pathogen inte
 <div id="other" class="research-area area-other collapsed">
     <div class="area-header" onclick="toggleSection('other')">
         <div>
-            <h2>Other Contributions</h2>
+            <h2>Other contributions</h2>
             <p class="area-subtitle">Additional research and scientific communications</p>
         </div>
         <span class="collapse-icon">▼</span>
@@ -325,7 +346,7 @@ My research investigates the fundamental principles governing host-pathogen inte
     </div>
 </div>
 
-<div style="text-align: center; margin-top: 40px; color: #37474f;">
+<div style="text-align: center; margin-top: 40px; color: #5f6368;">
 <p><em>Exploiting model systems to understand the fundamental principles of host-pathogen interactions</em></p>
 </div>
-<p style="text-align: center; margin-bottom: 30px; color: #546e7a;">Updated January 2025 </p>
+<p style="text-align: center; margin-bottom: 30px; color: #9aa0a6;">Updated January 2025 </p>
