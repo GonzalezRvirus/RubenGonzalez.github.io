@@ -11,15 +11,15 @@ redirect_from:
 /* Connect section */
 .connect-header {
   text-align: center;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   padding: 2em;
   background: #f8f9fa;
-  border-radius: 8px;
+  border-radius: 9px;
 }
 
 .connect-header h1 {
   color: #202124;
-  margin-bottom: 0.5em;
+  margin-bottom: 035em;
   font-size: 2.2em;
   font-weight: 500;
 }
@@ -27,7 +27,7 @@ redirect_from:
 .connect-header p {
   font-size: 1.1em;
   color: #5f6368;
-  line-height: 1.6;
+  line-height: 1;
   margin: 0;
 }
 
@@ -150,7 +150,6 @@ redirect_from:
 
 <div class="contact-info">
   <h2>Email</h2>
-  
   <div class="contact-item">
     <div class="email-display">ruben.gonzalez-miguelez@pasteur.fr</div>
   </div>
