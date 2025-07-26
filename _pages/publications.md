@@ -149,7 +149,7 @@ My research investigates the fundamental principles governing host-pathogen inte
     <div class="area-header" onclick="toggleSection('evolution')">
         <div>
             <h2>Virus evolution</h2>
-            <p class="area-subtitle">Understanding evolutionary dynamics and constraints shaping viral adaptation</p>
+            <p class="area-subtitle">Molecular evolutionary dynamics of RNA viruses: From sequence-level constraints to phenotypic adaptation under selective pressures including host responses, environmental stress, and transmission bottlenecks</p>
         </div>
         <span class="collapse-icon">▼</span>
     </div>
@@ -211,7 +211,7 @@ My research investigates the fundamental principles governing host-pathogen inte
     <div class="area-header" onclick="toggleSection('physiology')">
         <div>
             <h2>Viral impacts on host physiology</h2>
-            <p class="area-subtitle">How viral infections fundamentally alter host biology and development</p>
+            <p class="area-subtitle">Processes and molecular mechanisms underlying virus-induced alterations in host developmental programs, metabolic homeostasis, aging processes, and other response pathways</p>
         </div>
         <span class="collapse-icon">▼</span>
     </div>
@@ -260,7 +260,7 @@ My research investigates the fundamental principles governing host-pathogen inte
     <div class="area-header" onclick="toggleSection('genetics')">
         <div>
             <h2>Genetic architecture of host-virus interactions</h2>
-            <p class="area-subtitle">Uncovering the molecular basis of susceptibility and resistance</p>
+            <p class="area-subtitle">Genetics and molecular basis of antiviral immunity: identification of host factors determining susceptibility, resistance, and tolerance to viral infections across model organisms</p>
         </div>
         <span class="collapse-icon">▼</span>
     </div>
@@ -297,7 +297,7 @@ My research investigates the fundamental principles governing host-pathogen inte
     <div class="area-header" onclick="toggleSection('environment')">
         <div>
             <h2>Environmental modulation of host-virus interactions</h2>
-            <p class="area-subtitle">How ecological context shapes viral infections</p>
+            <p class="area-subtitle">How environmental factors, both abiotic (e.g. temperature, humidity, radiation, gravity) and biotic (e.g. microbiome composition, co-infecting pathogens), shape viral replication dynamics, transmission efficiency, and evolutionary trajectories</p></p>
         </div>
         <span class="collapse-icon">▼</span>
     </div>
