@@ -1,257 +1,328 @@
 ---
 layout: archive
-title: "Research Publications"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
 
+<style>
+.research-area {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.area-header {
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.area-header h2 {
+    margin: 0;
+    color: white;
+}
+.area-subtitle {
+    color: rgba(255,255,255,0.9);
+    font-style: italic;
+    margin-top: 5px;
+}
+.collapse-icon {
+    font-size: 24px;
+    color: white;
+    transition: transform 0.3s;
+}
+.collapsed .collapse-icon {
+    transform: rotate(-90deg);
+}
+.area-content {
+    padding: 0 20px 20px 20px;
+    max-height: 10000px;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+.collapsed .area-content {
+    max-height: 0;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.paper {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.paper-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 1.3;
+}
+.paper-meta {
+    font-size: 0.85em;
+    color: #666;
+    margin-bottom: 8px;
+}
+.paper-description {
+    font-size: 0.95em;
+    line-height: 1.4;
+}
+.award {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+.highlight-paper {
+    border-left: 4px solid;
+}
+
+/* Research Area Colors */
+.area-evolution { background-color: #1976d2; }
+.area-evolution .paper { background-color: #e3f2fd; }
+.area-evolution .highlight-paper { border-left-color: #1976d2; background-color: #bbdefb; }
+
+.area-physiology { background-color: #7b1fa2; }
+.area-physiology .paper { background-color: #f3e5f5; }
+.area-physiology .highlight-paper { border-left-color: #7b1fa2; background-color: #e1bee7; }
+
+.area-genetics { background-color: #388e3c; }
+.area-genetics .paper { background-color: #e8f5e9; }
+.area-genetics .highlight-paper { border-left-color: #388e3c; background-color: #c8e6c9; }
+
+.area-environment { background-color: #d32f2f; }
+.area-environment .paper { background-color: #ffebee; }
+.area-environment .highlight-paper { border-left-color: #d32f2f; background-color: #ffcdd2; }
+
+.area-other { background-color: #616161; }
+.area-other .paper { background-color: #f5f5f5; }
+</style>
+
+<script>
+function toggleSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    section.classList.toggle('collapsed');
+}
+</script>
+
 <div style="background-color: #f0f7ff; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
-<h2 style="color: #1280CD; margin-top: 0;">Research Program</h2>
 <p style="font-size: 1.1em; line-height: 1.6;">
 My research investigates the fundamental principles governing host-pathogen interactions across model systems. By integrating evolutionary biology, molecular virology, and systems approaches, we uncover how viruses evolve, impact host biology, and interact with environmental factors to shape infection outcomes.
 </p>
 </div>
 
-Updated January 2025 • <small>^co-authorship †corresponding</small>
+<p style="text-align: center; margin-bottom: 30px;">Updated January 2025 • <small>^co-authorship †corresponding</small></p>
 
----
+<!-- VIRUS EVOLUTION -->
+<div id="evolution" class="research-area area-evolution">
+    <div class="area-header" onclick="toggleSection('evolution')">
+        <div>
+            <h2>Virus Evolution</h2>
+            <p class="area-subtitle">Understanding evolutionary dynamics and constraints shaping viral adaptation</p>
+        </div>
+        <span class="collapse-icon">▼</span>
+    </div>
+    <div class="area-content">
+        
+        <div class="paper">
+            <div class="paper-title">Experimental evolution of an RNA virus in <em>Caenorhabditis elegans</em></div>
+            <div class="paper-meta">Castiglioni VG et al. • <em>Infect Genet Evol</em> 2024 • <a href="https://doi.org/10.1016/j.meegid.2024.105623">Link</a></div>
+            <div class="paper-description">Identified genomic hotspots of nucleotide diversity important for Orsay virus evolution, establishing grounds for experimental virus evolution studies in nematodes.</div>
+        </div>
 
-## **Research Area A: Virus Evolution**
-<p style="font-style: italic; color: #666; margin-bottom: 25px;">Understanding the evolutionary dynamics and constraints shaping viral adaptation</p>
+        <div class="paper highlight-paper">
+            <div class="paper-title">Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism</div>
+            <div class="paper-meta">González R et al. • <em>PNAS</em> 2021 • <a href="https://doi.org/10.1073/pnas.2020990118">Link</a></div>
+            <div class="paper-description">Demonstrated that environmental stress can drive viruses to evolve beneficial relationships with their hosts, providing increased tolerance to adverse conditions.</div>
+        </div>
 
-### Experimental Evolution & Adaptation
+        <div class="paper">
+            <div class="paper-title">Adaptation of turnip mosaic potyvirus to a specific niche reduces its genetic and environmental robustness</div>
+            <div class="paper-meta">Butkovic A et al. • <em>Virus Evol</em> 2020 • <a href="https://doi.org/10.1093/ve/veaa041">Link</a></div>
+            <div class="paper-description">Highly adapted viruses are more sensitive to random mutations and temperature changes than non-adapted viruses.</div>
+        </div>
 
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Experimental evolution of an RNA virus in <em>Caenorhabditis elegans</em></h4>
-<p style="margin: 5px 0;">Castiglioni VG; Olmo-Uceda MJ; Martín S; Félix M-A; González R†; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Infection, Genetics and Evolution</em> 123, 105623 (2024)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1016/j.meegid.2024.105623">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">This work identified genomic hotspots regions of nucleotide diversity important for the evolution of Orsay virus and established the grounds for future experimental virus evolution studies using <em>Caenorhabditis</em> nematodes.</p>
+        <div class="paper">
+            <div class="paper-title">Defects in plant immunity modulate the rates and patterns of RNA virus evolution</div>
+            <div class="paper-meta">Navarro R et al. • <em>Virus Evol</em> 2022 • <a href="https://doi.org/10.1093/ve/veac059">Link</a></div>
+            <div class="paper-description">Different host defense signaling pathways constrain virus evolution in distinct ways.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">Role of host genetic diversity for susceptibility-to-infection in the evolution of virulence of a plant virus</div>
+            <div class="paper-meta">González R et al. • <em>Virus Evol</em> 2019 • <a href="https://doi.org/10.1093/ve/vez024">Link</a></div>
+            <div class="paper-description">Viruses specialize faster in homogeneous host populations but become more pathogenic in heterogeneous ones.</div>
+        </div>
+
+        <div class="paper highlight-paper">
+            <div class="paper-title">Mutagenesis scanning uncovers evolutionary constraints on tobacco etch potyvirus membrane-associated 6K2 protein
+            <span class="award">Best Student Paper Award</span></div>
+            <div class="paper-meta">González R^ et al. • <em>Genome Biol Evol</em> 2019 • <a href="https://doi.org/10.1093/gbe/evz069">Link</a></div>
+            <div class="paper-description">Revealed evolutionary tradeoffs between within-host viral accumulation and symptom severity.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">A brief view on factors that affect plant virus evolution</div>
+            <div class="paper-meta">González R^† & Butkovic A^† • <em>Front Virol</em> 2022 • <a href="https://doi.org/10.3389/fviro.2022.994057">Link</a></div>
+            <div class="paper-description">Comprehensive minireview of key factors driving plant virus evolution.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">Revisiting <em>Orthotospovirus</em> phylogeny using full-genome data</div>
+            <div class="paper-meta">Butkovic A et al. • <em>Arch Virol</em> 2021 • <a href="https://doi.org/10.1007/s00705-020-04902-1">Link</a></div>
+            <div class="paper-description">Updated phylogenetic analysis incorporating selection, recombination, and reassortment.</div>
+        </div>
+    </div>
 </div>
 
-<div style="background-color: #fff4e6; padding: 20px; margin-bottom: 20px; border-radius: 5px; border-left: 4px solid #ff9800;">
-<h4 style="margin-top: 0;">Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism</h4>
-<p style="margin: 5px 0;">González R; Butković A; Escaray F; Martínez-Latorre J; Melero I; Pérez-Parets E; Gómez-Cadenas A; Carrasco P; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Proceedings of the National Academy of Sciences USA</em> 118, e2020990118 (2021)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1073/pnas.2020990118">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">This work shows that if the environment endangers the host, viruses can evolve to provide a host increased tolerance to the adverse conditions.</p>
+<!-- VIRAL IMPACTS ON HOST PHYSIOLOGY -->
+<div id="physiology" class="research-area area-physiology collapsed">
+    <div class="area-header" onclick="toggleSection('physiology')">
+        <div>
+            <h2>Viral Impacts on Host Physiology</h2>
+            <p class="area-subtitle">How viral infections fundamentally alter host biology and development</p>
+        </div>
+        <span class="collapse-icon">▼</span>
+    </div>
+    <div class="area-content">
+        
+        <div class="paper">
+            <div class="paper-title">Viral infections reduce <em>Drosophila</em> lifespan through accelerated aging</div>
+            <div class="paper-meta">González R et al. • <em>bioRxiv</em> 2025 • <a href="https://doi.org/10.1101/2025.03.13.643076">Link</a></div>
+            <div class="paper-description">Enteric viral infections trigger irreversible aging processes that persist even after infection clearance, correlating with reduced lifespan.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">Persistent viral infections impact key biological traits in <em>Drosophila melanogaster</em></div>
+            <div class="paper-meta">Castelló-Sanuán M et al. • <em>bioRxiv</em> 2025 • <a href="https://doi.org/10.1101/2025.03.12.642769">Link</a></div>
+            <div class="paper-description">Comprehensive characterization of how persistent viral infections affect insect biology.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">Transcriptional and hormonal profiling uncovers plant development-virus interactions</div>
+            <div class="paper-meta">Melero I et al. • <em>J Gen Virol</em> 2024 • <a href="https://doi.org/10.1099/jgv.0.002023">Link</a></div>
+            <div class="paper-description">Plants downregulate cell wall genes to facilitate viral spread but maintain fertility through salicylic acid-mediated resistance tradeoffs.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">Host developmental stages shape the evolution of a plant RNA virus</div>
+            <div class="paper-meta">Melero I et al. • <em>Phil Trans R Soc B</em> 2023 • <a href="https://doi.org/10.1098/rtsb.2022.0005">Link</a></div>
+            <div class="paper-description">TuMV evolution differs across three developmental stages of <em>Arabidopsis thaliana</em>.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">Viral strain-dependent impact of plant developmental stages on interaction networks</div>
+            <div class="paper-meta">Melero I et al. • <em>microPubl Biol</em> 2023 • <a href="https://doi.org/10.17912/micropub.biology.000943">Link</a></div>
+            <div class="paper-description">Ancestral viral adaptation history influences future evolution under developmental constraints.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">From foes to friends: viral infections expand host phenotypic plasticity</div>
+            <div class="paper-meta">González R^† et al. • <em>Adv Virus Res</em> 2020 • <a href="https://doi.org/10.1016/bs.aivir.2020.01.003">Link</a></div>
+            <div class="paper-description">Review: viruses can enhance host survival under environmental stress by altering phenotypic plasticity.</div>
+        </div>
+    </div>
 </div>
 
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Adaptation of turnip mosaic potyvirus to a specific niche reduces its genetic and environmental robustness</h4>
-<p style="margin: 5px 0;">Butkovic A; González R; Cobo I; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Virus Evolution</em> 6, veaa041 (2020)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1093/ve/veaa041">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">This work shows that viruses highly adapted to their host are more sensitive to random mutations and temperature conditions than non-adapted viruses.</p>
+<!-- GENETIC ARCHITECTURE -->
+<div id="genetics" class="research-area area-genetics collapsed">
+    <div class="area-header" onclick="toggleSection('genetics')">
+        <div>
+            <h2>Genetic Architecture of Host-Virus Interactions</h2>
+            <p class="area-subtitle">Uncovering the molecular basis of susceptibility and resistance</p>
+        </div>
+        <span class="collapse-icon">▼</span>
+    </div>
+    <div class="area-content">
+        
+        <div class="paper highlight-paper">
+            <div class="paper-title">Genetic basis of <em>Arabidopsis thaliana</em> responses to turnip mosaic virus</div>
+            <div class="paper-meta">Butkovic A^ et al. • <em>eLife</em> 2024 • <a href="https://doi.org/10.7554/eLife.89749.1">Link</a></div>
+            <div class="paper-description">Identified genetic underpinnings of plant resistance to naïve and adapted viral isolates.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">GWAS identifies <em>Arabidopsis</em> genes affecting TuMV infection outcomes</div>
+            <div class="paper-meta">Butković A et al. • <em>Virus Evol</em> 2021 • <a href="https://doi.org/10.1093/ve/veab063">Link</a></div>
+            <div class="paper-description">Genome-wide study revealing new host genes involved in plant defense and virus replication.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title"><em>Caenorhabditis elegans</em> immune responses to intracellular pathogens</div>
+            <div class="paper-meta">González R† & Félix M-A • <em>Dev Comp Immunol</em> 2024 • <a href="https://doi.org/10.1016/j.dci.2024.105148">Link</a></div>
+            <div class="paper-description">Review of nematode responses to microsporidia and viruses.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title"><em>C. elegans</em> pharynx mutants resist Orsay virus infection</div>
+            <div class="paper-meta">González R† & Félix M-A • <em>microPubl Biol</em> 2024 • <a href="https://doi.org/10.17912/micropub.biology.001166">Link</a></div>
+            <div class="paper-description">Identified specific mutants conferring viral resistance.</div>
+        </div>
+    </div>
 </div>
 
-### Evolutionary Constraints & Host Effects
+<!-- ENVIRONMENTAL MODULATION -->
+<div id="environment" class="research-area area-environment collapsed">
+    <div class="area-header" onclick="toggleSection('environment')">
+        <div>
+            <h2>Environmental Modulation of Host-Virus Interactions</h2>
+            <p class="area-subtitle">How ecological context shapes viral infections</p>
+        </div>
+        <span class="collapse-icon">▼</span>
+    </div>
+    <div class="area-content">
+        
+        <div class="paper highlight-paper">
+            <div class="paper-title">Natural monobacterial environments modulate viral infection in <em>C. elegans</em></div>
+            <div class="paper-meta">González R† & Félix M-A† • <em>PLoS Pathog</em> 2024 • <a href="https://doi.org/10.1371/journal.ppat.1011947">Link</a></div>
+            <div class="paper-description">Natural bacteria reduce viral susceptibility through novel DRH-1-dependent mechanisms without degrading virions or affecting nutrition.</div>
+        </div>
 
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Defects in plant immunity modulate the rates and patterns of RNA virus evolution</h4>
-<p style="margin: 5px 0;">Navarro R; Ambrós S; Butković A; Carrasco JL; González R; Martínez F; Wu B; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Virus Evolution</em> veac059 (2022)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1093/ve/veac059">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">This work illustrates how different host defense signaling pathways constrain virus evolution</p>
+        <div class="paper">
+            <div class="paper-title">The interplay between the host microbiome and pathogenic viral infections</div>
+            <div class="paper-meta">González R† & Elena SF • <em>mBio</em> 2021 • <a href="https://doi.org/10.1128/mBio.02496-21">Link</a></div>
+            <div class="paper-description">Integrative review of microbiome impacts on viral infections across pathosystems.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">Microgravity and low muon radiation affect viral pathogenesis in <em>C. elegans</em></div>
+            <div class="paper-meta">Villena-Giménez A et al. • <em>bioRxiv</em> 2024 • <a href="https://doi.org/10.1101/2024.10.03.616447">Link</a></div>
+            <div class="paper-description">Space-like conditions impact fecundity and developmental success in infected animals.</div>
+        </div>
+    </div>
 </div>
 
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Role of host genetic diversity for susceptibility-to-infection in the evolution of virulence of a plant virus</h4>
-<p style="margin: 5px 0;">González R; Butković A; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Virus Evolution</em> 5, vez024 (2019)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1093/ve/vez024">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">This work illustrates how the genetic diversity of hosts in an ecosystem affects virus adaptation, as viruses specialized faster in homogeneous populations but were more pathogenic in heterogeneous ones.</p>
+<!-- OTHER CONTRIBUTIONS -->
+<div id="other" class="research-area area-other collapsed">
+    <div class="area-header" onclick="toggleSection('other')">
+        <div>
+            <h2>Other Contributions</h2>
+            <p class="area-subtitle">Additional research and scientific communications</p>
+        </div>
+        <span class="collapse-icon">▼</span>
+    </div>
+    <div class="area-content">
+        
+        <div class="paper">
+            <div class="paper-title">Institut Pasteur Virology Days meeting report</div>
+            <div class="paper-meta">González R^ et al. • <em>J Mol Cell Biol</em> 2025 • <a href="https://doi.org/10.1093/jmcb/mjae052">Link</a></div>
+            <div class="paper-description">Report on the Journées Départementales de Virologie at Institut Pasteur.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">Natural variation in <em>Arabidopsis</em> rosette area unveils new developmental genes</div>
+            <div class="paper-meta">González R^† et al. • <em>Sci Rep</em> 2020 • <a href="https://doi.org/10.1038/s41598-020-74723-4">Link</a></div>
+            <div class="paper-description">GWAS identifying new genes involved in plant growth.</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">The scale-of-choice effect in assortative mating estimates</div>
+            <div class="paper-meta">Rolán-Alvarez E† et al. • <em>Evolution</em> 2015 • <a href="https://doi.org/10.1111/evo.12691">Link</a></div>
+            <div class="paper-description">Sampling biases affect observations of negative assortative mating frequency.</div>
+        </div>
+    </div>
 </div>
-
-<div style="background-color: #e8f5e9; padding: 20px; margin-bottom: 20px; border-radius: 5px; border-left: 4px solid #4caf50;">
-<h4 style="margin-top: 0;">Mutagenesis scanning uncovers evolutionary constraints on tobacco etch potyvirus membrane-associated 6K2 protein</h4>
-<p style="margin: 5px 0;">González R^; Wu B^; Li X; Martínez F†; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Genome Biology and Evolution</em> 11, 1207–1222 (2019)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1093/gbe/evz069">Read here</a></p>
-<p style="margin: 10px 0; color: #4caf50; font-weight: bold;">🏆 Honourable Mention in Best Student Paper Awards for papers published in 2019 in GBE</p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">This study unveils the evolutionary constraints on a 6K2 potyviral protein, with an evolutionary tradeoff between within-host accumulation and severity of symptoms.</p>
-</div>
-
-### Phylogenetics & Theory
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">A brief view on factors that affect plant virus evolution</h4>
-<p style="margin: 5px 0;">González R^†; Butkovic A^†</p>
-<p style="margin: 5px 0; color: #666;"><em>Frontiers in Virology</em> 2:994057 (2022)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.3389/fviro.2022.994057">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">This minireview provides an overview of the most important factors in (plant) virus evolution</p>
-</div>
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Revisiting <em>Orthotospovirus</em> phylogeny using full-genome data and testing the contribution of selection, recombination and segments reassortment in the origin of new species</h4>
-<p style="margin: 5px 0;">Butkovic A; González R; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Archives of Virology</em> 166, 491–499 (2021)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1007/s00705-020-04902-1">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">Updated <em>Orthotospovirus</em> phylogeny, using full-genome sequences.</p>
-</div>
-
----
-
-## **Research Area B: Viral Impacts on Host Physiology**
-<p style="font-style: italic; color: #666; margin-bottom: 25px;">How viral infections fundamentally alter host biology and development</p>
-
-### Aging & Lifespan
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Viral infections reduce <em>Drosophila</em> lifespan through accelerated aging</h4>
-<p style="margin: 5px 0;">González R; Castelló-Sanuán M; Saleh M-C†</p>
-<p style="margin: 5px 0; color: #666;"><em>BioRXiv</em> (PREPRINT) (2025)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1101/2025.03.13.643076">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">We found that (i) enteric viral infections accelerate aging, (ii) even if the infection is cleared, aging process remains triggered, and (iii) accelerated aging correlates with reduced lifespan.</p>
-</div>
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Persistent viral infections impact key biological traits in <em>Drosophila melanogaster</em></h4>
-<p style="margin: 5px 0;">Castelló-Sanuán M; González R; Romoli O; Blanc H; Nigg J†; Saleh M-C†</p>
-<p style="margin: 5px 0; color: #666;"><em>BioRXiv</em> (PREPRINT) (2025)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1101/2025.03.12.642769">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">Broad characterization of the impacts of persistent viral infections on insects.</p>
-</div>
-
-### Host Development & Viral Interactions
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Transcriptional and hormonal profiling uncovers the interactions between plant developmental stages and RNA virus infection</h4>
-<p style="margin: 5px 0;">Melero I; Gómez-Cadenas A; González R†; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Journal of General Virology</em> 105, 002023 (2024)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1099/jgv.0.002023">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">In late-stage infections, plants downregulate cell wall biosynthetic genes to facilitate viral spread but exhibit higher fertility. Salicylic acid boosts resistance while reducing seed production, revealing a developmental trade-off between viral susceptibility and reproductive success.</p>
-</div>
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Host developmental stages shape the evolution of a plant RNA virus</h4>
-<p style="margin: 5px 0;">Melero I; González R†; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Philosophical Transactions of the Royal Society B</em> 378:20220005 (2023)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1098/rtsb.2022.0005">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">We studied virus infections and TuMV evolution in three developmental stages of <em>Arabidopsis thaliana</em></p>
-</div>
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Viral strain-dependent impact of plant developmental stages on the nestedness and modularity of plant-virus interaction matrices</h4>
-<p style="margin: 5px 0;">Melero I; Elena SF; González R†</p>
-<p style="margin: 5px 0; color: #666;"><em>microPublication Biology</em> (2023)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.17912/micropub.biology.000943">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">Our findings suggest that the past adaptation history of the ancestral viral strain influences its future evolution, and each plant developmental stage imposes unique selective constraints on virus evolution</p>
-</div>
-
-### Phenotypic Plasticity
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">From foes to friends: viral infections expand the limits of host phenotypic plasticity</h4>
-<p style="margin: 5px 0;">González R†^; Butković A^; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Advances in Virus Research</em> 106, 85-121 (2020)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1016/bs.aivir.2020.01.003">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">Review of works showing how viruses can alter their host phenotypic plasticity so they can survive in the face of unpredictable environmental stress.</p>
-</div>
-
----
-
-## **Research Area C: Genetic Architecture of Host-Virus Interactions**
-<p style="font-style: italic; color: #666; margin-bottom: 25px;">Uncovering the molecular basis of susceptibility and resistance</p>
-
-### Plant-Virus Systems
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Genetic basis of <em>Arabidopsis thaliana</em> responses to infection by naïve and adapted isolates of turnip mosaic virus</h4>
-<p style="margin: 5px 0;">Butkovic A^; Ellis TJ^; González R^; Jaegle B; Nordborg M†; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>eLife</em> (2024)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.7554/eLife.89749.1">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">This manuscript presents findings that inform our understanding of the genetic underpinnings of the model plant Arabidopsis' resistance to turnip mosaic virus</p>
-</div>
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">A Genome-Wide Association Study identifies <em>Arabidopsis thaliana</em> genes that contribute to differences in the outcome of infection with two <em>Turnip mosaic potyvirus</em> strains that differ in their evolutionary history and degree of host specialization</h4>
-<p style="margin: 5px 0;">Butković A; González R; Rivarez MPS; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Virus Evolution</em> veab063 (2021)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1093/ve/veab063">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">Genome-wide study of the <em>Arabidopsis thaliana</em> response to viral infection that identified new host genes involved in plant defence and virus replication.</p>
-</div>
-
-### Nematode Immunity
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;"><em>Caenorhabditis elegans</em> immune responses to intracellular pathogens</h4>
-<p style="margin: 5px 0;">González R†; Félix M-A</p>
-<p style="margin: 5px 0; color: #666;"><em>Developmental & Comparative Immunology</em> 154, 105148 (2024)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1016/j.dci.2024.105148">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">Review on known responses of the model organism <em>C. elegans</em> to microsporidia and viruses</p>
-</div>
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;"><em>Caenorhabditis elegans</em> defective-pharynx and constipated mutants are resistant to Orsay virus infection</h4>
-<p style="margin: 5px 0;">González R†; Félix M-A</p>
-<p style="margin: 5px 0; color: #666;"><em>microPublication Biology</em> (2024)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.17912/micropub.biology.001166">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">We identified mutants resistant to viral infection</p>
-</div>
-
----
-
-## **Research Area D: Environmental Modulation of Host-Virus Interactions**
-<p style="font-style: italic; color: #666; margin-bottom: 25px;">How ecological context shapes viral infections</p>
-
-### Microbiome Effects
-
-<div style="background-color: #fff4e6; padding: 20px; margin-bottom: 20px; border-radius: 5px; border-left: 4px solid #ff9800;">
-<h4 style="margin-top: 0;">Natural monobacterial environments modulate viral infection in <em>Caenorhabditis elegans</em></h4>
-<p style="margin: 5px 0;">González R†; Félix M-A†</p>
-<p style="margin: 5px 0; color: #666;"><em>PLoS Pathogens</em> 20, e1011947 (2024)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1371/journal.ppat.1011947">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">We discovered that most natural bacteria significantly reduced host susceptibility to the virus compared to a non-natural bacterial environment commonly used in research. Intriguingly, several bacteria induced resistance to infection without degrading virions or providing poor nutrition. Furthermore, we found that these resistance-inducing bacteria did not act through known antiviral responses in the host; however, some bacteria fail to induce the resistance in animals with a hampered DRH-1, a RIG-1 homolog.</p>
-</div>
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">The interplay between the host microbiome and pathogenic viral infections</h4>
-<p style="margin: 5px 0;">González R†; Elena SF</p>
-<p style="margin: 5px 0; color: #666;"><em>mBio</em> 12, e02496-21 (2021)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1128/mBio.02496-21">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">This minireview provides an integrative overview of the microbiome impact on viral infection across different pathosystems.</p>
-</div>
-
-### Extreme Environments
-
-<div style="background-color: #f9f9f9; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Microgravity and low muon radiation affect viral pathogenesis and physiology in <em>Caenorhabditis elegans</em></h4>
-<p style="margin: 5px 0;">Villena-Giménez A; Castiglioni VG; Legarda EG; Muñoz-Sánchez JC; González R; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>BioRXiv</em> (PREPRINT) (2024)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1101/2024.10.03.616447">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">Our findings reveal that microgravity and below-background radiation affect fecundity, with significant negative impacts on reproductive success and developmental abnormalities in infected animals.</p>
-</div>
-
----
-
-## **Other Contributions**
-
-<div style="background-color: #f3f4f6; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">A look back at the departmental Virology Days of the Institut Pasteur (Le Touquet, May 13–15, 2024)</h4>
-<p style="margin: 5px 0;">González R^; Koh C^; Virlon B^; Merkling SH†; Vartanian J-P†</p>
-<p style="margin: 5px 0; color: #666;"><em>Journal of Molecular Cell Biology</em> mjae052 (2025)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1093/jmcb/mjae052">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">Meeting report on the Journées Départementales de Virologie and the Institut Pasteur.</p>
-</div>
-
-<div style="background-color: #f3f4f6; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">Natural variation in <em>Arabidopsis thaliana</em> rosette area unveils new genes involved in plant development</h4>
-<p style="margin: 5px 0;">González R^†; Butkovic A^; Rivarez MPS; Elena SF†</p>
-<p style="margin: 5px 0; color: #666;"><em>Scientific Reports</em> 10, 17600 (2020)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1038/s41598-020-74723-4">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">Genome-wide study of the Arabidopsis thaliana rosette area that identified new genes involved in plant growth.</p>
-</div>
-
-<div style="background-color: #f3f4f6; padding: 20px; margin-bottom: 20px; border-radius: 5px;">
-<h4 style="margin-top: 0;">The scale-of-choice effect and how estimates of assortative mating in the wild can be biased due to heterogeneous samples</h4>
-<p style="margin: 5px 0;">Rolán-Alvarez E†; Carvajal-Rodríguez A; de Coo A; Cortés B; Estévez D; Ferreira M; González R; Briscoe AD</p>
-<p style="margin: 5px 0; color: #666;"><em>Evolution</em> 69, 1845–1857 (2015)</p>
-<p style="margin: 10px 0;"><a href="https://doi.org/10.1111/evo.12691">Read here</a></p>
-<p style="font-size: 0.9em; color: #555; margin-top: 10px;">This work suggest that the low frequency of negative assortative mating observed in the literature may be due to the investigator's sampling simple.</p>
-</div>
-
----
 
 <div style="text-align: center; margin-top: 40px; color: #666;">
 <p><em>Exploiting model systems to understand the fundamental principles of host-pathogen interactions</em></p>
