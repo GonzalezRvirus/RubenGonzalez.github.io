@@ -62,12 +62,14 @@ author_profile: true
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
+    border: 1px solid #d2e3fc;
     transition: all 0.2s;
 }
 .paper:hover {
-    background-color: #f1f3f4;
-    transform: translateY(-1px);
+    border-color: #1a73e8;
+    box-shadow: 0 2px 8px rgba(26, 115, 232, 0.1);
+    transform: translateY(-2px);
 }
 .paper-title {
     font-size: 1.05em;
