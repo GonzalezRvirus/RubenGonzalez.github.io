@@ -297,7 +297,7 @@ My research investigates the fundamental principles governing host-pathogen inte
     <div class="area-header" onclick="toggleSection('environment')">
         <div>
             <h2>Environmental modulation of host-virus interactions</h2>
-            <p class="area-subtitle">How environmental factors, both abiotic (e.g. temperature, humidity, radiation, gravity) and biotic (e.g. microbiome composition, co-infecting pathogens), shape viral replication dynamics, transmission efficiency, and evolutionary trajectories</p></p>
+            <p class="area-subtitle">How environmental factors, both abiotic (e.g. temperature, humidity, radiation, gravity) and biotic (e.g. microbiome composition, co-infecting pathogens), shape viral replication dynamics, transmission efficiency, and evolutionary trajectories</p>
         </div>
         <span class="collapse-icon">▼</span>
     </div>
