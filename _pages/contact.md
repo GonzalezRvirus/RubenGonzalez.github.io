@@ -11,23 +11,23 @@ redirect_from:
 /* Connect section */
 .connect-header {
   text-align: center;
-  margin-bottom: 3em;
-  padding: 2em;
+  margin-bottom: 2em;
+  padding: 1.5em;
   background: #f8f9fa;
   border-radius: 9px;
 }
 
 .connect-header h1 {
   color: #202124;
-  margin-bottom: 2em;
-  font-size: 2.2em;
+  margin-bottom: 0.4em;
+  font-size: 1.6em;
   font-weight: 500;
 }
 
 .connect-header p {
-  font-size: 1.1em;
+  font-size: 1em;
   color: #5f6368;
-  line-height: 1;
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -36,19 +36,19 @@ redirect_from:
   background: #ffffff;
   border: 1px solid #e8eaed;
   border-radius: 8px;
-  padding: 2em;
-  margin-bottom: 2em;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 .contact-info h2 {
   color: #1a73e8;
-  font-size: 1.4em;
-  margin-bottom: 1em;
+  font-size: 1.2em;
+  margin-bottom: 0.6em;
 }
 
 .contact-item {
-  margin-bottom: 1.5em;
+  margin-bottom: 0.8em;
   font-size: 1.05em;
 }
 
@@ -76,27 +76,28 @@ redirect_from:
 /* Email highlight */
 .email-display {
   background: #f0f7ff;
-  padding: 1em 1.5em;
+  padding: 0.8em 1.2em;
   border-radius: 6px;
   display: inline-block;
   font-family: 'Courier New', monospace;
-  font-size: 1.1em;
+  font-size: 1em;
   color: #202124;
-  margin-top: 0.5em;
+  margin-top: 0.3em;
 }
 
 /* Location section */
 .location-section {
   background: #f0f7ff;
   border-radius: 8px;
-  padding: 2em;
-  margin-top: 2em;
+  padding: 1.5em;
+  margin-top: 1.5em;
 }
 
 .location-section h2 {
   color: #1a73e8;
-  margin-bottom: 1em;
+  margin-bottom: 0.6em;
   text-align: center;
+  font-size: 1.2em;
 }
 
 .address-box {
@@ -104,12 +105,12 @@ redirect_from:
   grid-template-columns: 1fr 1fr;
   gap: 2em;
   align-items: center;
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
 .address-text {
-  font-size: 1.05em;
-  line-height: 1.8;
+  font-size: 1em;
+  line-height: 1.6;
   color: #3c4043;
 }
 
@@ -158,7 +159,7 @@ redirect_from:
 <div class="location-section">
   <h2>Location</h2>
   
-  <p style="text-align: center; margin-bottom: 2em;">
+  <p style="text-align: center; margin-bottom: 1.2em; font-size: 0.95em;">
     We are located at the <a href="http://salehlab.eu" target="_blank">Viruses and RNAi Unit</a>, Institut Pasteur
   </p>
   
@@ -167,7 +168,7 @@ redirect_from:
       <strong>Institut Pasteur</strong><br>
       Viruses and RNAi Unit<br>
       28 Rue du Docteur Roux<br>
-      75015 Paris, France<br><br>
+      75015 Paris, France<br>
     </div>
     
     <div class="location-image">
