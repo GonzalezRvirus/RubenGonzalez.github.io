@@ -93,7 +93,7 @@ redirect_from:
 
 I am a scientist focused on the study of viral interactions. My research aims to elucidate (i) the evolutionary dynamics of viruses, (ii) the interplay among the host, virus, and microbial communities, and (iii) the consequences of infections for the host.
 
-I owe my interest in viruses to Professor [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/). I completed my PhD under his mentorship at I2SysBio (Valencia, Spain), where I studied factors influencing the evolution of viruses, using plant-pathogen systems as model organisms.
+I owe my interest in viruses to [Santiago F. Elena](https://sfelenalab.csic.es/sfelena/). I completed my PhD under his mentorship at I2SysBio (Valencia, Spain), where I studied factors influencing the evolution of viruses, using plant-pathogen systems as model organisms.
 
 After my PhD, I obtained an [EMBO](https://www.embo.org/about-embo/mission/) Postdoctoral Fellowship and joined the [Marie-Anne Félix Laboratory](https://www.ibens.ens.fr/?rubrique29&lang=en) (IBENS, France). There I investigated host factors and bacterial environments that modulate the nematode *Caenorhabditis elegans* susceptibility to Orsay virus infection.
 
