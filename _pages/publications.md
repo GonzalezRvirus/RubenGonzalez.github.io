@@ -89,7 +89,7 @@ author_profile: true
     line-height: 1.5;
     color: #3c4043;
 }
-.award {
+.commentary-link {
     display: inline-block;
     background-color: #e8f0fe;
     color: #1967d2;
@@ -98,27 +98,32 @@ author_profile: true
     font-size: 0.75em;
     margin-left: 10px;
     font-weight: 500;
+    text-decoration: none;
+}
+.commentary-link:hover {
+    background-color: #d2e3fc;
+    text-decoration: none;
 }
 .highlight-paper {
     border-left: 3px solid;
     background-color: #f8f9fa;
 }
 
-/* Sophisticated blue palette */
-.area-evolution { background-color: #1e3a5f; }
-.area-evolution .highlight-paper { border-left-color: #1e3a5f; }
+/* Lighter blue palette */
+.area-evolution { background-color: #5b7aa1; }
+.area-evolution .highlight-paper { border-left-color: #5b7aa1; }
 
-.area-physiology { background-color: #2c4a6d; }
-.area-physiology .highlight-paper { border-left-color: #2c4a6d; }
+.area-physiology { background-color: #6b8aaf; }
+.area-physiology .highlight-paper { border-left-color: #6b8aaf; }
 
-.area-genetics { background-color: #3a5978; }
-.area-genetics .highlight-paper { border-left-color: #3a5978; }
+.area-genetics { background-color: #7b99bd; }
+.area-genetics .highlight-paper { border-left-color: #7b99bd; }
 
-.area-environment { background-color: #4a6983; }
-.area-environment .highlight-paper { border-left-color: #4a6983; }
+.area-environment { background-color: #8ba7c9; }
+.area-environment .highlight-paper { border-left-color: #8ba7c9; }
 
-.area-other { background-color: #5a748e; }
-.area-other .highlight-paper { border-left-color: #5a748e; }
+.area-other { background-color: #9bb5d5; }
+.area-other .highlight-paper { border-left-color: #9bb5d5; }
 </style>
 
 <script>
@@ -166,7 +171,8 @@ My research investigates the fundamental principles governing host-pathogen inte
         </div>
 
         <div class="paper highlight-paper">
-            <div class="paper-title">Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism</div>
+            <div class="paper-title">Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism
+            <a href="https://www.pnas.org/doi/10.1073/pnas.2100936118" class="commentary-link">Commentary</a></div>
             <div class="paper-meta">González R et al. • <em>PNAS</em> 2021 • <a href="https://doi.org/10.1073/pnas.2020990118">Link</a></div>
             <div class="paper-description">Demonstrated that environmental stress can drive viruses to evolve beneficial relationships with their hosts, providing increased tolerance to adverse conditions.</div>
         </div>
@@ -190,8 +196,7 @@ My research investigates the fundamental principles governing host-pathogen inte
         </div>
 
         <div class="paper highlight-paper">
-            <div class="paper-title">Mutagenesis scanning uncovers evolutionary constraints on tobacco etch potyvirus membrane-associated 6K2 protein
-            <span class="award">Best Student Paper Award</span></div>
+            <div class="paper-title">Mutagenesis scanning uncovers evolutionary constraints on tobacco etch potyvirus membrane-associated 6K2 protein</div>
             <div class="paper-meta">González R^ et al. • <em>Genome Biol Evol</em> 2019 • <a href="https://doi.org/10.1093/gbe/evz069">Link</a></div>
             <div class="paper-description">Revealed evolutionary tradeoffs between within-host viral accumulation and symptom severity.</div>
         </div>
