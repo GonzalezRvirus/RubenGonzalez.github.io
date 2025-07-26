@@ -112,24 +112,4 @@
   .author__bio {
     font-size: 1.1em !important;
   }
-    /* Scale the entire sidebar by 15% */
-  .sidebar {
-    transform: scale(1.15) !important;
-    transform-origin: top left !important; /* Scale from top-left corner */
-  }
-  
-  /* Adjust main content margin to account for scaled sidebar */
-  .page__content {
-    margin-left: calc(200px * 1.15) !important; /* ~250px total */
-  }
-  
-  /* Mobile responsive */
-  @media (max-width: 768px) {
-    .sidebar {
-      transform: scale(1) !important; /* Normal size on mobile */
-    }
-    .page__content {
-      margin-left: 0 !important;
-    }
-  }
 </style>
