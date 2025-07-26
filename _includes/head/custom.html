@@ -92,10 +92,18 @@
 <meta name="twitter:description" content="Postdoctoral researcher studying host-pathogen interactions">
 <meta name="twitter:image" content="https://gonzalezrvirus.com/images/pic_2.png">
 
-
-
 <!-- Custom CSS for larger profile image and text -->
 <style>
+  /* Increase the sidebar width to accommodate larger image */
+  .sidebar {
+    width: 350px !important; /* Default is usually around 200-250px */
+  }
+  
+  /* Adjust the main content to account for wider sidebar */
+  .page__content {
+    margin-left: 370px !important; /* 20px more than sidebar width */
+  }
+  
   /* Center the entire author sidebar */
   .author__avatar {
     text-align: center !important;
@@ -105,12 +113,12 @@
   
   /* Make the profile image larger while maintaining aspect ratio */
   .author__avatar img {
-    width: 300px !important;
-    height: auto !important; /* This maintains the aspect ratio */
+    width: 320px !important; /* Slightly smaller than sidebar width */
+    height: auto !important;
     max-width: 100% !important;
     margin: 0 auto !important;
     display: block !important;
-    object-fit: cover; /* This ensures good quality scaling */
+    object-fit: cover;
   }
   
   /* Center the name */
@@ -141,4 +149,19 @@
     margin: 0 auto;
     text-align: left;
   }
+  
+  /* Responsive design - make it work on mobile */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100% !important;
+    }
+    .page__content {
+      margin-left: 0 !important;
+    }
+    .author__avatar img {
+      width: 200px !important;
+    }
+  }
 </style>
+
+
