@@ -92,16 +92,17 @@
 <meta name="twitter:description" content="Postdoctoral researcher studying host-pathogen interactions">
 <meta name="twitter:image" content="https://gonzalezrvirus.com/images/pic_2.png">
 
+
 <!-- Custom CSS for larger profile image and text -->
 <style>
-  /* Increase the sidebar width to accommodate larger image */
+  /* Increase the sidebar width more to accommodate the image */
   .sidebar {
-    width: 250px !important; /* Default is usually around 200-250px */
+    width: 280px !important;
   }
   
-  /* Adjust the main content to account for wider sidebar */
+  /* Increase the main content margin to prevent overlap */
   .page__content {
-    margin-left: 270px !important; /* 20px more than sidebar width */
+    margin-left: 300px !important; /* More space to prevent overlap */
   }
   
   /* Center the entire author sidebar */
@@ -111,11 +112,11 @@
     display: block !important;
   }
   
-  /* Make the profile image larger while maintaining aspect ratio */
+  /* Make the profile image fit properly within the sidebar */
   .author__avatar img {
-    width: 220px !important; /* Slightly smaller than sidebar width */
+    width: 200px !important; /* Reduced size to fit properly */
     height: auto !important;
-    max-width: 100% !important;
+    max-width: 90% !important; /* Ensure it stays within sidebar bounds */
     margin: 0 auto !important;
     display: block !important;
     object-fit: cover;
@@ -123,34 +124,20 @@
   
   /* Center the name */
   .author__name {
-    font-size: 1.9em !important;
+    font-size: 1.6em !important;
     font-weight: bold !important;
     text-align: center !important;
-    margin-top: 20px !important;
+    margin-top: 15px !important;
   }
   
   /* Center the bio/title text */
   .author__bio {
-    font-size: 1.4em !important;
-    margin-top: 10px !important;
+    font-size: 1.1em !important;
+    margin-top: 8px !important;
     text-align: center !important;
   }
   
-  /* Center all author content */
-  .author__content {
-    text-align: center !important;
-    padding: 10px 0;
-  }
-  
-  /* Left-align the location and links while keeping them in center */
-  .author__urls-wrapper {
-    font-size: 1.2em !important;
-    max-width: 220px;
-    margin: 0 auto;
-    text-align: left;
-  }
-  
-  /* Responsive design - make it work on mobile */
+  /* Responsive design for mobile */
   @media (max-width: 768px) {
     .sidebar {
       width: 100% !important;
@@ -159,9 +146,7 @@
       margin-left: 0 !important;
     }
     .author__avatar img {
-      width: 200px !important;
+      width: 150px !important;
     }
   }
 </style>
-
-
