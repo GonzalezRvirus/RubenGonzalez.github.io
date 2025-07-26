@@ -117,8 +117,3 @@ Currently, I am Pasteur-Roux-Cantarini Postdoctoral Fellow at [Carla Saleh Labor
     <p>Evolutionary Systems Virology<br>(Santiago F. Elena Lab, 2021)</p>
   </div>
 </div>
-
-<div class="cv-section">
-  <h2>Curriculum Vitae</h2>
-  <a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank" class="btn--primary">Download CV (PDF)</a>
-</div>
