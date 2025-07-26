@@ -113,7 +113,7 @@ author_profile: true
 
 /* Intro box styling */
 .intro-box {
-    background-color: #f8f9fa;
+    background-color: #e8f0fe;
     padding: 28px 32px;
     border-radius: 12px;
     margin-bottom: 36px;
