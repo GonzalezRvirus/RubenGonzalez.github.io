@@ -122,12 +122,3 @@ Currently, I am Pasteur-Roux-Cantarini Postdoctoral Fellow at [Carla Saleh Labor
   <h2>Curriculum Vitae</h2>
   <a href="https://github.com/GonzalezRvirus/RubenGonzalez.github.io/raw/master/_pages/CV.pdf" target="_blank" class="btn--primary">Download CV (PDF)</a>
 </div>
-
-<div style="text-align: center; margin: 3em 0;">
-  <h2 style="color: #202124; margin-bottom: 1em;">Connec</h2>
-  <p style="font-size: 1.1em; color: #5f6368; margin-bottom: 2em;">
-    I'm always interested in discussing new ideas and potential collaborations.<br>
-    Feel free to reach out if you share interests in viral evolution, host-pathogen interactions, or model system biology.
-  </p>
-  <a href="mailto:ruben.gonzalez@pasteur.fr" class="btn--primary btn--large">Get in Touch</a>
-</div>
