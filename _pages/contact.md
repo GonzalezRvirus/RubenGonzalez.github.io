@@ -11,7 +11,7 @@ redirect_from:
 /* Connect section */
 .connect-header {
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   padding: 2em;
   background: #f8f9fa;
   border-radius: 9px;
@@ -19,7 +19,7 @@ redirect_from:
 
 .connect-header h1 {
   color: #202124;
-  margin-bottom: 035em;
+  margin-bottom: 2em;
   font-size: 2.2em;
   font-weight: 500;
 }
