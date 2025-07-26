@@ -11,7 +11,7 @@ title                    : "Rubén González"
 title_separator          : "-"
 name                     : &name "Rubén González"
 description              : &description "Personal website"
-url                      : https://gonzalezrvirus.github.io/RubenGonzalez.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://gonzalezrvirus.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "GonzalezRvirus/RubenGonzalez.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -50,7 +50,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : meta name="google-site-verification" content="jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A"
+google_site_verification : "jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A"
 bing_site_verification   : rel="me" href="https://mstdn.science/@RubenGonzalez"
 alexa_site_verification  :
 yandex_site_verification :
@@ -66,10 +66,13 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: "@RubenGonzalez@mstdn.science"
-
+  type: Person
+  name: "Rubén González"
+  links:
+    - "https://twitter.com/GonzalezRvirus"
+    - "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
+    - "https://orcid.org/0000-0001-9588-1127"
+    - "https://www.researchgate.net/profile/Ruben_Gonzalez23"
 
 # Analytics
 analytics:
@@ -87,7 +90,7 @@ author:
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
-  email            : "ruben.gonzalez@bio.ens.psl.eu"
+  email            : "ruben.gonzalez-miguelez@pasteur.fr"
   researchgate     : "https://www.researchgate.net/profile/Ruben_Gonzalez23"
   uri              :
   bitbucket        :
@@ -109,7 +112,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           : 
-  twitter          : "@GonzalezRvirus"
+  twitter          :
   vine             :
   weibo            :
   xing             :
