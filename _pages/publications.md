@@ -7,123 +7,124 @@ author_profile: true
 
 <style>
 .research-area {
-    margin-bottom: 30px;
-    border-radius: 8px;
+    margin-bottom: 32px;
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
 }
 .area-header {
-    padding: 20px 24px;
+    padding: 28px 32px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #f5f6f7;
     transition: background-color 0.2s;
 }
 .area-header:hover {
-    filter: brightness(0.95);
+    background-color: #eef0f2;
 }
 .area-header h2 {
     margin: 0;
-    color: white;
-    font-weight: 500;
-    font-size: 1.5em;
+    color: #1a73e8;
+    font-weight: 600;
+    font-size: 1.6em;
+    letter-spacing: -0.02em;
 }
 .area-subtitle {
-    color: rgba(255,255,255,0.85);
+    color: #5f6368;
     font-style: normal;
-    margin-top: 5px;
+    margin-top: 6px;
     font-size: 0.95em;
+    line-height: 1.4;
 }
 .collapse-icon {
     font-size: 20px;
-    color: rgba(255,255,255,0.9);
+    color: #1a73e8;
     transition: transform 0.3s;
 }
 .collapsed .collapse-icon {
     transform: rotate(-90deg);
 }
 .area-content {
-    padding: 24px;
+    padding: 0 32px 28px 32px;
     max-height: 10000px;
     transition: max-height 0.3s ease-out, padding 0.3s ease-out;
-    background-color: #fafbfc;
+    background-color: #ffffff;
 }
 .collapsed .area-content {
     max-height: 0;
-    padding: 0 24px;
+    padding: 0 32px;
     overflow: hidden;
 }
 .paper {
-    margin-bottom: 16px;
-    padding: 16px;
-    border-radius: 6px;
-    background-color: white;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    transition: box-shadow 0.2s;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    transition: all 0.2s;
 }
 .paper:hover {
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    background-color: #f1f3f4;
+    transform: translateY(-1px);
 }
 .paper-title {
     font-size: 1.05em;
     font-weight: 600;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     line-height: 1.4;
-    color: #1a1a1a;
+    color: #202124;
 }
 .paper-meta {
     font-size: 0.85em;
     color: #5f6368;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 .paper-meta a {
-    color: #2962ff;
+    color: #1a73e8;
     text-decoration: none;
+    font-weight: 500;
 }
 .paper-meta a:hover {
     text-decoration: underline;
 }
 .paper-description {
     font-size: 0.92em;
-    line-height: 1.5;
+    line-height: 1.6;
     color: #3c4043;
 }
 .commentary-link {
     display: inline-block;
     background-color: #e8f0fe;
     color: #1967d2;
-    padding: 3px 10px;
-    border-radius: 12px;
+    padding: 2px 10px;
+    border-radius: 14px;
     font-size: 0.75em;
     margin-left: 10px;
     font-weight: 500;
     text-decoration: none;
+    transition: background-color 0.2s;
 }
 .commentary-link:hover {
     background-color: #d2e3fc;
     text-decoration: none;
 }
-.highlight-paper {
-    border-left: 3px solid;
+
+/* Intro box styling */
+.intro-box {
     background-color: #f8f9fa;
+    padding: 28px 32px;
+    border-radius: 12px;
+    margin-bottom: 36px;
+    border: 1px solid #e8eaed;
 }
-
-/* Lighter blue palette */
-.area-evolution { background-color: #5b7aa1; }
-.area-evolution .highlight-paper { border-left-color: #5b7aa1; }
-
-.area-physiology { background-color: #6b8aaf; }
-.area-physiology .highlight-paper { border-left-color: #6b8aaf; }
-
-.area-genetics { background-color: #7b99bd; }
-.area-genetics .highlight-paper { border-left-color: #7b99bd; }
-
-.area-environment { background-color: #8ba7c9; }
-.area-environment .highlight-paper { border-left-color: #8ba7c9; }
-
-.area-other { background-color: #9bb5d5; }
-.area-other .highlight-paper { border-left-color: #9bb5d5; }
+.intro-box p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    color: #3c4043;
+    margin: 0;
+}
 </style>
 
 <script>
@@ -133,8 +134,8 @@ function toggleSection(sectionId) {
 }
 </script>
 
-<div style="background-color: #f0f7ff; padding: 24px; border-radius: 8px; margin-bottom: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.08);">
-<p style="font-size: 1.1em; line-height: 1.6;">
+<div class="intro-box">
+<p>
 My research investigates the fundamental principles governing host-pathogen interactions across model systems. By integrating evolutionary biology, molecular virology, and systems approaches, we uncover how viruses evolve, impact host biology, and interact with environmental factors to shape infection outcomes.
 </p>
 </div>
@@ -142,7 +143,7 @@ My research investigates the fundamental principles governing host-pathogen inte
 
 
 <!-- VIRUS EVOLUTION -->
-<div id="evolution" class="research-area area-evolution">
+<div id="evolution" class="research-area">
     <div class="area-header" onclick="toggleSection('evolution')">
         <div>
             <h2>Virus evolution</h2>
@@ -170,7 +171,7 @@ My research investigates the fundamental principles governing host-pathogen inte
             <div class="paper-description">Different host defense signaling pathways constrain virus evolution in distinct ways.</div>
         </div>
 
-        <div class="paper highlight-paper">
+        <div class="paper">
             <div class="paper-title">Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism
             <a href="https://www.pnas.org/doi/10.1073/pnas.2100936118" class="commentary-link">Commentary</a></div>
             <div class="paper-meta">González R et al. • <em>PNAS</em> 2021 • <a href="https://doi.org/10.1073/pnas.2020990118">Link</a></div>
@@ -195,7 +196,7 @@ My research investigates the fundamental principles governing host-pathogen inte
             <div class="paper-description">Viruses specialize faster in homogeneous host populations but become more pathogenic in heterogeneous ones.</div>
         </div>
 
-        <div class="paper highlight-paper">
+        <div class="paper">
             <div class="paper-title">Mutagenesis scanning uncovers evolutionary constraints on tobacco etch potyvirus membrane-associated 6K2 protein</div>
             <div class="paper-meta">González R^ et al. • <em>Genome Biol Evol</em> 2019 • <a href="https://doi.org/10.1093/gbe/evz069">Link</a></div>
             <div class="paper-description">Revealed evolutionary tradeoffs between within-host viral accumulation and symptom severity.</div>
@@ -204,7 +205,7 @@ My research investigates the fundamental principles governing host-pathogen inte
 </div>
 
 <!-- VIRAL IMPACTS ON HOST PHYSIOLOGY -->
-<div id="physiology" class="research-area area-physiology collapsed">
+<div id="physiology" class="research-area collapsed">
     <div class="area-header" onclick="toggleSection('physiology')">
         <div>
             <h2>Viral impacts on host physiology</h2>
@@ -253,7 +254,7 @@ My research investigates the fundamental principles governing host-pathogen inte
 </div>
 
 <!-- GENETIC ARCHITECTURE -->
-<div id="genetics" class="research-area area-genetics collapsed">
+<div id="genetics" class="research-area collapsed">
     <div class="area-header" onclick="toggleSection('genetics')">
         <div>
             <h2>Genetic architecture of host-virus interactions</h2>
@@ -263,7 +264,7 @@ My research investigates the fundamental principles governing host-pathogen inte
     </div>
     <div class="area-content">
         
-        <div class="paper highlight-paper">
+        <div class="paper">
             <div class="paper-title">Genetic basis of <em>Arabidopsis thaliana</em> responses to turnip mosaic virus</div>
             <div class="paper-meta">Butkovic A^ et al. • <em>eLife</em> 2024 • <a href="https://doi.org/10.7554/eLife.89749.1">Link</a></div>
             <div class="paper-description">Identified genetic underpinnings of plant resistance to naïve and adapted viral isolates.</div>
@@ -290,7 +291,7 @@ My research investigates the fundamental principles governing host-pathogen inte
 </div>
 
 <!-- ENVIRONMENTAL MODULATION -->
-<div id="environment" class="research-area area-environment collapsed">
+<div id="environment" class="research-area collapsed">
     <div class="area-header" onclick="toggleSection('environment')">
         <div>
             <h2>Environmental modulation of host-virus interactions</h2>
@@ -306,7 +307,7 @@ My research investigates the fundamental principles governing host-pathogen inte
             <div class="paper-description">Space-like conditions impact fecundity and developmental success in infected animals.</div>
         </div>
 
-        <div class="paper highlight-paper">
+        <div class="paper">
             <div class="paper-title">Natural monobacterial environments modulate viral infection in <em>C. elegans</em></div>
             <div class="paper-meta">González R† & Félix M-A† • <em>PLoS Pathog</em> 2024 • <a href="https://doi.org/10.1371/journal.ppat.1011947">Link</a></div>
             <div class="paper-description">Natural bacteria reduce viral susceptibility through novel DRH-1-dependent mechanisms without degrading virions or affecting nutrition.</div>
@@ -321,7 +322,7 @@ My research investigates the fundamental principles governing host-pathogen inte
 </div>
 
 <!-- OTHER CONTRIBUTIONS -->
-<div id="other" class="research-area area-other collapsed">
+<div id="other" class="research-area collapsed">
     <div class="area-header" onclick="toggleSection('other')">
         <div>
             <h2>Other contributions</h2>
