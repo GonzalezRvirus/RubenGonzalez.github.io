@@ -30,16 +30,23 @@ author_profile: true
   text-align: center;
 }
 
-/* PDF Embed Styling */
-.pdf-viewer {
+/* PDF Embed Styling for IFRAME */
+.pdf-viewer-container {
   width: 100%;
   height: 800px; /* Provides a large area for viewing */
   border: 1px solid #ddd;
   border-radius: 8px;
+  overflow: hidden; /* Ensures no internal scrollbars break layout */
+}
+
+.pdf-viewer-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 @media (max-width: 768px) {
-  .pdf-viewer {
+  .pdf-viewer-container {
     height: 500px; /* Reduced height on mobile */
   }
 }
@@ -51,9 +58,11 @@ author_profile: true
   </a>
 </div>
 
-<object data="{{ site.baseurl }}/files/cv.pdf" type="application/pdf" class="pdf-viewer">
-  <div style="text-align: center; padding: 50px; background: #f9f9f9; border-radius: 8px;">
-    <p>Your browser does not support inline PDF viewing.</p>
-    <a href="{{ site.baseurl }}/files/cv.pdf" style="color: #1c7ed6; font-weight: bold;">Click here to download the PDF</a>
-  </div>
-</object>
+<div class="pdf-viewer-container">
+  <iframe src="https://docs.google.com/gview?url={{ site.url }}/files/cv.pdf&embedded=true" frameborder="0">
+    <div style="text-align: center; padding: 50px; background: #f9f9f9; border-radius: 8px;">
+      <p>Your browser cannot display the CV viewer.</p>
+      <a href="{{ site.baseurl }}/files/cv.pdf" style="color: #1c7ed6; font-weight: bold;">Click here to download the PDF</a>
+    </div>
+  </iframe>
+</div>
