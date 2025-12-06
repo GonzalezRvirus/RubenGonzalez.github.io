@@ -43,8 +43,7 @@ social:
   type: Person
   name: "Rubén González"
   links:
-    - "https://twitter.com/GonzalezRvirus"
-    - "https://www.linkedin.com/in/gonzalezrvirus/"
+    - "https://www.linkedin.com/in/gonzalezrvirus"
     - "https://bsky.app/profile/rubengonzalez.bsky.social"
     - "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
     - "https://orcid.org/0000-0001-9588-1127"
@@ -67,9 +66,7 @@ author:
   googlescholar: "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
   researchgate: "https://www.researchgate.net/profile/Ruben_Gonzalez23"
   orcid: "http://orcid.org/0000-0001-9588-1127"
-  github: "GonzalezRvirus"
-  twitter: "GonzalezRvirus"
-  linkedin: "https://www.linkedin.com/in/gonzalezrvirus/"
+  linkedin: "https://www.linkedin.com/in/gonzalezrvirus"
   bluesky: "https://bsky.app/profile/rubengonzalez.bsky.social"
 
 
