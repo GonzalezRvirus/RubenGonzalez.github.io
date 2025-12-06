@@ -2,14 +2,14 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 <style>
 /* --- CLEAN LAYOUT --- */
 .research-area {
     margin-bottom: 20px;
-    border-top: 1px solid #000; /* Minimalist divider */
+    border-top: 1px solid #000;
 }
 
 /* --- HEADER --- */
@@ -65,7 +65,7 @@ author_profile: true
 .paper {
     margin-bottom: 25px;
     padding-left: 15px;
-    border-left: 2px solid #f0f0f0; /* Subtle guide line */
+    border-left: 2px solid #f0f0f0;
     transition: border-color 0.2s;
 }
 .paper:hover {
@@ -84,12 +84,6 @@ author_profile: true
     font-family: sans-serif;
     font-size: 0.9em;
     color: #555;
-}
-
-.paper-meta em {
-    color: #000;
-    font-style: italic;
-    font-weight: 500;
 }
 
 .paper-meta a {
