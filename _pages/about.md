@@ -18,7 +18,7 @@ redirect_from:
 
 .vision-statement {
   font-family: "Georgia", "Times New Roman", serif;
-  font-size: 1.5em;
+  font-size: 1.6em; /* Increased size */
   line-height: 1.5;
   color: #202124;
   font-weight: 300;
@@ -31,9 +31,9 @@ redirect_from:
 
 /* --- BIO & NARRATIVE --- */
 .bio-section {
-  font-size: 1.05em;
+  font-size: 1.15em; /* Increased for readability */
   line-height: 1.8;
-  color: #4a4a4a;
+  color: #333;
   margin-bottom: 50px;
 }
 
@@ -78,8 +78,8 @@ redirect_from:
 
 .gallery-caption {
   margin-top: 12px;
-  font-size: 0.85em;
-  color: #777;
+  font-size: 1.0em; /* Fixed: Was too small */
+  color: #555;
   font-family: sans-serif;
   letter-spacing: 0.02em;
 }
@@ -102,10 +102,7 @@ redirect_from:
   </p>
   
   <p>
-    Currently, I am a Pasteur-Roux-Cantarini Postdoctoral Fellow at the <a href="http://salehlab.eu">Carla Saleh Laboratory</a> (Institut Pasteur, France). Here I am a happy researcher studying viral infections in the fly <em>Drosophila melanogaster</em> 
-
-[Image of Drosophila melanogaster]
-. My research here focuses in the aging induced by viruses, the impact of the microbiome on infections, and the evolution of RNA viruses.
+    Currently, I am a Pasteur-Roux-Cantarini Postdoctoral Fellow at the <a href="http://salehlab.eu">Carla Saleh Laboratory</a> (Institut Pasteur, France). Here I am a happy researcher studying viral infections in the fly <em>Drosophila melanogaster</em>. My research here focuses in the aging induced by viruses, the impact of the microbiome on infections, and the evolution of RNA viruses.
   </p>
 </div>
 
