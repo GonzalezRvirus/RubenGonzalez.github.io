@@ -22,12 +22,13 @@ comments:
   provider: false
 atom_feed:
   path: # blank (default) uses feed.xml
+description: &description "Scientist focused on viral interactions and evolution."
+keywords: "Rubén González, Viral Evolution, Host-Pathogen Interactions, Drosophila, C. elegans, Institut Pasteur, Postdoctoral Research, Virology"
+url: https://gonzalezrvirus.com
 
 # SEO Related
 google_site_verification: "jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A"
-bing_site_verification:
-alexa_site_verification:
-yandex_site_verification:
+
 
 # Social Sharing
 twitter:
