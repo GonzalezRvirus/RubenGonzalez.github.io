@@ -2,156 +2,111 @@
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Rubén González"
-title_separator          : "-"
-name                     : &name "Rubén González"
-description              : &description "Personal website"
-url: https://gonzalezrvirus.github.io/RubenGonzalez.github.io
+locale                   : "en-US"
+title                    : "Rubén González"
+title_separator          : "-"
+name                     : &name "Rubén González"
+description              : &description "Scientist focused on viral interactions and evolution."
+url: https://gonzalezrvirus.com
 baseurl: ""
-repository               : "GonzalezRvirus/RubenGonzalez.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
+repository               : "GonzalezRvirus/RubenGonzalez.github.io"
+teaser                   : "/images/pic_2.png" # Using your profile picture for social shares
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false # Disable unused talkmap link
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  provider               : false # Disabling comments by default (cleaner)
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : # blank (default) uses feed.xml
 
 # SEO Related
 google_site_verification : "jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A"
-bing_site_verification   : rel="me" href="https://mstdn.science/@RubenGonzalez"
-alexa_site_verification  :
+bing_site_verification   : # If you want to use the Mastodon/Bluesky link, put it in Author links, not here.
+alexa_site_verification  :
 yandex_site_verification :
 
-# Social Sharing
+# Social Sharing (Used for Open Graph cards when sharing links)
 twitter:
-  username               : &twitter
+  username               : "GonzalezRvirus"
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : "/images/pic_2.png" # Ensures your image is used for sharing previews
+
 # For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type: Person
-  name: "Rubén González"
-  links:
-    - "https://twitter.com/GonzalezRvirus"
-    - "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
-    - "https://orcid.org/0000-0001-9588-1127"
-    - "https://www.researchgate.net/profile/Ruben_Gonzalez23"
+  type: Person
+  name: "Rubén González"
+  links:
+    - "https://twitter.com/GonzalezRvirus"
+    - "https://www.linkedin.com/in/gonzalezrvirus/" # ADDED LINKEDIN HERE
+    - "https://bsky.app/profile/rubengonzalez.bsky.social" # ADDED BLUESKY HERE
+    - "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
+    - "https://orcid.org/0000-0001-9588-1127"
+    - "https://www.researchgate.net/profile/Ruben_Gonzalez23"
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
+  provider               : "google-universal"
+  google:
+    tracking_id          :
 
-
-# Site Author
+# Site Author (Sidebar Content)
 author:
-  name             : "Rubén González"
-  avatar           : "pic_2.png"
-  bio              : "Postdoctoral researcher"
-  location         : "Paris, France"
-  employer         : 
-  pubmed           : 
-  googlescholar    : "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
-  email            : "ruben.gonzalez-miguelez@pasteur.fr"
-  researchgate     : "https://www.researchgate.net/profile/Ruben_Gonzalez23"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : 
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : 
-  lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/0000-0001-9588-1127"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : 
-  steam            :
-  tumblr           : 
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
+  name             : "Rubén González"
+  avatar           : "pic_2.png" # Ensure this is the correct filename!
+  bio              : "Postdoctoral Fellow at Institut Pasteur studying viral evolution and host-pathogen interactions."
+  location         : "Paris, France"
+  employer         :
+  googlescholar    : "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
+  email            : "ruben.gonzalez-miguelez@pasteur.fr"
+  researchgate     : "https://www.researchgate.net/profile/Ruben_Gonzalez23"
+  # Removed all unused, blank fields below for clarity and simplicity:
+  github           : "GonzalezRvirus" # Keep only the username if you want the link to work via the standard theme structure.
+  twitter          : "GonzalezRvirus" # Keep only the username
+  linkedin         : "https://www.linkedin.com/in/gonzalezrvirus/" # ADDED LINKEDIN LINK
+  orcid            : "http://orcid.org/0000-0001-9588-1127"
+  # Add Bluesky to show up next to other icons
+  bluesky: "https://bsky.app/profile/rubengonzalez.bsky.social"
+  # Removed all other unused blank entries (pubmed, uri, bitbucket, etc.)
 
 # Reading Files
 include:
-  - .htaccess
-  - _pages
-  - files
+  - .htaccess
+  - _pages
+  - files # IMPORTANT: Ensures your CV.pdf is included
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
 keep_files:
-  - .git
-  - .svn
+  - .git
+  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -166,151 +121,128 @@ incremental: false
 
 # Markdown Processing
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 
-# Collections
+# Collections (Enabled by default, keeping for safety)
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
 
-# Defaults
+# Defaults (Keeping sidebar ON for all pages now)
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
+timezone: Europe/Paris # Changed to Paris time zone
 # Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
 
 
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
-  path: /categories/
+  type: liquid
+  path: /categories/
 tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+  type: liquid
+  path: /tags/
 
 
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
-  clippings: all
-  ignore:
-    envs: development
+  clippings: all
+  ignore:
+    envs: development
 
 theme: jekyll-theme-minimal
