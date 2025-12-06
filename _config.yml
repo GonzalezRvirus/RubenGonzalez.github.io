@@ -4,105 +4,107 @@
 # which you are expected to set up once and rarely need to edit after that.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Rubén González"
-title_separator          : "-"
-name                     : &name "Rubén González"
-description              : &description "Scientist focused on viral interactions and evolution."
+locale: "en-US"
+title: "Rubén González"
+title_separator: "-"
+name: &name "Rubén González"
+description: &description "Scientist focused on viral interactions and evolution."
 url: https://gonzalezrvirus.com
 baseurl: ""
-repository               : "GonzalezRvirus/RubenGonzalez.github.io"
-teaser                   : "/images/pic_2.png"
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled"
-talkmap_link             : false
+repository: "GonzalezRvirus/RubenGonzalez.github.io"
+teaser: "/images/pic_2.png"
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
 comments:
-  provider               : false
+  provider: false
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path: # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : "jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A"
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+google_site_verification: "jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A"
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 
 # Social Sharing
 twitter:
-  username               : "GonzalezRvirus"
-  app_id                 :
-  publisher              :
-og_image                 : "/images/pic_2.png"
+  username: "GonzalezRvirus"
+facebook:
+  username:
+  app_id:
+  publisher:
+og_image: "/images/pic_2.png"
 
 # For specifying social profiles
 social:
-  type: Person
-  name: "Rubén González"
-  links:
-    - "https://twitter.com/GonzalezRvirus"
-    - "https://www.linkedin.com/in/gonzalezrvirus/"
-    - "https://bsky.app/profile/rubengonzalez.bsky.social"
-    - "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
-    - "https://orcid.org/0000-0001-9588-1127"
-    - "https://www.researchgate.net/profile/Ruben_Gonzalez23"
+  type: Person
+  name: "Rubén González"
+  links:
+    - "https://twitter.com/GonzalezRvirus"
+    - "https://www.linkedin.com/in/gonzalezrvirus/"
+    - "https://bsky.app/profile/rubengonzalez.bsky.social"
+    - "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
+    - "https://orcid.org/0000-0001-9588-1127"
+    - "https://www.researchgate.net/profile/Ruben_Gonzalez23"
 
 # Analytics
 analytics:
-  provider               : "google-universal"
-  google:
-    tracking_id          :
+  provider: "google-universal"
+  google:
+    tracking_id:
 
 
 # Site Author (Sidebar Content)
 author:
-  name             : "Rubén González"
-  avatar           : "pic_2.png"
-  bio              : "Postdoctoral Fellow at Institut Pasteur studying viral evolution and host-pathogen interactions."
-  location         : "Paris, France"
-  email            : "ruben.gonzalez-miguelez@pasteur.fr"
-  googlescholar    : "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
-  researchgate     : "https://www.researchgate.net/profile/Ruben_Gonzalez23"
-  orcid            : "http://orcid.org/0000-0001-9588-1127"
-  github           : "GonzalezRvirus"
-  twitter          : "GonzalezRvirus"
-  linkedin         : "https://www.linkedin.com/in/gonzalezrvirus/"
+  name: "Rubén González"
+  avatar: "pic_2.png"
+  bio: "Postdoctoral Fellow at Institut Pasteur studying viral evolution and host-pathogen interactions."
+  location: "Paris, France"
+  email: "ruben.gonzalez-miguelez@pasteur.fr"
+  googlescholar: "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
+  researchgate: "https://www.researchgate.net/profile/Ruben_Gonzalez23"
+  orcid: "http://orcid.org/0000-0001-9588-1127"
+  github: "GonzalezRvirus"
+  twitter: "GonzalezRvirus"
+  linkedin: "https://www.linkedin.com/in/gonzalezrvirus/"
   bluesky: "https://bsky.app/profile/rubengonzalez.bsky.social"
 
 
 # Reading Files
 include:
-  - .htaccess
-  - _pages
-  - files
+  - .htaccess
+  - _pages
+  - files
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
 keep_files:
-  - .git
-  - .svn
+  - .git
+  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -117,125 +119,125 @@ incremental: false
 
 # Markdown Processing
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir: _sass
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
 timezone: Europe/Paris
 # Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
 
 
 # Archives
 category_archive:
-  type: liquid
-  path: /categories/
+  type: liquid
+  path: /categories/
 tag_archive:
-  type: liquid
-  path: /tags/
+  type: liquid
+  path: /tags/
 
 
 # HTML Compression
 compress_html:
-  clippings: all
-  ignore:
-    envs: development
+  clippings: all
+  ignore:
+    envs: development
 
 theme: jekyll-theme-minimal
