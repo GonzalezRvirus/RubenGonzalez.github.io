@@ -11,23 +11,22 @@ redirect_from:
 <style>
 /* --- VISION HERO SECTION --- */
 .vision-hero {
-  padding: 40px 0 60px 0;
+  padding: 20px 0 50px 0;
   border-bottom: 1px solid #eaeaea;
   margin-bottom: 40px;
 }
 
 .vision-statement {
-  font-family: "Georgia", "Times New Roman", serif; /* Serif font for authority */
-  font-size: 1.6em;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.5em;
   line-height: 1.5;
   color: #202124;
   font-weight: 300;
-  max-width: 900px;
 }
 
 .vision-statement strong {
   font-weight: 600;
-  color: #1a73e8; /* Subtle brand accent */
+  color: #1a73e8;
 }
 
 /* --- BIO & NARRATIVE --- */
@@ -36,7 +35,6 @@ redirect_from:
   line-height: 1.8;
   color: #4a4a4a;
   margin-bottom: 50px;
-  max-width: 800px;
 }
 
 .bio-section a {
@@ -61,7 +59,7 @@ redirect_from:
 .gallery-item {
   position: relative;
   overflow: hidden;
-  border-radius: 4px; /* Sharper corners for modern look */
+  border-radius: 4px;
 }
 
 .gallery-item img {
@@ -69,7 +67,7 @@ redirect_from:
   height: 220px;
   object-fit: cover;
   display: block;
-  filter: grayscale(10%); /* Slight desaturation for elegance */
+  filter: grayscale(10%);
   transition: filter 0.3s, transform 0.5s;
 }
 
@@ -103,13 +101,12 @@ redirect_from:
     After my PhD, I obtained an <a href="https://www.embo.org/about-embo/mission/">EMBO Postdoctoral Fellowship</a> and joined the <a href="https://www.ibens.ens.fr/?rubrique29&lang=en">Marie-Anne Félix Laboratory</a> (IBENS, France). There I investigated host factors and bacterial environments that modulate the nematode <em>Caenorhabditis elegans</em> susceptibility to Orsay virus infection.
   </p>
   
-  [Image of Caenorhabditis elegans]
-
   <p>
-    Currently, I am a Pasteur-Roux-Cantarini Postdoctoral Fellow at the <a href="http://salehlab.eu">Carla Saleh Laboratory</a> (Institut Pasteur, France). Here I am a happy researcher studying viral infections in the fly <em>Drosophila melanogaster</em>. My research here focuses in the aging induced by viruses, the impact of the microbiome on infections, and the evolution of RNA viruses.
+    Currently, I am a Pasteur-Roux-Cantarini Postdoctoral Fellow at the <a href="http://salehlab.eu">Carla Saleh Laboratory</a> (Institut Pasteur, France). Here I am a happy researcher studying viral infections in the fly <em>Drosophila melanogaster</em> 
+
+[Image of Drosophila melanogaster]
+. My research here focuses in the aging induced by viruses, the impact of the microbiome on infections, and the evolution of RNA viruses.
   </p>
-  
-  [Image of Drosophila melanogaster]
 </div>
 
 <div class="gallery-container">
