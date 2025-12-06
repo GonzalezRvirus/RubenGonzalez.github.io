@@ -39,3 +39,24 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* --- Custom Sidebar Profile Enhancements (More PI Look) --- */
+
+/* 1. Make the picture bigger and add subtle definition */
+.author__avatar img {
+  max-width: 200px !important; /* Increase size from default (usually 150px) */
+  height: 200px !important;
+  border: 4px solid #fff; /* White border separates it from the background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Adds depth */
+}
+
+/* 2. Improve Spacing/Weight for Authority */
+.author__content h3 {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.author__content p {
+    font-size: 1.05em;
+    line-height: 1.5;
+}
