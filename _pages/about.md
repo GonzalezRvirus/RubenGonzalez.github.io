@@ -87,7 +87,7 @@ redirect_from:
 
 <div class="vision-hero">
   <div class="vision-statement">
-    My research investigates the fundamental principles governing <strong>host-pathogen interactions</strong> across model systems. 
+    My research investigates the fundamental principles governing <strong>viral infections and virus evolution</strong> across model systems. 
     <br><br>
     By integrating evolutionary biology, molecular virology, and systems approaches, we uncover how viruses evolve, impact host biology, and interact with environmental factors to shape infection outcomes.
   </div>
