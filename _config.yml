@@ -17,15 +17,15 @@ breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled"
-talkmap_link             : false # Disable unused talkmap link
+talkmap_link             : false
 comments:
-  provider               : false # Disabling comments by default (cleaner)
+  provider               : false
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
 google_site_verification : "jFT686mDMCR89e3trFC0o-h9D-dPdchNqx1MZ6NYk6A"
-bing_site_verification   : # If you want to use the Mastodon/Bluesky link, put it in Author links, not here.
+bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
@@ -36,7 +36,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/images/pic_2.png" # Ensures your image is used for sharing previews
+og_image                 : "/images/pic_2.png"
 
 # For specifying social profiles
 social:
@@ -44,8 +44,8 @@ social:
   name: "Rubén González"
   links:
     - "https://twitter.com/GonzalezRvirus"
-    - "https://www.linkedin.com/in/gonzalezrvirus/" # ADDED LINKEDIN HERE
-    - "https://bsky.app/profile/rubengonzalez.bsky.social" # ADDED BLUESKY HERE
+    - "https://www.linkedin.com/in/gonzalezrvirus/"
+    - "https://bsky.app/profile/rubengonzalez.bsky.social"
     - "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
     - "https://orcid.org/0000-0001-9588-1127"
     - "https://www.researchgate.net/profile/Ruben_Gonzalez23"
@@ -56,30 +56,30 @@ analytics:
   google:
     tracking_id          :
 
+
 # Site Author (Sidebar Content)
 author:
   name             : "Rubén González"
   avatar           : "pic_2.png" # Ensure this is the correct filename!
   bio              : "Postdoctoral Fellow at Institut Pasteur studying viral evolution and host-pathogen interactions."
   location         : "Paris, France"
-  employer         :
-  googlescholar    : "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
   email            : "ruben.gonzalez-miguelez@pasteur.fr"
+  googlescholar    : "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
   researchgate     : "https://www.researchgate.net/profile/Ruben_Gonzalez23"
-  # Removed all unused, blank fields below for clarity and simplicity:
-  github           : "GonzalezRvirus" # Keep only the username if you want the link to work via the standard theme structure.
-  twitter          : "GonzalezRvirus" # Keep only the username
-  linkedin         : "https://www.linkedin.com/in/gonzalezrvirus/" # ADDED LINKEDIN LINK
-  orcid            : "http://orcid.org/0000-0001-9588-1127"
-  # Add Bluesky to show up next to other icons
+  orcid            : "http://orcid.org/0000-0001-9588-1127"
+  # -- These links will be generated into social icons in the sidebar --
+  github           : "GonzalezRvirus"
+  twitter          : "GonzalezRvirus"
+  linkedin         : "https://www.linkedin.com/in/gonzalezrvirus/"
   bluesky: "https://bsky.app/profile/rubengonzalez.bsky.social"
-  # Removed all other unused blank entries (pubmed, uri, bitbucket, etc.)
+  # Removed all unused blank fields (employer, pubmed, uri, bitbucket, etc.)
+
 
 # Reading Files
 include:
   - .htaccess
   - _pages
-  - files # IMPORTANT: Ensures your CV.pdf is included
+  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -131,7 +131,7 @@ kramdown:
   enable_coderay: false
 
 
-# Collections (Enabled by default, keeping for safety)
+# Collections (Keeping for template compatibility)
 collections:
   teaching:
     output: true
@@ -213,7 +213,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Europe/Paris # Changed to Paris time zone
+timezone: Europe/Paris
 # Plugins
 plugins:
   - jekyll-paginate
