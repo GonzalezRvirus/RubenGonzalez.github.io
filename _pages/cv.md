@@ -9,7 +9,7 @@ author_profile: true
 /* Button Styling */
 .btn-download {
   display: inline-block;
-  background-color: #1c7ed6; /* Matches new accent blue */
+  background-color: #1c7ed6;
   color: #fff !important;
   padding: 12px 25px;
   text-decoration: none;
@@ -33,14 +33,14 @@ author_profile: true
 /* PDF Embed Styling */
 .pdf-viewer {
   width: 100%;
-  height: 800px; /* Provides a large area for viewing */
+  height: 800px;
   border: 1px solid #ddd;
   border-radius: 8px;
 }
 
 @media (max-width: 768px) {
   .pdf-viewer {
-    height: 500px; /* Reduced height on mobile */
+    height: 500px;
   }
 }
 </style>
