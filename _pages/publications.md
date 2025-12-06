@@ -16,7 +16,7 @@ author_profile: true
     background-color: transparent;
 }
 
-/* --- 2. SECTION HEADERS (Modern Soft Look) --- */
+/* --- 2. SECTION HEADERS (Add Contrast) --- */
 .area-header {
     padding: 20px 25px;
     cursor: pointer;
@@ -26,25 +26,25 @@ author_profile: true
     background-color: #f7f9fc; /* Very light grey-blue */
     border-radius: 8px; 
     transition: background-color 0.2s, transform 0.2s;
-    border-left: 6px solid #1c7ed6; /* A slightly richer blue accent */
+    border-left: 6px solid #1c7ed6; /* Blue accent strip */
 }
 
 .area-header:hover {
     background-color: #eaf1f7; /* Soft hover color */
-    transform: translateX(3px); /* More noticeable hover */
+    transform: translateX(3px);
 }
 
 .area-header h2 {
     margin: 0;
     color: #000;
     font-weight: 700;
-    font-size: 1.5em; /* Increased header size */
+    font-size: 1.4em;
     letter-spacing: -0.01em;
 }
 
 .area-subtitle {
     color: #555;
-    font-size: 1.0em;
+    font-size: 0.95em;
     margin-top: 5px;
     font-weight: 400;
     line-height: 1.4;
@@ -74,9 +74,9 @@ author_profile: true
 }
 
 .paper:hover {
-    border-color: #1c7ed6; /* Accent border on hover */
+    border-color: #1c7ed6;
     box-shadow: 0 5px 15px rgba(28, 126, 214, 0.2);
-    transform: translateY(-4px); /* Stronger pop effect */
+    transform: translateY(-4px);
 }
 
 .paper-title {
@@ -109,7 +109,7 @@ author_profile: true
 
 .paper-description {
     font-size: 1.1em;
-    color: #333; /* Darker text for readability */
+    color: #333;
     line-height: 1.6;
 }
 
