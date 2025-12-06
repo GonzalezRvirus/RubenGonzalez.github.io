@@ -18,7 +18,7 @@ redirect_from:
 
 .vision-statement {
   font-family: "Georgia", "Times New Roman", serif;
-  font-size: 1.6em; /* Increased size */
+  font-size: 1.6em; /* Increased size for authority */
   line-height: 1.5;
   color: #202124;
   font-weight: 300;
@@ -26,7 +26,7 @@ redirect_from:
 
 .vision-statement strong {
   font-weight: 600;
-  color: #1a73e8;
+  color: #1c7ed6; /* New accent blue */
 }
 
 /* --- BIO & NARRATIVE --- */
@@ -38,14 +38,14 @@ redirect_from:
 }
 
 .bio-section a {
-  color: #1a73e8;
+  color: #1c7ed6;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s;
 }
 
 .bio-section a:hover {
-  border-bottom: 1px solid #1a73e8;
+  border-bottom: 1px solid #1c7ed6;
 }
 
 /* --- MINIMALIST GALLERY --- */
@@ -78,7 +78,7 @@ redirect_from:
 
 .gallery-caption {
   margin-top: 12px;
-  font-size: 1.0em; /* Fixed: Was too small */
+  font-size: 1.0em;
   color: #555;
   font-family: sans-serif;
   letter-spacing: 0.02em;
@@ -102,7 +102,10 @@ redirect_from:
   </p>
   
   <p>
-    Currently, I am a Pasteur-Roux-Cantarini Postdoctoral Fellow at the <a href="http://salehlab.eu">Carla Saleh Laboratory</a> (Institut Pasteur, France). Here I am a happy researcher studying viral infections in the fly <em>Drosophila melanogaster</em>. My research here focuses in the aging induced by viruses, the impact of the microbiome on infections, and the evolution of RNA viruses.
+    Currently, I am a Pasteur-Roux-Cantarini Postdoctoral Fellow at the <a href="http://salehlab.eu">Carla Saleh Laboratory</a> (Institut Pasteur, France). Here I am a happy researcher studying viral infections in the fly <em>Drosophila melanogaster</em> 
+
+[Image of Drosophila melanogaster]
+. My research here focuses in the aging induced by viruses, the impact of the microbiome on infections, and the evolution of RNA viruses.
   </p>
 </div>
 
