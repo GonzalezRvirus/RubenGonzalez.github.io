@@ -33,10 +33,10 @@ author_profile: false
     letter-spacing: 0.05em;
 }
 .area-subtitle {
-    color: #666;
-    font-size: 0.9em;
+    color: #555;
+    font-size: 1.0em; /* Fixed: Increased size */
     margin-top: 5px;
-    font-weight: 300;
+    font-weight: 400; /* Made slightly heavier */
     max-width: 800px;
 }
 
@@ -73,7 +73,7 @@ author_profile: false
 }
 
 .paper-title {
-    font-size: 1.1em;
+    font-size: 1.15em; /* Fixed: Increased size */
     font-weight: 600;
     color: #202124;
     line-height: 1.4;
@@ -82,7 +82,7 @@ author_profile: false
 
 .paper-meta {
     font-family: sans-serif;
-    font-size: 0.9em;
+    font-size: 1.0em; /* Fixed: Increased from 0.9em */
     color: #555;
 }
 
@@ -90,7 +90,7 @@ author_profile: false
     color: #1a73e8;
     text-decoration: none;
     margin-left: 8px;
-    font-size: 0.85em;
+    font-size: 0.9em;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.05em;
@@ -98,9 +98,9 @@ author_profile: false
 
 .paper-description {
     margin-top: 6px;
-    font-size: 0.95em;
-    color: #666;
-    line-height: 1.5;
+    font-size: 1.05em; /* Fixed: Increased size */
+    color: #444;
+    line-height: 1.6;
 }
 </style>
 
@@ -111,7 +111,7 @@ function toggleSection(sectionId) {
 }
 </script>
 
-<div id="evolution" class="research-area">
+<div id="evolution" class="research-area collapsed">
     <div class="area-header" onclick="toggleSection('evolution')">
         <div>
             <h2>Virus evolution</h2>
