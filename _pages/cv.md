@@ -33,27 +33,27 @@ author_profile: true
 /* PDF Embed Styling */
 .pdf-viewer {
   width: 100%;
-  height: 800px;
+  height: 800px; /* Provides a large area for viewing */
   border: 1px solid #ddd;
   border-radius: 8px;
 }
 
 @media (max-width: 768px) {
   .pdf-viewer {
-    height: 500px;
+    height: 500px; /* Reduced height on mobile */
   }
 }
 </style>
 
 <div class="btn-container">
-  <a href="/files/cv.pdf" class="btn-download" target="_blank">
+  <a href="{{ site.baseurl }}/files/cv.pdf" class="btn-download" target="_blank">
     <i class="fas fa-file-download"></i> Download Full CV (PDF)
   </a>
 </div>
 
-<object data="/files/cv.pdf" type="application/pdf" class="pdf-viewer">
+<object data="{{ site.baseurl }}/files/cv.pdf" type="application/pdf" class="pdf-viewer">
   <div style="text-align: center; padding: 50px; background: #f9f9f9; border-radius: 8px;">
     <p>Your browser does not support inline PDF viewing.</p>
-    <a href="/files/cv.pdf" style="color: #1c7ed6; font-weight: bold;">Click here to download the PDF</a>
+    <a href="{{ site.baseurl }}/files/cv.pdf" style="color: #1c7ed6; font-weight: bold;">Click here to download the PDF</a>
   </div>
 </object>
