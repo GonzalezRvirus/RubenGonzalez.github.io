@@ -7,9 +7,8 @@ author_profile: true
 
 <style>
 /* --- 1. LAYOUT & TYPOGRAPHY --- */
-/* Make the whole container wider if the template allows */
 .archive {
-  font-size: 1.1em; /* Base font size increase */
+  font-size: 1.1em;
 }
 
 .research-area {
@@ -17,42 +16,41 @@ author_profile: true
     background-color: transparent;
 }
 
-/* --- 2. SECTION HEADERS (Add Contrast) --- */
+/* --- 2. SECTION HEADERS (Modern Soft Look) --- */
 .area-header {
     padding: 20px 25px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f1f3f4; /* Light grey background for structure */
-    border-radius: 8px; /* Rounded corners */
+    background-color: #f7f9fc; /* Very light grey-blue */
+    border-radius: 8px; 
     transition: background-color 0.2s, transform 0.2s;
-    border-left: 6px solid #1a73e8; /* Blue accent strip */
+    border-left: 6px solid #1c7ed6; /* A slightly richer blue accent */
 }
 
 .area-header:hover {
-    background-color: #e8eaed;
-    transform: translateX(2px);
+    background-color: #eaf1f7; /* Soft hover color */
+    transform: translateX(3px); /* More noticeable hover */
 }
 
 .area-header h2 {
     margin: 0;
-    color: #202124;
+    color: #000;
     font-weight: 700;
-    font-size: 1.4em; /* Big header text */
+    font-size: 1.5em; /* Increased header size */
     letter-spacing: -0.01em;
-    border-bottom: none; /* Remove default underline */
 }
 
 .area-subtitle {
     color: #555;
-    font-size: 0.95em;
+    font-size: 1.0em;
     margin-top: 5px;
     font-weight: 400;
     line-height: 1.4;
 }
 
-/* --- 3. PAPER "CARDS" (Not Boring!) --- */
+/* --- 3. PAPER "CARDS" (High Contrast) --- */
 .area-content {
     padding: 15px 5px;
     max-height: 10000px;
@@ -66,23 +64,23 @@ author_profile: true
 }
 
 .paper {
-    background: #fff; /* White background */
+    background: #fff;
     margin-bottom: 20px;
     padding: 25px;
     border-radius: 8px;
-    border: 1px solid #e0e0e0; /* Subtle border */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* 3D Effect */
-    transition: all 0.2s ease;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Smoother, more visible shadow */
+    transition: all 0.3s ease;
 }
 
 .paper:hover {
-    border-color: #1a73e8;
-    box-shadow: 0 5px 15px rgba(26, 115, 232, 0.15); /* Pop out effect */
-    transform: translateY(-2px);
+    border-color: #1c7ed6; /* Accent border on hover */
+    box-shadow: 0 5px 15px rgba(28, 126, 214, 0.2);
+    transform: translateY(-4px); /* Stronger pop effect */
 }
 
 .paper-title {
-    font-size: 1.25em; /* MUCH BIGGER TITLE */
+    font-size: 1.3em;
     font-weight: 700;
     color: #1a1a1a;
     line-height: 1.3;
@@ -91,15 +89,15 @@ author_profile: true
 
 .paper-meta {
     font-family: sans-serif;
-    font-size: 0.95em;
+    font-size: 1.0em;
     color: #555;
     margin-bottom: 12px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #f0f0f0;
     padding-bottom: 10px;
 }
 
 .paper-meta a {
-    color: #1a73e8;
+    color: #1c7ed6;
     text-decoration: none;
     font-weight: 600;
     background: #e8f0fe;
@@ -110,15 +108,15 @@ author_profile: true
 }
 
 .paper-description {
-    font-size: 1.05em; /* Bigger description text */
-    color: #444;
+    font-size: 1.1em;
+    color: #333; /* Darker text for readability */
     line-height: 1.6;
 }
 
 /* --- COLLAPSE ICON --- */
 .collapse-icon {
     font-size: 20px;
-    color: #1a73e8;
+    color: #1c7ed6;
     font-weight: bold;
 }
 .collapsed .collapse-icon {
