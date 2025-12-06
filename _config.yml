@@ -12,7 +12,7 @@ description              : &description "Scientist focused on viral inter
 url: https://gonzalezrvirus.com
 baseurl: ""
 repository               : "GonzalezRvirus/RubenGonzalez.github.io"
-teaser                   : "/images/pic_2.png" # Using your profile picture for social shares
+teaser                   : "/images/pic_2.png"
 breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
@@ -29,7 +29,7 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-# Social Sharing (Used for Open Graph cards when sharing links)
+# Social Sharing
 twitter:
   username               : "GonzalezRvirus"
 facebook:
@@ -60,19 +60,17 @@ analytics:
 # Site Author (Sidebar Content)
 author:
   name             : "Rubén González"
-  avatar           : "pic_2.png" # Ensure this is the correct filename!
+  avatar           : "pic_2.png"
   bio              : "Postdoctoral Fellow at Institut Pasteur studying viral evolution and host-pathogen interactions."
   location         : "Paris, France"
   email            : "ruben.gonzalez-miguelez@pasteur.fr"
   googlescholar    : "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
   researchgate     : "https://www.researchgate.net/profile/Ruben_Gonzalez23"
   orcid            : "http://orcid.org/0000-0001-9588-1127"
-  # -- These links will be generated into social icons in the sidebar --
   github           : "GonzalezRvirus"
   twitter          : "GonzalezRvirus"
   linkedin         : "https://www.linkedin.com/in/gonzalezrvirus/"
   bluesky: "https://bsky.app/profile/rubengonzalez.bsky.social"
-  # Removed all unused blank fields (employer, pubmed, uri, bitbucket, etc.)
 
 
 # Reading Files
@@ -131,7 +129,7 @@ kramdown:
   enable_coderay: false
 
 
-# Collections (Keeping for template compatibility)
+# Collections
 collections:
   teaching:
     output: true
@@ -147,7 +145,7 @@ collections:
     permalink: /:collection/:path/
 
 
-# Defaults (Keeping sidebar ON for all pages now)
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -206,13 +204,10 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
 timezone: Europe/Paris
 # Plugins
 plugins:
