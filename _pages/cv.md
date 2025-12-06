@@ -9,7 +9,7 @@ author_profile: true
 /* Button Styling */
 .btn-download {
   display: inline-block;
-  background-color: #1a73e8;
+  background-color: #1c7ed6; /* Matches new accent blue */
   color: #fff !important;
   padding: 12px 25px;
   text-decoration: none;
@@ -22,7 +22,7 @@ author_profile: true
 }
 
 .btn-download:hover {
-  background-color: #1557b0;
+  background-color: #145fa8;
   text-decoration: none;
 }
 
@@ -33,14 +33,14 @@ author_profile: true
 /* PDF Embed Styling */
 .pdf-viewer {
   width: 100%;
-  height: 800px;
+  height: 800px; /* Provides a large area for viewing */
   border: 1px solid #ddd;
   border-radius: 8px;
 }
 
 @media (max-width: 768px) {
   .pdf-viewer {
-    height: 500px;
+    height: 500px; /* Reduced height on mobile */
   }
 }
 </style>
@@ -54,6 +54,6 @@ author_profile: true
 <object data="/files/cv.pdf" type="application/pdf" class="pdf-viewer">
   <div style="text-align: center; padding: 50px; background: #f9f9f9; border-radius: 8px;">
     <p>Your browser does not support inline PDF viewing.</p>
-    <a href="/files/cv.pdf" style="color: #1a73e8; font-weight: bold;">Click here to download the PDF</a>
+    <a href="/files/cv.pdf" style="color: #1c7ed6; font-weight: bold;">Click here to download the PDF</a>
   </div>
 </object>
