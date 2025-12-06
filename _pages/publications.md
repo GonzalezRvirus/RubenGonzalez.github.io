@@ -16,37 +16,38 @@ author_profile: true
     background-color: transparent;
 }
 
-/* --- 2. SECTION HEADERS (Add Contrast) --- */
+/* --- 2. SECTION HEADERS (High Contrast, Functional) --- */
 .area-header {
     padding: 20px 25px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f7f9fc; /* Very light grey-blue */
+    background-color: #f0f8ff; /* Very light, cool blue background */
     border-radius: 8px; 
     transition: background-color 0.2s, transform 0.2s;
-    border-left: 6px solid #1c7ed6; /* Blue accent strip */
+    border-left: 8px solid #0056b3; /* Rich, dark blue accent strip */
 }
 
 .area-header:hover {
-    background-color: #eaf1f7; /* Soft hover color */
-    transform: translateX(3px);
+    background-color: #e6f2ff; /* Slightly brighter blue on hover */
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 0 4px 8px rgba(0, 86, 179, 0.1); /* Subtle shadow on hover */
 }
 
 .area-header h2 {
     margin: 0;
     color: #000;
-    font-weight: 700;
-    font-size: 1.4em;
-    letter-spacing: -0.01em;
+    font-weight: 800; /* Bolder header */
+    font-size: 1.6em; /* Larger header size */
+    letter-spacing: 0.01em;
 }
 
 .area-subtitle {
-    color: #555;
-    font-size: 0.95em;
+    color: #333; /* Darker for clarity */
+    font-size: 1.0em;
     margin-top: 5px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.4;
 }
 
@@ -66,57 +67,57 @@ author_profile: true
 .paper {
     background: #fff;
     margin-bottom: 20px;
-    padding: 25px;
+    padding: 30px; /* More padding */
     border-radius: 8px;
-    border: 1px solid #e5e5e5;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Smoother, more visible shadow */
+    border: 1px solid #ddd;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
     transition: all 0.3s ease;
 }
 
 .paper:hover {
-    border-color: #1c7ed6;
-    box-shadow: 0 5px 15px rgba(28, 126, 214, 0.2);
-    transform: translateY(-4px);
+    border-color: #0056b3;
+    box-shadow: 0 6px 18px rgba(0, 86, 179, 0.15);
+    transform: translateY(-4px); 
 }
 
 .paper-title {
-    font-size: 1.3em;
+    font-size: 1.35em; /* Larger, clearer title */
     font-weight: 700;
-    color: #1a1a1a;
-    line-height: 1.3;
-    margin-bottom: 8px;
+    color: #000;
+    line-height: 1.4;
+    margin-bottom: 10px;
 }
 
 .paper-meta {
     font-family: sans-serif;
-    font-size: 1.0em;
-    color: #555;
-    margin-bottom: 12px;
+    font-size: 1.05em; /* Larger meta text */
+    color: #444;
+    margin-bottom: 15px;
     border-bottom: 1px solid #f0f0f0;
     padding-bottom: 10px;
 }
 
 .paper-meta a {
-    color: #1c7ed6;
+    color: #0056b3;
     text-decoration: none;
     font-weight: 600;
-    background: #e8f0fe;
-    padding: 2px 8px;
+    background: #e6f2ff;
+    padding: 4px 10px;
     border-radius: 4px;
-    font-size: 0.85em;
-    margin-left: 5px;
+    font-size: 0.9em;
+    margin-left: 8px;
 }
 
 .paper-description {
     font-size: 1.1em;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 /* --- COLLAPSE ICON --- */
 .collapse-icon {
-    font-size: 20px;
-    color: #1c7ed6;
+    font-size: 24px;
+    color: #0056b3;
     font-weight: bold;
 }
 .collapsed .collapse-icon {
