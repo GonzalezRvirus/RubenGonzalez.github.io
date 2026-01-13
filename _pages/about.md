@@ -102,10 +102,7 @@ redirect_from:
   </p>
   
   <p>
-    Currently, I am a Pasteur-Roux-Cantarini Postdoctoral Fellow at the <a href="http://salehlab.eu">Carla Saleh Laboratory</a> (Institut Pasteur, France). Here I am a happy researcher studying viral infections in the fly <em>Drosophila melanogaster</em> 
-
-[Image of Drosophila melanogaster]
-. My research here focuses in the aging induced by viruses, the impact of the microbiome on infections, and the evolution of RNA viruses.
+    Currently, I am a Pasteur-Roux-Cantarini Postdoctoral Fellow at the <a href="http://salehlab.eu">Carla Saleh Laboratory</a> (Institut Pasteur, France). Here I am a happy researcher studying viral infections in the fly <em>Drosophila melanogaster</em> . My research here focuses in the aging induced by viruses, the impact of the microbiome on infections, and the evolution of RNA viruses.
   </p>
 </div>
 
