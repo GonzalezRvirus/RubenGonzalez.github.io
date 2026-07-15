@@ -51,14 +51,14 @@ author_profile: true
   text-decoration: none;
 }
 
-/* Inline SVG Icon for bulletproof rendering without FontAwesome dependencies */
+/* Inline SVG Icon */
 .btn-download svg {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
 
-/* --- NATIVE PDF VIEWER --- */
+/* --- IFRAME PDF VIEWER --- */
 .pdf-viewer-container {
   width: 100%;
   height: 850px; 
@@ -69,40 +69,10 @@ author_profile: true
   overflow: hidden; 
 }
 
-.pdf-viewer-container object {
+.pdf-viewer-container iframe {
   width: 100%;
   height: 100%;
   border: none;
-}
-
-/* Fallback styling if browser doesn't support PDF embedding */
-.pdf-fallback {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  padding: 40px;
-  text-align: center;
-  color: var(--text-color);
-  background-color: #ffffff;
-}
-
-.pdf-fallback p {
-  font-size: 1.1em;
-  margin-bottom: 10px;
-}
-
-.pdf-fallback a {
-  color: var(--accent-color);
-  font-weight: 600;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.2s;
-}
-
-.pdf-fallback a:hover {
-  border-bottom-color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
@@ -126,11 +96,10 @@ author_profile: true
 </div>
 
 <div class="pdf-viewer-container">
-  <!-- Standard HTML object for native PDF rendering -->
-  <object data="{{ site.baseurl }}/files/cv.pdf" type="application/pdf">
-    <div class="pdf-fallback">
-      <p>Your browser does not support native PDF viewing.</p>
-      <a href="{{ site.baseurl }}/files/cv.pdf" target="_blank">Click here to download the PDF</a>
+  <iframe src="https://docs.google.com/gview?url={{ site.url }}{{ site.baseurl }}/files/cv.pdf&embedded=true" frameborder="0">
+    <div style="text-align: center; padding: 50px;">
+      <p>Your browser cannot display the CV viewer.</p>
+      <a href="{{ site.baseurl }}/files/cv.pdf" style="color: #0284c7; font-weight: bold;">Click here to download the PDF</a>
     </div>
-  </object>
+  </iframe>
 </div>
