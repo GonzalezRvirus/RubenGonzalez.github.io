@@ -6,6 +6,7 @@ redirect_from:
   - /resume
 ---
 
+
 <style>
 /* --- GLOBAL VARIABLES --- */
 :root {
