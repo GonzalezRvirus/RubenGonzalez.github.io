@@ -8,7 +8,7 @@ locale: "en-US"
 title: "Rubén González"
 title_separator: "-"
 name: &name "Rubén González"
-description: &description "Scientist focused on viral interactions and evolution."
+description: &description "Systems biology of viral infections."
 url: https://gonzalezrvirus.com
 baseurl: ""
 repository: "GonzalezRvirus/RubenGonzalez.github.io"
@@ -22,7 +22,7 @@ comments:
   provider: false
 atom_feed:
   path: # blank (default) uses feed.xml
-description: &description "Scientist focused on viral interactions and evolution."
+description: &description "Systems biology of viral infections."
 keywords: "Rubén González, Viral Evolution, Host-Pathogen Interactions, Drosophila, C. elegans, Institut Pasteur, Postdoctoral Research, Virology"
 url: https://gonzalezrvirus.com
 
@@ -61,9 +61,9 @@ analytics:
 author:
   name: "Rubén González"
   avatar: "pic_2.png"
-  bio: "Postdoctoral Fellow"
-  location: "Paris, France"
-  email: "ruben.gonzalez-miguelez@pasteur.fr"
+  bio: "Systems biology of viral infections"
+  location: "Vigo, Spain"
+  email: "ru.gonzalez@uvigo.gal"
   googlescholar: "https://scholar.google.es/citations?hl=es&user=tacb8hIAAAAJ"
   researchgate: "https://www.researchgate.net/profile/Ruben_Gonzalez23"
   orcid: "http://orcid.org/0000-0001-9588-1127"
