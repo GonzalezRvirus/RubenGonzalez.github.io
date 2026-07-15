@@ -191,7 +191,7 @@ redirect_from:
     </div>
     
     <div class="location-image">
-      <img src="images/CINBIO.jpeg" alt="CINBIO buildings at University of Vigo">
+      <img src="/images/CINBIO.jpeg" alt="CINBIO buildings at University of Vigo">
     </div>
   </div>
 </div>
