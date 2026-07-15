@@ -19,7 +19,7 @@ redirect_from:
 
 /* --- VISION HERO SECTION --- */
 .vision-hero {
-  padding: 25px 30px; /* Reducido para no ser tan invasivo */
+  padding: 15px 20px; /* Reducido para no ser tan invasivo */
   background: linear-gradient(to right bottom, #ffffff, var(--bg-light));
   border-radius: 8px;
   border-left: 4px solid var(--accent-color);
