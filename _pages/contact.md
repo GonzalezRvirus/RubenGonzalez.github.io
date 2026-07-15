@@ -8,26 +8,36 @@ redirect_from:
 ---
 
 <style>
+/* --- GLOBAL VARIABLES --- */
+:root {
+  --primary-color: #0f172a; 
+  --accent-color: #0284c7; 
+  --text-color: #334155; 
+  --bg-light: #f8fafc; 
+}
+
 /* Connect section */
 .connect-header {
   text-align: center;
   margin-bottom: 2em;
-  padding: 1.5em;
-  background: #f8f9fa;
-  border-radius: 9px;
+  padding: 2.5em 1.5em;
+  background: linear-gradient(to right bottom, #ffffff, var(--bg-light));
+  border-radius: 8px;
+  border-top: 4px solid var(--accent-color);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
 }
 
 .connect-header h1 {
-  color: #202124;
+  color: var(--primary-color);
   margin-bottom: 0.4em;
-  font-size: 1.6em;
-  font-weight: 500;
+  font-size: 1.8em;
+  font-weight: 600;
 }
 
 .connect-header p {
-  font-size: 1em;
-  color: #5f6368;
-  line-height: 1.5;
+  font-size: 1.1em;
+  color: var(--text-color);
+  line-height: 1.6;
   margin: 0;
 }
 
@@ -38,13 +48,13 @@ redirect_from:
   border-radius: 8px;
   padding: 1.5em;
   margin-bottom: 1.5em;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
 }
 
 .contact-info h2 {
-  color: #1a73e8;
+  color: var(--accent-color);
   font-size: 1.2em;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.8em;
 }
 
 .contact-item {
@@ -52,70 +62,71 @@ redirect_from:
   font-size: 1.05em;
 }
 
-.contact-label {
-  color: #1a73e8;
-  font-weight: 600;
-  display: inline-block;
-  margin-bottom: 0.3em;
-}
-
-.contact-value {
-  color: #3c4043;
-  font-size: 1.1em;
-}
-
-.contact-value a {
-  color: #1a73e8;
-  text-decoration: none;
-}
-
-.contact-value a:hover {
-  text-decoration: underline;
-}
-
 /* Email highlight */
 .email-display {
-  background: #f0f7ff;
+  background: var(--bg-light);
   padding: 0.8em 1.2em;
   border-radius: 6px;
   display: inline-block;
-  font-family: 'Courier New', monospace;
-  font-size: 1em;
-  color: #202124;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1em;
+  color: var(--primary-color);
+  font-weight: 600;
   margin-top: 0.3em;
+  border: 1px solid #e2e8f0;
 }
 
 /* Location section */
 .location-section {
-  background: #f0f7ff;
+  background: var(--bg-light);
   border-radius: 8px;
-  padding: 1.5em;
+  padding: 2em;
   margin-top: 1.5em;
+  border: 1px solid #e8eaed;
 }
 
 .location-section h2 {
-  color: #1a73e8;
+  color: var(--accent-color);
   margin-bottom: 0.6em;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.3em;
+}
+
+.location-intro {
+  text-align: center; 
+  margin-bottom: 2em; 
+  font-size: 1.05em;
+  color: var(--text-color);
+}
+
+.location-intro a {
+  color: var(--accent-color);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(2, 132, 199, 0.3);
+  transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.location-intro a:hover {
+  border-bottom-color: var(--accent-color);
 }
 
 .address-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2em;
+  gap: 2.5em;
   align-items: center;
   margin-top: 1em;
 }
 
 .address-text {
-  font-size: 1em;
-  line-height: 1.6;
-  color: #3c4043;
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: var(--text-color);
 }
 
 .address-text strong {
-  color: #202124;
+  color: var(--primary-color);
+  font-size: 1.15em;
 }
 
 .location-image {
@@ -124,9 +135,17 @@ redirect_from:
 
 .location-image img {
   max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  filter: grayscale(10%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.location-image img:hover {
+  filter: grayscale(0%);
+  transform: translateY(-2px);
 }
 
 /* Responsive design */
@@ -144,35 +163,35 @@ redirect_from:
 <div class="connect-header">
   <h1>Let's connect</h1>
   <p>
-    I'm always interested in discussing new ideas and potential collaborations.<br>
-    Feel free to reach out if you share interests in viral evolution, host-pathogen interactions, or model system biology.
+    I am always interested in discussing new ideas and potential collaborations.<br>
+    Feel free to reach out if you share interests in viral evolution, host-pathogen interactions, or the systems biology of viral infections.
   </p>
 </div>
 
 <div class="contact-info">
   <h2>Email</h2>
   <div class="contact-item">
-    <div class="email-display">ruben.gonzalez-miguelez@pasteur.fr</div>
+    <div class="email-display">ru.gonzalez@uvigo.gal</div>
   </div>
 </div>
 
 <div class="location-section">
   <h2>Location</h2>
   
-  <p style="text-align: center; margin-bottom: 1.2em; font-size: 0.95em;">
-    We are located at the <a href="http://salehlab.eu" target="_blank">Viruses and RNAi Unit</a>, Institut Pasteur
+  <p class="location-intro">
+    I am based at the <a href="https://cinbio.es/en/" target="_blank">Center for Research in Nanomaterials and Biomedicine (CINBIO)</a>.
   </p>
   
   <div class="address-box">
     <div class="address-text">
-      <strong>Institut Pasteur</strong><br>
-      Viruses and RNAi Unit<br>
-      28 Rue du Docteur Roux<br>
-      75015 Paris, France<br>
+      <strong>CINBIO – Universidade de Vigo</strong><br>
+      Campus Universitario de Vigo<br>
+      Lagoas, Marcosende<br>
+      36310 Vigo, Spain<br>
     </div>
     
     <div class="location-image">
-      <img src="/images/center_pasteur.jpg" alt="Institut Pasteur campus">
+      <img src="/images/cinbio_campus.jpg" alt="CINBIO campus at University of Vigo">
     </div>
   </div>
 </div>
