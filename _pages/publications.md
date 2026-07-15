@@ -1,339 +1,198 @@
----
-layout: archive
-title: "Publications"
-permalink: /publications/
+layout: single
+title: "Contact"
+permalink: /contact/
 author_profile: true
+redirect_from:
+  - /resume
 ---
 
 <style>
-/* --- 1. LAYOUT & TYPOGRAPHY --- */
-.archive {
+/* --- GLOBAL VARIABLES --- */
+:root {
+  --primary-color: #0f172a; 
+  --accent-color: #0284c7; 
+  --text-color: #334155; 
+  --bg-light: #f8fafc; 
+}
+
+/* Connect section */
+.connect-header {
+  text-align: center;
+  margin-bottom: 2em;
+  padding: 2.5em 1.5em;
+  background: linear-gradient(to right bottom, #ffffff, var(--bg-light));
+  border-radius: 8px;
+  border-top: 4px solid var(--accent-color);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.connect-header h1 {
+  color: var(--primary-color);
+  margin-bottom: 0.4em;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.connect-header p {
   font-size: 1.1em;
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
 }
 
-.research-area {
-    margin-bottom: 30px;
-    background-color: transparent;
+/* Contact info box */
+.contact-info {
+  background: #ffffff;
+  border: 1px solid #e8eaed;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
 }
 
-/* --- 2. SECTION HEADERS (High Contrast, Functional) --- */
-.area-header {
-    padding: 20px 25px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f0f8ff; /* Very light, cool blue background */
-    border-radius: 8px; 
-    transition: background-color 0.2s, transform 0.2s;
-    border-left: 8px solid #0056b3; /* Rich, dark blue accent strip */
+.contact-info h2 {
+  color: var(--accent-color);
+  font-size: 1.2em;
+  margin-bottom: 0.8em;
 }
 
-.area-header:hover {
-    background-color: #e6f2ff; /* Slightly brighter blue on hover */
-    transform: translateY(-2px); /* Lift effect */
-    box-shadow: 0 4px 8px rgba(0, 86, 179, 0.1); /* Subtle shadow on hover */
+.contact-item {
+  margin-bottom: 0.8em;
+  font-size: 1.05em;
 }
 
-.area-header h2 {
-    margin: 0;
-    color: #000;
-    font-weight: 800; /* Bolder header */
-    font-size: 1.6em; /* Larger header size */
-    letter-spacing: 0.01em;
+/* Email highlight */
+.email-display {
+  background: var(--bg-light);
+  padding: 0.8em 1.2em;
+  border-radius: 6px;
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1em;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-top: 0.3em;
+  border: 1px solid #e2e8f0;
 }
 
-.area-subtitle {
-    color: #333; /* Darker for clarity */
-    font-size: 1.0em;
-    margin-top: 5px;
-    font-weight: 500;
-    line-height: 1.4;
+/* Location section */
+.location-section {
+  background: var(--bg-light);
+  border-radius: 8px;
+  padding: 2em;
+  margin-top: 1.5em;
+  border: 1px solid #e8eaed;
 }
 
-/* --- 3. PAPER "CARDS" (High Contrast) --- */
-.area-content {
-    padding: 15px 5px;
-    max-height: 10000px;
-    transition: max-height 0.4s ease-out;
-    overflow: hidden;
+.location-section h2 {
+  color: var(--accent-color);
+  margin-bottom: 0.6em;
+  text-align: center;
+  font-size: 1.3em;
 }
 
-.collapsed .area-content {
-    max-height: 0;
-    padding: 0 5px;
+.location-intro {
+  text-align: center; 
+  margin-bottom: 2em; 
+  font-size: 1.05em;
+  color: var(--text-color);
 }
 
-.paper {
-    background: #fff;
-    margin-bottom: 20px;
-    padding: 30px; /* More padding */
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-    transition: all 0.3s ease;
+.location-intro a {
+  color: var(--accent-color);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(2, 132, 199, 0.3);
+  transition: border-bottom-color 0.2s ease-in-out;
 }
 
-.paper:hover {
-    border-color: #0056b3;
-    box-shadow: 0 6px 18px rgba(0, 86, 179, 0.15);
-    transform: translateY(-4px); 
+.location-intro a:hover {
+  border-bottom-color: var(--accent-color);
 }
 
-.paper-title {
-    font-size: 1.35em; /* Larger, clearer title */
-    font-weight: 700;
-    color: #000;
-    line-height: 1.4;
-    margin-bottom: 10px;
+.address-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5em;
+  align-items: center;
+  margin-top: 1em;
 }
 
-.paper-meta {
-    font-family: sans-serif;
-    font-size: 1.05em; /* Larger meta text */
-    color: #444;
-    margin-bottom: 15px;
-    border-bottom: 1px solid #f0f0f0;
-    padding-bottom: 10px;
+.address-text {
+  font-size: 1.05em;
+  line-height: 1.7;
+  color: var(--text-color);
 }
 
-.paper-meta a {
-    color: #0056b3;
-    text-decoration: none;
-    font-weight: 600;
-    background: #e6f2ff;
-    padding: 4px 10px;
-    border-radius: 4px;
-    font-size: 0.9em;
-    margin-left: 8px;
+.address-text strong {
+  color: var(--primary-color);
+  font-size: 1.15em;
 }
 
-.paper-description {
-    font-size: 1.1em;
-    color: #333;
-    line-height: 1.7;
+.location-image {
+  text-align: center;
 }
 
-/* --- COLLAPSE ICON --- */
-.collapse-icon {
-    font-size: 24px;
-    color: #0056b3;
-    font-weight: bold;
+.location-image img {
+  max-width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  filter: grayscale(10%);
+  transition: filter 0.3s ease, transform 0.3s ease;
 }
-.collapsed .collapse-icon {
-    transform: rotate(-90deg);
+
+.location-image img:hover {
+  filter: grayscale(0%);
+  transform: translateY(-2px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .address-box {
+    grid-template-columns: 1fr;
+  }
+  
+  .location-image {
+    order: -1;
+  }
 }
 </style>
 
-<script>
-function toggleSection(sectionId) {
-    const section = document.getElementById(sectionId);
-    section.classList.toggle('collapsed');
-}
-</script>
-
-<div id="evolution" class="research-area collapsed">
-    <div class="area-header" onclick="toggleSection('evolution')">
-        <div>
-            <h2>Virus Evolution</h2>
-            <div class="area-subtitle">Molecular evolutionary dynamics, selective pressures, and transmission bottlenecks</div>
-        </div>
-        <span class="collapse-icon">▼</span>
-    </div>
-    <div class="area-content">
-        
-        <div class="paper">
-            <div class="paper-title">Experimental evolution of an RNA virus in <em>Caenorhabditis elegans</em></div>
-            <div class="paper-meta">Castiglioni VG et al. • <em>Infect Genet Evol</em> 2024 <a href="https://doi.org/10.1016/j.meegid.2024.105623">DOI</a></div>
-            <div class="paper-description">Identified genomic hotspots of nucleotide diversity important for Orsay virus evolution, establishing grounds for experimental virus evolution studies in nematodes.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">A brief view on factors that affect plant virus evolution</div>
-            <div class="paper-meta">González R & Butkovic A • <em>Front Virol</em> 2022 <a href="https://doi.org/10.3389/fviro.2022.994057">DOI</a></div>
-            <div class="paper-description">Comprehensive minireview of key factors driving plant virus evolution.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Defects in plant immunity modulate the rates and patterns of RNA virus evolution</div>
-            <div class="paper-meta">Navarro R et al. • <em>Virus Evol</em> 2022 <a href="https://doi.org/10.1093/ve/veac059">DOI</a></div>
-            <div class="paper-description">Different host defense signaling pathways constrain virus evolution in distinct ways.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Plant virus evolution under strong drought conditions results in a transition from parasitism to mutualism</div>
-            <div class="paper-meta">González R et al. • <em>PNAS</em> 2021 <a href="https://doi.org/10.1073/pnas.2020990118">DOI</a> <a href="https://www.pnas.org/doi/10.1073/pnas.2100936118" style="background:#fffcf5; color:#b06000;">Commentary</a></div>
-            <div class="paper-description">Demonstrated that environmental stress can drive viruses to evolve beneficial relationships with their hosts, providing increased tolerance to adverse conditions.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Revisiting <em>Orthotospovirus</em> phylogeny using full-genome data</div>
-            <div class="paper-meta">Butkovic A et al. • <em>Arch Virol</em> 2021 <a href="https://doi.org/10.1007/s00705-020-04902-1">DOI</a></div>
-            <div class="paper-description">Updated phylogenetic analysis incorporating selection, recombination, and reassortment.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Adaptation of turnip mosaic potyvirus to a specific niche reduces its genetic and environmental robustness</div>
-            <div class="paper-meta">Butkovic A et al. • <em>Virus Evol</em> 2020 <a href="https://doi.org/10.1093/ve/veaa041">DOI</a></div>
-            <div class="paper-description">Highly adapted viruses are more sensitive to random mutations and temperature changes than non-adapted viruses.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Role of host genetic diversity for susceptibility-to-infection in the evolution of virulence of a plant virus</div>
-            <div class="paper-meta">González R et al. • <em>Virus Evol</em> 2019 <a href="https://doi.org/10.1093/ve/vez024">DOI</a></div>
-            <div class="paper-description">Viruses specialize faster in homogeneous host populations but become more pathogenic in heterogeneous ones.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Mutagenesis scanning uncovers evolutionary constraints on tobacco etch potyvirus membrane-associated 6K2 protein</div>
-            <div class="paper-meta">González R et al. • <em>Genome Biol Evol</em> 2019 <a href="https://doi.org/10.1093/gbe/evz069">DOI</a></div>
-            <div class="paper-description">Revealed evolutionary tradeoffs between within-host viral accumulation and symptom severity.</div>
-        </div>
-    </div>
+<div class="connect-header">
+  <h1>Let's connect</h1>
+  <p>
+    I am always interested in discussing new ideas and potential collaborations.<br>
+    Feel free to reach out if you share interests in viral evolution, host-pathogen interactions, or the systems biology of viral infections.
+  </p>
 </div>
 
-<div id="physiology" class="research-area collapsed">
-    <div class="area-header" onclick="toggleSection('physiology')">
-        <div>
-            <h2>Viral Impacts on Host Physiology</h2>
-            <div class="area-subtitle">Developmental programs, metabolic homeostasis, and aging processes</div>
-        </div>
-        <span class="collapse-icon">▼</span>
-    </div>
-    <div class="area-content">
-        
-        <div class="paper">
-            <div class="paper-title">Viral infections reduce <em>Drosophila</em> lifespan through accelerated aging</div>
-            <div class="paper-meta">González R et al. • <em>bioRxiv</em> 2025 <a href="https://doi.org/10.1101/2025.03.13.643076">DOI</a></div>
-            <div class="paper-description">Enteric viral infections trigger irreversible aging processes that persist even after infection clearance, correlating with reduced lifespan.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Persistent viral infections impact key biological traits in <em>Drosophila melanogaster</em></div>
-            <div class="paper-meta">Castelló-Sanuán M et al. • <em>bioRxiv</em> 2025 <a href="https://doi.org/10.1101/2025.03.12.642769">DOI</a></div>
-            <div class="paper-description">Comprehensive characterization of how persistent viral infections affect insect biology.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Transcriptional and hormonal profiling uncovers plant development-virus interactions</div>
-            <div class="paper-meta">Melero I et al. • <em>J Gen Virol</em> 2024 <a href="https://doi.org/10.1099/jgv.0.002023">DOI</a></div>
-            <div class="paper-description">Plants downregulate cell wall genes to facilitate viral spread but maintain fertility through salicylic acid-mediated resistance tradeoffs.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Host developmental stages shape the evolution of a plant RNA virus</div>
-            <div class="paper-meta">Melero I et al. • <em>Phil Trans R Soc B</em> 2023 <a href="https://doi.org/10.1098/rtsb.2022.0005">DOI</a></div>
-            <div class="paper-description">TuMV evolution differs across three developmental stages of <em>Arabidopsis thaliana</em>.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Viral strain-dependent impact of plant developmental stages on interaction networks</div>
-            <div class="paper-meta">Melero I et al. • <em>microPubl Biol</em> 2023 <a href="https://doi.org/10.17912/micropub.biology.000943">DOI</a></div>
-            <div class="paper-description">Ancestral viral adaptation history influences future evolution under developmental constraints.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">From foes to friends: viral infections expand host phenotypic plasticity</div>
-            <div class="paper-meta">González R et al. • <em>Adv Virus Res</em> 2020 <a href="https://doi.org/10.1016/bs.aivir.2020.01.003">DOI</a></div>
-            <div class="paper-description">Review: viruses can enhance host survival under environmental stress by altering phenotypic plasticity.</div>
-        </div>
-    </div>
+<div class="contact-info">
+  <h2>Email</h2>
+  <div class="contact-item">
+    <div class="email-display">ruben.gonzalez@uvigo.gal</div>
+  </div>
 </div>
 
-<div id="genetics" class="research-area collapsed">
-    <div class="area-header" onclick="toggleSection('genetics')">
-        <div>
-            <h2>Genetic Architecture of Host-Virus Interactions</h2>
-            <div class="area-subtitle">Genetics of antiviral immunity and susceptibility factors</div>
-        </div>
-        <span class="collapse-icon">▼</span>
+<div class="location-section">
+  <h2>Location</h2>
+  
+  <p class="location-intro">
+    I am based at the <a href="https://cinbio.es/en/" target="_blank">Center for Research in Nanomaterials and Biomedicine (CINBIO)</a>.
+  </p>
+  
+  <div class="address-box">
+    <div class="address-text">
+      <strong>CINBIO – Universidade de Vigo</strong><br>
+      Campus Universitario de Vigo<br>
+      Lagoas, Marcosende<br>
+      36310 Vigo, Spain<br>
     </div>
-    <div class="area-content">
-        
-        <div class="paper">
-            <div class="paper-title">Genetic basis of <em>Arabidopsis thaliana</em> responses to turnip mosaic virus</div>
-            <div class="paper-meta">Butkovic A et al. • <em>eLife</em> 2024 <a href="https://doi.org/10.7554/eLife.89749.1">DOI</a></div>
-            <div class="paper-description">Identified genetic underpinnings of plant resistance to naïve and adapted viral isolates.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title"><em>Caenorhabditis elegans</em> immune responses to intracellular pathogens</div>
-            <div class="paper-meta">González R & Félix M-A • <em>Dev Comp Immunol</em> 2024 <a href="https://doi.org/10.1016/j.dci.2024.105148">DOI</a></div>
-            <div class="paper-description">Review of nematode responses to microsporidia and viruses.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title"><em>C. elegans</em> pharynx mutants resist Orsay virus infection</div>
-            <div class="paper-meta">González R & Félix M-A • <em>microPubl Biol</em> 2024 <a href="https://doi.org/10.17912/micropub.biology.001166">DOI</a></div>
-            <div class="paper-description">Identified specific mutants conferring viral resistance.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">GWAS identifies <em>Arabidopsis</em> genes affecting TuMV infection outcomes</div>
-            <div class="paper-meta">Butković A et al. • <em>Virus Evol</em> 2021 <a href="https://doi.org/10.1093/ve/veab063">DOI</a></div>
-            <div class="paper-description">Genome-wide study revealing new host genes involved in plant defense and virus replication.</div>
-        </div>
+    
+    <div class="location-image">
+      <img src="/images/cinbio_campus.jpg" alt="CINBIO campus at University of Vigo">
     </div>
+  </div>
 </div>
 
-<div id="environment" class="research-area collapsed">
-    <div class="area-header" onclick="toggleSection('environment')">
-        <div>
-            <h2>Environmental Modulation of Host-Virus Interactions</h2>
-            <div class="area-subtitle">Impact of abiotic factors and microbiome on infection dynamics</div>
-        </div>
-        <span class="collapse-icon">▼</span>
-    </div>
-    <div class="area-content">
-        
-        <div class="paper">
-            <div class="paper-title">Microgravity and low muon radiation affect viral pathogenesis in <em>C. elegans</em></div>
-            <div class="paper-meta">Villena-Giménez A et al. • <em>bioRxiv</em> 2024 <a href="https://doi.org/10.1101/2024.10.03.616447">DOI</a></div>
-            <div class="paper-description">Space-like conditions impact fecundity and developmental success in infected animals.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Natural monobacterial environments modulate viral infection in <em>C. elegans</em></div>
-            <div class="paper-meta">González R & Félix M-A • <em>PLoS Pathog</em> 2024 <a href="https://doi.org/10.1371/journal.ppat.1011947">DOI</a></div>
-            <div class="paper-description">Natural bacteria reduce viral susceptibility through novel DRH-1-dependent mechanisms without degrading virions or affecting nutrition.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">The interplay between the host microbiome and pathogenic viral infections</div>
-            <div class="paper-meta">González R & Elena SF • <em>mBio</em> 2021 <a href="https://doi.org/10.1128/mBio.02496-21">DOI</a></div>
-            <div class="paper-description">Integrative review of microbiome impacts on viral infections across pathosystems.</div>
-        </div>
-    </div>
-</div>
-
-<div id="other" class="research-area collapsed">
-    <div class="area-header" onclick="toggleSection('other')">
-        <div>
-            <h2>Other Contributions</h2>
-            <div class="area-subtitle">Additional research and scientific communications</div>
-        </div>
-        <span class="collapse-icon">▼</span>
-    </div>
-    <div class="area-content">
-        
-        <div class="paper">
-            <div class="paper-title">Institut Pasteur Virology Days meeting report</div>
-            <div class="paper-meta">González R et al. • <em>J Mol Cell Biol</em> 2025 <a href="https://doi.org/10.1093/jmcb/mjae052">DOI</a></div>
-            <div class="paper-description">Report on the Journées Départementales de Virologie at Institut Pasteur.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">Natural variation in <em>Arabidopsis</em> rosette area unveils new developmental genes</div>
-            <div class="paper-meta">González R et al. • <em>Sci Rep</em> 2020 <a href="https://doi.org/10.1038/s41598-020-74723-4">DOI</a></div>
-            <div class="paper-description">GWAS identifying new genes involved in plant growth.</div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-title">The scale-of-choice effect in assortative mating estimates</div>
-            <div class="paper-meta">Rolán-Alvarez E et al. • <em>Evolution</em> 2015 <a href="https://doi.org/10.1111/evo.12691">DOI</a></div>
-            <div class="paper-description">Sampling biases affect observations of negative assortative mating frequency.</div>
-        </div>
-    </div>
-</div>
-
-<p style="text-align: center; margin: 50px 0; color: #9aa0a6; font-size: 0.8em;">Updated January 2025</p>
+```
