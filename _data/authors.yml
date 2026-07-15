@@ -3,11 +3,7 @@
 Name Name:
   name        : "Rubén González"
   uri         : ""
-  email       : "ruben.gonzalez@bio.ens.psl.eu"
-  bio         : "Postdoctoral researcher"
+  email       : "ru.gonzalez@uvigo.gal"
+  bio         : "Systems biology of viral infections"
   avatar      : "pic.png"
   twitter     : "@GonzalezRvirus"
-  bluesky:
-    label: "Bluesky"
-    icon: 
-     url: "https://bluesky.com/@rubengonzalez.bsky.social" 
