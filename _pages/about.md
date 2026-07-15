@@ -123,7 +123,6 @@ redirect_from:
 </style>
 
 <div class="vision-hero">
-  <span class="vision-subtitle">Systems biology of viral infections</span>
   <div class="vision-statement">
     My research investigates the fundamental principles governing <strong>viral infections and virus evolution</strong> across model systems. 
     <br><br>
@@ -142,7 +141,7 @@ redirect_from:
     As a Pasteur-Roux-Cantarini postdoctoral fellow at the <a href="http://salehlab.eu">Carla Saleh laboratory</a> (Institut Pasteur, France), I used <em>Drosophila melanogaster</em> to investigate how viral infections alter host aging trajectories, the impact of the microbiome on viral pathogenesis, and the experimental evolution of RNA viruses.
   </p>
   <p>
-    Currently, I am a Nano4Talent research fellow (MSCA-COFUND) at the Center for Research in Nanomaterials and Biomedicine (CINBIO) of the University of Vigo, Spain. My ongoing research expands upon the mechanistic basis of host-virus interactions by integrating the use of nanomaterials to modulate and dissect viral infection dynamics.
+    Currently, I am a <a href="https://cinbio.es/en/nano4talent/about/">Nano4Talent </a>research fellow (MSCA-COFUND) at the Center for Research in Nanomaterials and Biomedicine (<a href="httpS://cinbio.es/en">CINBIO</a>) of the University of Vigo, Spain. My ongoing research expands upon the mechanistic basis of host-virus interactions by integrating the use of nanomaterials to modulate and dissect viral infection dynamics.
   </p>
 </div>
 
