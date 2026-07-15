@@ -19,12 +19,12 @@ redirect_from:
 
 /* --- VISION HERO SECTION --- */
 .vision-hero {
-  padding: 40px 35px;
+  padding: 25px 30px; /* Reducido para no ser tan invasivo */
   background: linear-gradient(to right bottom, #ffffff, var(--bg-light));
   border-radius: 8px;
   border-left: 4px solid var(--accent-color);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
-  margin-bottom: 50px;
+  margin-bottom: 40px; /* Reducido ligeramente */
 }
 
 .vision-subtitle {
