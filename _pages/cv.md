@@ -87,7 +87,7 @@ author_profile: true
 </div>
 
 <div class="btn-container">
-  <a href="{{ site.baseurl }}/files/CV.pdf" class="btn-download" target="_blank" rel="noopener noreferrer">
+  <a href="{{ site.baseurl }}/files/cv.pdf" class="btn-download" target="_blank" rel="noopener noreferrer">
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
     </svg>
@@ -99,7 +99,7 @@ author_profile: true
   <iframe src="https://docs.google.com/gview?url={{ site.url }}{{ site.baseurl }}/files/cv.pdf&embedded=true" frameborder="0">
     <div style="text-align: center; padding: 50px;">
       <p>Your browser cannot display the CV viewer.</p>
-      <a href="{{ site.baseurl }}/files/CV.pdf" style="color: #0284c7; font-weight: bold;">Click here to download the PDF</a>
+      <a href="{{ site.baseurl }}/files/cv.pdf" style="color: #0284c7; font-weight: bold;">Click here to download the PDF</a>
     </div>
   </iframe>
 </div>
