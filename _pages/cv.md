@@ -99,7 +99,7 @@ author_profile: true
   <iframe src="https://docs.google.com/gview?url={{ site.url }}{{ site.baseurl }}/files/cv.pdf&embedded=true" frameborder="0">
     <div style="text-align: center; padding: 50px;">
       <p>Your browser cannot display the CV viewer.</p>
-      <a href="{{ site.baseurl }}/files/cv.pdf" style="color: #0284c7; font-weight: bold;">Click here to download the PDF</a>
+      <a href="{{ site.baseurl }}/files/CV.pdf" style="color: #0284c7; font-weight: bold;">Click here to download the PDF</a>
     </div>
   </iframe>
 </div>
