@@ -26,7 +26,7 @@ author_profile: true
 /* --- BUTTON STYLING --- */
 .btn-container {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .btn-download {
@@ -35,11 +35,11 @@ author_profile: true
   gap: 10px;
   background-color: var(--accent-color);
   color: #ffffff !important;
-  padding: 14px 28px;
+  padding: 12px 24px;
   text-decoration: none;
   border-radius: 6px;
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1em;
   box-shadow: 0 4px 10px rgba(2, 132, 199, 0.2);
   transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -53,12 +53,12 @@ author_profile: true
 
 /* Inline SVG Icon */
 .btn-download svg {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   fill: currentColor;
 }
 
-/* --- IFRAME PDF VIEWER --- */
+/* --- PDF VIEWER --- */
 .pdf-viewer-container {
   width: 100%;
   height: 850px; 
@@ -69,10 +69,23 @@ author_profile: true
   overflow: hidden; 
 }
 
-.pdf-viewer-container iframe {
+.pdf-viewer-container object {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+.pdf-fallback {
+  text-align: center; 
+  padding: 50px;
+  font-family: inherit;
+  color: var(--text-color);
+}
+
+.pdf-fallback a {
+  color: var(--accent-color);
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -96,10 +109,10 @@ author_profile: true
 </div>
 
 <div class="pdf-viewer-container">
-  <iframe src="https://docs.google.com/gview?url={{ site.url }}{{ site.baseurl }}/files/cv.pdf&embedded=true" frameborder="0">
-    <div style="text-align: center; padding: 50px;">
-      <p>Your browser cannot display the CV viewer.</p>
-      <a href="{{ site.baseurl }}/files/cv.pdf" style="color: #0284c7; font-weight: bold;">Click here to download the PDF</a>
+  <object data="{{ site.baseurl }}/files/cv.pdf" type="application/pdf">
+    <div class="pdf-fallback">
+      <p>Your browser does not support embedded PDFs.</p>
+      <p>You can <a href="{{ site.baseurl }}/files/cv.pdf">click here to download the PDF file</a>.</p>
     </div>
-  </iframe>
+  </object>
 </div>
