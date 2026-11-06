@@ -8,190 +8,246 @@ redirect_from:
 ---
 
 <style>
-/* --- GLOBAL VARIABLES --- */
+/* --- 1. EDITORIAL VARIABLES & TYPOGRAPHY --- */
 :root {
-  --primary-color: #0f172a; 
-  --accent-color: #0284c7; 
-  --text-color: #334155; 
-  --bg-light: #f8fafc; 
+  --ink-primary: #111827;       /* Casi negro, máxima legibilidad */
+  --ink-secondary: #374151;     /* Gris carbón para texto principal */
+  --ink-muted: #6b7280;         /* Gris medio para etiquetas y metadatos */
+  --accent-editorial: #1e3a8a;  /* Azul marino académico sobrio */
+  --rule-heavy: #111827;        /* Línea divisoria principal */
+  --rule-light: #e5e7eb;        /* Divisorias finas */
+  --bg-subtle: #f9fafb;         /* Fondo sutil para botones */
+  
+  --font-serif: "Georgia", "Times New Roman", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
 }
 
-/* Connect section */
-.connect-header {
-  text-align: center;
-  margin-bottom: 2em;
-  padding: 2.5em 1.5em;
-  background: linear-gradient(to right bottom, #ffffff, var(--bg-light));
-  border-radius: 8px;
-  border-top: 4px solid var(--accent-color);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+/* --- 2. LAYOUT FIX: REDUCE GAP WITH LEFT SIDEBAR --- */
+.page, .archive {
+  font-family: var(--font-sans);
+  color: var(--ink-primary);
 }
 
-.connect-header h1 {
-  color: var(--primary-color);
-  margin-bottom: 0.4em;
-  font-size: 1.8em;
-  font-weight: 600;
+@media screen and (min-width: 1024px) {
+  #main {
+    max-width: 1240px;
+  }
+  .sidebar {
+    width: 210px !important;
+    margin-right: 28px !important;
+  }
+  .page, .archive {
+    width: calc(100% - 245px) !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    float: left !important;
+    max-width: 920px;
+  }
 }
 
-.connect-header p {
-  font-size: 1.1em;
-  color: var(--text-color);
-  line-height: 1.6;
+/* --- 3. INTRODUCTORY LEAD --- */
+.contact-lead {
+  font-family: var(--font-serif);
+  font-size: 1.18rem;
+  line-height: 1.65;
+  color: var(--ink-secondary);
+  border-bottom: 2px solid var(--rule-heavy);
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+}
+
+.contact-lead p {
   margin: 0;
 }
 
-/* Contact info box */
-.contact-info {
-  background: #ffffff;
-  border: 1px solid #e8eaed;
-  border-radius: 8px;
-  padding: 1.5em;
-  margin-bottom: 1.5em;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
-}
-
-.contact-info h2 {
-  color: var(--accent-color);
-  font-size: 1.2em;
-  margin-bottom: 0.8em;
-}
-
-.contact-item {
-  margin-bottom: 0.8em;
-  font-size: 1.05em;
-}
-
-/* Email highlight */
-.email-display {
-  background: var(--bg-light);
-  padding: 0.8em 1.2em;
-  border-radius: 6px;
-  display: inline-block;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1.1em;
-  color: var(--primary-color);
-  font-weight: 600;
-  margin-top: 0.3em;
-  border: 1px solid #e2e8f0;
-}
-
-/* Location section */
-.location-section {
-  background: var(--bg-light);
-  border-radius: 8px;
-  padding: 2em;
-  margin-top: 1.5em;
-  border: 1px solid #e8eaed;
-}
-
-.location-section h2 {
-  color: var(--accent-color);
-  margin-bottom: 0.6em;
-  text-align: center;
-  font-size: 1.3em;
-}
-
-.location-intro {
-  text-align: center; 
-  margin-bottom: 2em; 
-  font-size: 1.05em;
-  color: var(--text-color);
-}
-
-.location-intro a {
-  color: var(--accent-color);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(2, 132, 199, 0.3);
-  transition: border-bottom-color 0.2s ease-in-out;
-}
-
-.location-intro a:hover {
-  border-bottom-color: var(--accent-color);
-}
-
-.address-box {
+/* --- 4. EDITORIAL DIRECTORY GRID --- */
+.contact-directory {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2.5em;
+  gap: 36px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--rule-light);
+  margin-bottom: 36px;
+}
+
+.directory-block {
+  border-left: 2px solid var(--rule-light);
+  padding-left: 18px;
+  transition: border-color 0.2s ease;
+}
+
+.directory-block:hover {
+  border-left-color: var(--accent-editorial);
+}
+
+.directory-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-muted);
+  margin-bottom: 10px;
+}
+
+/* Email link & Copy button */
+.email-row {
+  display: flex;
   align-items: center;
-  margin-top: 1em;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
 }
 
-.address-text {
-  font-size: 1.05em;
-  line-height: 1.7;
-  color: var(--text-color);
+.email-link {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: var(--ink-primary) !important;
+  text-decoration: underline !important;
+  text-decoration-color: #9ca3af !important;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
-.address-text strong {
-  color: var(--primary-color);
-  font-size: 1.15em;
+.email-link:hover {
+  color: var(--accent-editorial) !important;
+  text-decoration-color: var(--accent-editorial) !important;
 }
 
-.location-image {
-  text-align: center;
+.copy-email-btn {
+  background: var(--bg-subtle);
+  border: 1px solid var(--rule-light);
+  border-radius: 3px;
+  padding: 2px 8px;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.15s ease;
 }
 
-.location-image img {
-  max-width: 100%;
-  height: 220px;
+.copy-email-btn:hover {
+  border-color: var(--ink-muted);
+  color: var(--ink-primary);
+}
+
+.directory-note {
+  font-size: 0.88rem;
+  color: var(--ink-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Postal address */
+.address-details {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink-secondary);
+}
+
+.address-details strong {
+  color: var(--ink-primary);
+  font-weight: 600;
+}
+
+.address-details a {
+  color: var(--ink-primary);
+  text-decoration: underline;
+  text-decoration-color: #9ca3af;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+.address-details a:hover {
+  color: var(--accent-editorial);
+  text-decoration-color: var(--accent-editorial);
+}
+
+/* --- 5. INSTITUTIONAL PHOTOGRAPH --- */
+.campus-figure {
+  margin: 0 0 24px 0;
+}
+
+.campus-figure img {
+  width: 100%;
+  max-height: 340px;
   object-fit: cover;
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  filter: grayscale(10%);
-  transition: filter 0.3s ease, transform 0.3s ease;
+  border-radius: 2px;
+  border: 1px solid var(--rule-light);
+  filter: grayscale(15%);
+  transition: filter 0.3s ease;
 }
 
-.location-image img:hover {
+.campus-figure img:hover {
   filter: grayscale(0%);
-  transform: translateY(-2px);
 }
 
-/* Responsive design */
+.campus-caption {
+  margin-top: 8px;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* --- 6. RESPONSIVE --- */
 @media (max-width: 768px) {
-  .address-box {
+  .contact-directory {
     grid-template-columns: 1fr;
-  }
-  
-  .location-image {
-    order: -1;
+    gap: 24px;
   }
 }
 </style>
 
-<div class="connect-header">
-  <h1>Let's connect</h1>
+<script>
+function copyEmail(btn) {
+  navigator.clipboard.writeText('ru.gonzalez@uvigo.gal');
+  const original = btn.textContent;
+  btn.textContent = 'Copied';
+  setTimeout(() => { btn.textContent = original; }, 1800);
+}
+</script>
+
+<div class="contact-lead">
   <p>
-    I am always interested in discussing new ideas and potential collaborations.<br>
-    Feel free to reach out if you share interests in viral evolution, host-pathogen interactions, or the systems biology of viral infections.
+    I am always open to discussing new research questions, collaborative projects, and prospective opportunities across viral evolution, host–pathogen interactions, and the systems biology of infection.
   </p>
 </div>
 
-<div class="contact-info">
-  <h2>Email</h2>
-  <div class="contact-item">
-    <div class="email-display">ru.gonzalez@uvigo.gal</div>
+<div class="contact-directory">
+  <!-- DIRECT CORRESPONDENCE -->
+  <div class="directory-block">
+    <div class="directory-label">Electronic mail</div>
+    <div class="email-row">
+      <a href="mailto:ru.gonzalez@uvigo.gal" class="email-link">ru.gonzalez@uvigo.gal</a>
+      <button type="button" class="copy-email-btn" onclick="copyEmail(this)">Copy</button>
+    </div>
+    <p class="directory-note">
+      For scientific inquiries, peer-review requests, or prospective student and postdoctoral opportunities.
+    </p>
+  </div>
+
+  <!-- INSTITUTIONAL ADDRESS -->
+  <div class="directory-block">
+    <div class="directory-label">Affiliation &amp; postal address</div>
+    <div class="address-details">
+      <strong><a href="https://cinbio.es/en/" target="_blank" rel="noopener">Center for Research in Nanomaterials and Biomedicine (CINBIO)</a></strong><br>
+      Universidade de Vigo<br>
+      Campus Universitario Lagoas-Marcosende<br>
+      36310 Vigo, Spain
+    </div>
   </div>
 </div>
 
-<div class="location-section">
-  <h2>Location</h2>
-  
-  <p class="location-intro">
-    I am based at the <a href="https://cinbio.es/en/" target="_blank">Center for Research in Nanomaterials and Biomedicine (CINBIO)</a>.
-  </p>
-  
-  <div class="address-box">
-    <div class="address-text">
-      <strong>CINBIO – Universidade de Vigo</strong><br>
-      Campus Universitario de Vigo<br>
-      Lagoas, Marcosende<br>
-      36310 Vigo, Spain<br>
-    </div>
-    
-    <div class="location-image">
-      <img src="/images/CINBIO.jpeg" alt="CINBIO buildings at University of Vigo">
-    </div>
-  </div>
-</div>
+<figure class="campus-figure">
+  <img src="/images/CINBIO.jpeg" alt="Center for Research in Nanomaterials and Biomedicine (CINBIO) at the University of Vigo" loading="lazy">
+  <figcaption class="campus-caption">
+    <span>Center for Research in Nanomaterials and Biomedicine (CINBIO), Universidade de Vigo</span>
+    <span>42°09′58″N 8°41′06″W</span>
+  </figcaption>
+</figure>
