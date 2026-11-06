@@ -191,18 +191,16 @@ redirect_from:
 
   <div class="bio-paragraph">
     <p>
-      As a Pasteur-Roux-Cantarini postdoctoral researcher at the <a href="http://salehlab.eu" target="_blank" rel="noopener">Carla Saleh laboratory</a> (Institut Pasteur, Paris), I examined how enteric viral infections accelerate systemic aging in <em>Drosophila melanogaster</em>, explored microbiome-mediated viral pathogenesis, and studied the experimental evolution of RNA viruses.
+      As a Pasteur-Roux-Cantarini postdoctoral researcher at the <a href="http://salehlab.eu" target="_blank" rel="noopener">Carla Saleh laboratory</a> (Institut Pasteur, Paris), I examined how enteric viral infections accelerate systemic aging in <em>Drosophila melanogaster</em>, explored microbiome-mediated viral pathogenesis, and studied the experimental evolution of diverse RNA viruses.
     </p>
   </div>
 
   <div class="bio-paragraph">
     <p>
-      Currently, I serve as a <a href="https://cinbio.es/en/nano4talent/about/" target="_blank" rel="noopener">Nano4Talent Principal Investigator / Research Fellow</a> (MSCA-COFUND) at the Center for Research in Nanomaterials and Biomedicine (<a href="https://cinbio.es/en" target="_blank" rel="noopener">CINBIO</a>) of the University of Vigo, expanding my research line on host-pathogen interactions and antiviral resilience through advanced systems biology and nanotechnological approaches.
+      Currently, I serve as a <a href="https://cinbio.es/en/nano4talent/about/" target="_blank" rel="noopener">Nano4Talent Research Fellow</a> (MSCA-COFUND) at the Center for Research in Nanomaterials and Biomedicine (<a href="https://cinbio.es/en" target="_blank" rel="noopener">CINBIO</a>) of the University of Vigo, expanding my research line on host-pathogen interactions and antiviral resilience through advanced systems biology and nanotechnological approaches.
     </p>
   </div>
 </div>
-
-<div class="gallery-section-title">Laboratory snapshots &amp; facilities</div>
 
 <div class="gallery-container">
   <div class="gallery-item">
