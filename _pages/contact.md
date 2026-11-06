@@ -228,7 +228,7 @@ function copyEmail(btn) {
       <button type="button" class="copy-email-btn" onclick="copyEmail(this)">Copy</button>
     </div>
     <p class="directory-note">
-      For scientific inquiries, peer-review requests, or prospective student and postdoctoral opportunities.
+      For scientific inquiries, requests, or prospective opportunities.
     </p>
   </div>
 
