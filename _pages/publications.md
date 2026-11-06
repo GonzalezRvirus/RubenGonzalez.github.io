@@ -20,20 +20,37 @@ author_profile: true
   --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
 }
 
+/* --- 2. LAYOUT FIX: REDUCE GAP WITH LEFT SIDEBAR --- */
 .archive {
   font-family: var(--font-sans);
   color: var(--ink-primary);
-  max-width: 820px;
 }
 
-/* --- 2. TOP BAR: LEGEND & CONTROLS --- */
+@media screen and (min-width: 1024px) {
+  #main {
+    max-width: 1240px;
+  }
+  .sidebar {
+    width: 210px !important;
+    margin-right: 28px !important;
+  }
+  .archive {
+    width: calc(100% - 245px) !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    float: left !important;
+    max-width: 920px;
+  }
+}
+
+/* --- 3. TOP BAR: LEGEND & CONTROLS --- */
 .pub-topbar {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   border-bottom: 2px solid var(--rule-heavy);
   padding-bottom: 12px;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
   font-size: 0.85rem;
   color: var(--ink-muted);
 }
@@ -71,14 +88,14 @@ author_profile: true
   text-decoration: underline;
 }
 
-/* --- 3. RESEARCH AREA SECTIONS --- */
+/* --- 4. RESEARCH AREA SECTIONS --- */
 .research-area {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   border-bottom: 1px solid var(--rule-light);
 }
 
 .area-header {
-  padding: 20px 0;
+  padding: 18px 0;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -97,7 +114,7 @@ author_profile: true
   color: var(--ink-primary);
   font-family: var(--font-serif);
   font-weight: 400;
-  font-size: 1.45rem;
+  font-size: 1.42rem;
   letter-spacing: -0.015em;
   line-height: 1.25;
 }
@@ -109,9 +126,8 @@ author_profile: true
   font-weight: 400;
 }
 
-/* Indicador +/- minimalista en lugar de flecha ▼ */
 .collapse-icon {
-  font-size: 0; /* Oculta el triángulo original sin romper tu HTML */
+  font-size: 0;
   width: 24px;
   height: 24px;
   display: flex;
@@ -134,13 +150,13 @@ author_profile: true
   content: "+";
 }
 
-/* --- 4. PUBLICATIONS LIST (EDITORIAL LAYOUT) --- */
+/* --- 5. PUBLICATIONS LIST (EDITORIAL LAYOUT) --- */
 .area-content {
   max-height: 4000px;
   transition: max-height 0.35s ease-in-out, opacity 0.25s ease;
   opacity: 1;
   overflow: hidden;
-  padding-bottom: 16px;
+  padding-bottom: 14px;
 }
 
 .collapsed .area-content {
@@ -150,8 +166,8 @@ author_profile: true
 }
 
 .paper {
-  padding: 16px 0 16px 16px;
-  margin-left: 4px;
+  padding: 14px 0 14px 16px;
+  margin-left: 2px;
   border-left: 2px solid var(--rule-light);
   transition: border-color 0.2s ease, background-color 0.2s ease;
 }
@@ -166,11 +182,11 @@ author_profile: true
 }
 
 .paper-title {
-  font-size: 1.04rem;
+  font-size: 1.03rem;
   font-weight: 600;
   color: var(--ink-primary);
   line-height: 1.45;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   letter-spacing: -0.005em;
 }
 
@@ -219,9 +235,9 @@ author_profile: true
   font-style: italic;
 }
 
-/* --- 5. FOOTER --- */
+/* --- 6. FOOTER --- */
 .pub-footer {
-  margin: 48px 0 24px;
+  margin: 40px 0 24px;
   font-size: 0.8rem;
   color: var(--ink-muted);
   text-transform: uppercase;
@@ -281,7 +297,7 @@ function updateToggleButtonText() {
     <div class="paper">
       <div class="paper-title">Enteric viral infections promote systemic accelerated aging in <em>Drosophila</em></div>
       <div class="paper-authors"><strong>González R†</strong>, Castelló-Sanjuán M, Saleh MC†</div>
-      <div class="paper-journal"><em>Science Advances</em> (2025) 12:eaec1735</div>
+      <div class="paper-journal"><em>Science Advances</em> (2026) 12:eaec1735</div>
     </div>
 
     <div class="paper">
@@ -293,7 +309,7 @@ function updateToggleButtonText() {
     <div class="paper">
       <div class="paper-title">The pupal stage is a developmental window for RNA virus persistence in <em>Drosophila</em></div>
       <div class="paper-authors">Castelló-Sanjuán M, <strong>González R</strong>, Bergman A, Blanc H, Frangeul L, Nigg J, Saleh MC†</div>
-      <div class="paper-journal"><em>bioRxiv</em> (2025) 2025.11.07.687216</div>
+      <div class="paper-journal"><em>bioRxiv</em> [preprint] (2025) 2025.11.07.687216</div>
     </div>
 
     <div class="paper">
@@ -323,7 +339,7 @@ function updateToggleButtonText() {
     <div class="paper">
       <div class="paper-title">From foes to friends: viral infections expand the limits of host phenotypic plasticity</div>
       <div class="paper-authors"><strong>González R*†</strong>, Butković A*, Elena SF†</div>
-      <div class="paper-journal"><em>Advances in Virus Research</em> (2020) 106:85-121</div>
+      <div class="paper-journal"><em>Advances in Virus Research</em> (2020) 106:85–121</div>
     </div>
 
   </div>
@@ -341,21 +357,21 @@ function updateToggleButtonText() {
   <div class="area-content">
 
     <div class="paper">
-      <div class="paper-title">Microbiome composition modulates the lethal outcome of <em>Drosophila</em> A virus infection</div>
-      <div class="paper-authors"><strong>González R†</strong>, Castelló-Sanjuán M, Romoli O, Blanc H, Kobayashi H, Nigg J, Saleh MC†</div>
-      <div class="paper-journal"><em>Cellular and Molecular Life Sciences</em> (2025) 83:61</div>
-    </div>
-
-    <div class="paper">
       <div class="paper-title">Cosmic silence and viral noise: transcriptomic crosstalk in <em>Caenorhabditis elegans</em> under simulated space conditions</div>
       <div class="paper-authors">Villena-Giménez A*, Legarda EG*, <strong>González R</strong>, Castiglioni VG, Elena SF†</div>
-      <div class="paper-journal"><em>Frontiers in Microbiology</em> (2025) 17:1781245</div>
+      <div class="paper-journal"><em>Frontiers in Microbiology</em> (2026) 17:1781245</div>
     </div>
 
     <div class="paper">
       <div class="paper-title">Reduced gravity and muon flux absence affect <em>Caenorhabditis elegans</em> life history traits and viral infection</div>
       <div class="paper-authors">Villena-Giménez A, Castiglioni VG, Legarda EG, Muñoz-Sánchez JC, <strong>González R</strong>, Elena SF†</div>
-      <div class="paper-journal"><em>Microbiology Spectrum</em> (2024) 14:e03580-25</div>
+      <div class="paper-journal"><em>Microbiology Spectrum</em> (2026) 14:e03580-25</div>
+    </div>
+
+    <div class="paper">
+      <div class="paper-title">Microbiome composition modulates the lethal outcome of <em>Drosophila</em> A virus infection</div>
+      <div class="paper-authors"><strong>González R†</strong>, Castelló-Sanjuán M, Romoli O, Blanc H, Kobayashi H, Nigg J, Saleh MC†</div>
+      <div class="paper-journal"><em>Cellular and Molecular Life Sciences</em> (2025) 83:61</div>
     </div>
 
     <div class="paper">
@@ -466,7 +482,7 @@ function updateToggleButtonText() {
     </div>
 
     <div class="paper">
-      <div class="paper-title">A genome-wide association study identifies <em>Arabidopsis thaliana</em> genes that contribute to differences in the outcome of infection with two Turnip mosaic potyvirus strains</div>
+      <div class="paper-title">A genome-wide association study identifies <em>Arabidopsis thaliana</em> genes that contribute to differences in the outcome of infection with two Turnip mosaic potyvirus strains that differ in their evolutionary history and degree of host specialization</div>
       <div class="paper-authors">Butković A, <strong>González R</strong>, Rivarez MPS, Elena SF†</div>
       <div class="paper-journal"><em>Virus Evolution</em> (2020) veab063</div>
     </div>
@@ -506,4 +522,4 @@ function updateToggleButtonText() {
   </div>
 </div>
 
-<div class="pub-footer">Updated July 2026</div>
+<div class="pub-footer">Updated October 2026</div>
