@@ -9,102 +9,144 @@ redirect_from:
 ---
 
 <style>
-/* --- GLOBAL VARIABLES & MODERN RESET --- */
+/* --- 1. EDITORIAL VARIABLES & TYPOGRAPHY --- */
 :root {
-  --primary-color: #0f172a; /* Deep Slate */
-  --accent-color: #0284c7; /* Authoritative Blue */
-  --text-color: #334155; /* Readable Slate */
-  --bg-light: #f8fafc; /* Subtle light background */
+  --ink-primary: #111827;       /* Casi negro, máxima legibilidad */
+  --ink-secondary: #374151;     /* Gris carbón para texto principal */
+  --ink-muted: #6b7280;         /* Gris medio para metadatos y pies */
+  --accent-editorial: #1e3a8a;  /* Azul marino académico sobrio */
+  --rule-heavy: #111827;        /* Línea divisoria principal */
+  --rule-light: #e5e7eb;        /* Divisorias finas */
+  --bg-subtle: #f9fafb;         /* Fondo sutil */
+  
+  --font-serif: "Georgia", "Times New Roman", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
 }
 
-/* --- VISION HERO SECTION --- */
+/* --- 2. LAYOUT FIX: REDUCE GAP WITH LEFT SIDEBAR --- */
+.page, .archive {
+  font-family: var(--font-sans);
+  color: var(--ink-primary);
+}
+
+@media screen and (min-width: 1024px) {
+  #main {
+    max-width: 1240px;
+  }
+  .sidebar {
+    width: 210px !important;
+    margin-right: 28px !important;
+  }
+  .page, .archive {
+    width: calc(100% - 245px) !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    float: left !important;
+    max-width: 920px;
+  }
+}
+
+/* --- 3. VISION HERO (EDITORIAL LEAD) --- */
 .vision-hero {
-  padding: 15px 20px; /* Reducido para no ser tan invasivo */
-  background: linear-gradient(to right bottom, #ffffff, var(--bg-light));
-  border-radius: 8px;
-  border-left: 4px solid var(--accent-color);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
-  margin-bottom: 40px; /* Reducido ligeramente */
-}
-
-.vision-subtitle {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.85em;
-  color: var(--accent-color);
-  font-weight: 700;
-  margin-bottom: 15px;
-  display: block;
+  border-bottom: 2px solid var(--rule-heavy);
+  padding-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .vision-statement {
-  font-family: "Georgia", "Times New Roman", serif;
-  font-size: 1.6em; 
-  line-height: 1.5;
-  color: var(--primary-color);
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  line-height: 1.6;
+  color: var(--ink-primary);
   font-weight: 400;
+  letter-spacing: -0.01em;
 }
 
 .vision-statement strong {
   font-weight: 600;
-  color: var(--accent-color); 
+  color: var(--ink-primary);
+  text-decoration: underline;
+  text-decoration-color: #9ca3af;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
 }
 
-/* --- BIO & NARRATIVE --- */
+/* --- 4. BIO & NARRATIVE (ACADEMIC TIMELINE STYLE) --- */
 .bio-section {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 1.15em; 
-  line-height: 1.8;
-  color: var(--text-color);
-  margin-bottom: 50px;
+  font-size: 1.02rem;
+  line-height: 1.75;
+  color: var(--ink-secondary);
+  margin-bottom: 48px;
 }
 
-.bio-section p {
-  margin-bottom: 1.5em;
+.bio-paragraph {
+  padding: 14px 0 14px 18px;
+  margin-left: 2px;
+  border-left: 2px solid var(--rule-light);
+  margin-bottom: 12px;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.bio-paragraph:hover {
+  border-left-color: var(--accent-editorial);
+  background-color: var(--bg-subtle);
+}
+
+.bio-paragraph p {
+  margin: 0;
 }
 
 .bio-section a {
-  color: var(--accent-color);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(2, 132, 199, 0.3);
-  transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  color: var(--ink-primary);
+  text-decoration: underline;
+  text-decoration-color: #9ca3af;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
 .bio-section a:hover {
-  border-bottom-color: var(--accent-color);
-  color: #0369a1; /* Darker blue on hover */
+  color: var(--accent-editorial);
+  text-decoration-color: var(--accent-editorial);
 }
 
-/* --- MINIMALIST GALLERY --- */
+/* --- 5. EDITORIAL GALLERY GRID --- */
+.gallery-section-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-muted);
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--rule-light);
+  padding-bottom: 8px;
+}
+
 .gallery-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  margin-top: 60px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 24px;
 }
 
 .gallery-item {
-  position: relative;
+  background-color: #ffffff;
+  border: 1px solid var(--rule-light);
+  border-radius: 2px;
   overflow: hidden;
-  border-radius: 6px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  background-color: #fff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: border-color 0.2s ease;
 }
 
 .gallery-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-color: var(--accent-editorial);
 }
 
 .gallery-item img {
   width: 100%;
-  height: 220px;
+  height: 200px;
   object-fit: cover;
   display: block;
   filter: grayscale(15%);
-  transition: filter 0.4s ease;
+  transition: filter 0.3s ease;
 }
 
 .gallery-item:hover img {
@@ -112,54 +154,71 @@ redirect_from:
 }
 
 .gallery-caption {
-  padding: 15px;
-  font-size: 0.95em;
-  color: var(--text-color);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  padding: 12px 14px;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
   font-weight: 500;
-  text-align: center;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid var(--rule-light);
+  background-color: #fafafa;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .gallery-container {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
 <div class="vision-hero">
   <div class="vision-statement">
-    My research investigates the fundamental principles governing <strong>viral infections and virus evolution</strong> across model systems. 
-    <br><br>
-    By integrating evolutionary biology, molecular virology, and systems approaches, my work uncovers how viruses evolve, impact host biology, and interact with environmental factors to shape infection outcomes.
+    My research investigates the fundamental principles governing <strong>viral infections and virus evolution</strong> across model systems. By integrating evolutionary biology, molecular virology, and systems approaches, my work uncovers how viruses evolve, impact host biology, and interact with environmental factors to shape infection outcomes.
   </div>
 </div>
 
 <div class="bio-section">
-  <p>
-    I completed my PhD under the supervision of <a href="https://sfelenalab.csic.es/sfelena/">Santiago F. Elena</a> at the Institute for Integrative Systems Biology (I2SysBio, Spain), where I investigated the factors driving the evolution of plant viruses.
-  </p>
-  <p>
-    I subsequently obtained an <a href="https://www.embo.org/about-embo/mission/">EMBO postdoctoral fellowship</a> to join the <a href="https://www.ibens.ens.fr/?rubrique29&lang=en">Marie-Anne Félix laboratory</a> at the Institute of Biology of the École Normale Supérieure (IBENS, France). My research identified host genetic factors and environmental bacterial interactions that modulate the susceptibility of the nematode <em>Caenorhabditis elegans</em> to Orsay virus infection.
-  </p>
-  <p>
-    As a Pasteur-Roux-Cantarini postdoctoral fellow at the <a href="http://salehlab.eu">Carla Saleh laboratory</a> (Institut Pasteur, France), I used <em>Drosophila melanogaster</em> to investigate how viral infections alter host aging trajectories, the impact of the microbiome on viral pathogenesis, and the experimental evolution of RNA viruses.
-  </p>
-  <p>
-    Currently, I am a <a href="https://cinbio.es/en/nano4talent/about/">Nano4Talent </a>research fellow (MSCA-COFUND) at the Center for Research in Nanomaterials and Biomedicine (<a href="httpS://cinbio.es/en">CINBIO</a>) of the University of Vigo, Spain. My ongoing research expands upon the mechanistic basis of host-virus interactions by integrating the use of nanomaterials to modulate and dissect viral infection dynamics.
-  </p>
+  <div class="bio-paragraph">
+    <p>
+      I completed my Ph.D. in Biotechnology under the supervision of <a href="https://sfelenalab.csic.es/sfelena/" target="_blank" rel="noopener">Santiago F. Elena</a> at the Institute for Integrative Systems Biology (I2SysBio, CSIC–UV), investigating the evolutionary dynamics and environmental drivers of plant viruses.
+    </p>
+  </div>
+
+  <div class="bio-paragraph">
+    <p>
+      Subsequently, as an <a href="https://www.embo.org/" target="_blank" rel="noopener">EMBO postdoctoral fellow</a> in the <a href="https://www.ibens.ens.fr/" target="_blank" rel="noopener">Marie-Anne Félix laboratory</a> at the École Normale Supérieure (IBENS, Paris), my research identified host genetic factors and natural bacterial environments that modulate susceptibility to viral infection in the nematode <em>Caenorhabditis elegans</em>.
+    </p>
+  </div>
+
+  <div class="bio-paragraph">
+    <p>
+      As a Pasteur-Roux-Cantarini postdoctoral researcher at the <a href="http://salehlab.eu" target="_blank" rel="noopener">Carla Saleh laboratory</a> (Institut Pasteur, Paris), I examined how enteric viral infections accelerate systemic aging in <em>Drosophila melanogaster</em>, explored microbiome-mediated viral pathogenesis, and studied the experimental evolution of RNA viruses.
+    </p>
+  </div>
+
+  <div class="bio-paragraph">
+    <p>
+      Currently, I serve as a <a href="https://cinbio.es/en/nano4talent/about/" target="_blank" rel="noopener">Nano4Talent Principal Investigator / Research Fellow</a> (MSCA-COFUND) at the Center for Research in Nanomaterials and Biomedicine (<a href="https://cinbio.es/en" target="_blank" rel="noopener">CINBIO</a>) of the University of Vigo, expanding my research line on host-pathogen interactions and antiviral resilience through advanced systems biology and nanotechnological approaches.
+    </p>
+  </div>
 </div>
+
+<div class="gallery-section-title">Laboratory snapshots &amp; facilities</div>
 
 <div class="gallery-container">
   <div class="gallery-item">
-    <img src="/images/VIA_2024.jpg" alt="Viruses and RNAi" loading="lazy" />
-    <div class="gallery-caption">Viruses and RNAi (Carla Saleh Lab, 2024)</div>
+    <img src="/images/VIA_2024.jpg" alt="Viruses and RNAi Unit at Institut Pasteur" loading="lazy" />
+    <div class="gallery-caption">Viruses and RNAi Unit (Carla Saleh Lab, Institut Pasteur, 2024)</div>
   </div>
   <div class="gallery-item">
-    <img src="/images/New_20211108_Santi.jpeg" alt="C. elegans facilities" loading="lazy" />
-    <div class="gallery-caption">Setting up C. elegans facilities (2021)</div>
+    <img src="/images/New_20211108_Santi.jpeg" alt="C. elegans experimental facilities setup" loading="lazy" />
+    <div class="gallery-caption">Establishing C. elegans research facilities (2021)</div>
   </div>
   <div class="gallery-item">
-    <img src="/images/Felix_lab_2023.JPEG" alt="Evolution of Caenorhabditis" loading="lazy" />
-    <div class="gallery-caption">Evolution of Caenorhabditis (Marie-Anne Félix Lab, 2023)</div>
+    <img src="/images/Felix_lab_2023.JPEG" alt="Evolution of Caenorhabditis at IBENS" loading="lazy" />
+    <div class="gallery-caption">Nematode host evolution (Marie-Anne Félix Lab, IBENS, 2023)</div>
   </div>
   <div class="gallery-item">
-    <img src="/images/EvoSysVir_2021.jpg" alt="Evolutionary Systems Virology" loading="lazy" />
-    <div class="gallery-caption">Evolutionary Systems Virology (Santiago F. Elena Lab, 2021)</div>
+    <img src="/images/EvoSysVir_2021.jpg" alt="Evolutionary Systems Virology lab at I2SysBio" loading="lazy" />
+    <div class="gallery-caption">Evolutionary Systems Virology (Santiago F. Elena Lab, I2SysBio, 2021)</div>
   </div>
 </div>
