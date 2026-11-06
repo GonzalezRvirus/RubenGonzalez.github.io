@@ -203,22 +203,37 @@ redirect_from:
 </div>
 
 
-<div class="gallery-container">
-  <div class="gallery-item">
-    <img src="/images/VIA_2024.jpg" alt="Viruses and RNAi Unit at Institut Pasteur" loading="lazy" />
-    <div class="gallery-caption">Viruses and RNAi Unit (Carla Saleh Lab, Institut Pasteur, 2024)</div>
+
+
+
+
+<div class="clean-gallery">
+  <div class="clean-card">
+    <div class="img-wrapper">
+      <img src="/images/VIA_2024.jpg" alt="Viruses and RNAi Unit at Institut Pasteur" loading="lazy" />
+    </div>
+    <div class="clean-caption">Viruses and RNAi Unit (Carla Saleh Lab, Institut Pasteur, 2024)</div>
   </div>
-  <div class="gallery-item">
-    <img src="/images/New_20211108_Santi.jpeg" alt="C. elegans experimental facilities setup" loading="lazy" />
-    <div class="gallery-caption">Establishing C. elegans research facilities (2021)</div>
+
+  <div class="clean-card">
+    <div class="img-wrapper">
+      <img src="/images/New_20211108_Santi.jpeg" alt="C. elegans experimental facilities setup" loading="lazy" />
+    </div>
+    <div class="clean-caption">Establishing C. elegans research facilities (2021)</div>
   </div>
-  <div class="gallery-item">
-    <img src="/images/Felix_lab_2023.JPEG" alt="Evolution of Caenorhabditis at IBENS" loading="lazy" />
-    <div class="gallery-caption">Nematode host evolution (Marie-Anne Félix Lab, IBENS, 2023)</div>
+
+  <div class="clean-card">
+    <div class="img-wrapper">
+      <img src="/images/Felix_lab_2023.JPEG" alt="Evolution of Caenorhabditis at IBENS" loading="lazy" />
+    </div>
+    <div class="clean-caption">Nematode host evolution (Marie-Anne Félix Lab, IBENS, 2023)</div>
   </div>
-  <div class="gallery-item">
-    <img src="/images/EvoSysVir_2021.jpg" alt="Evolutionary Systems Virology lab at I2SysBio" loading="lazy" />
-    <div class="gallery-caption">Evolutionary Systems Virology (Santiago F. Elena Lab, I2SysBio, 2021)</div>
+
+  <div class="clean-card">
+    <div class="img-wrapper">
+      <img src="/images/EvoSysVir_2021.jpg" alt="Evolutionary Systems Virology lab at I2SysBio" loading="lazy" />
+    </div>
+    <div class="clean-caption">Evolutionary Systems Virology (Santiago F. Elena Lab, I2SysBio, 2021)</div>
   </div>
 </div>
 
@@ -235,14 +250,14 @@ redirect_from:
   padding-bottom: 8px;
 }
 
-.gallery-container {
+.clean-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 24px;
   margin-top: 16px;
 }
 
-.gallery-item {
+.clean-card {
   background-color: #ffffff;
   border: 1px solid #e5e7eb;
   border-radius: 4px;
@@ -251,27 +266,33 @@ redirect_from:
   flex-direction: column;
 }
 
-.gallery-item img {
+.img-wrapper {
   width: 100%;
-  height: 240px;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-  filter: grayscale(15%);
-  transition: filter 0.3s ease;
-  margin: 0 !important;
-  padding: 0 !important;
-  border: none !important;
+  background-color: #000; /* Fondo negro por si la imagen carga o tiene transparencia */
+  overflow: hidden;
 }
 
-.gallery-item img:hover {
+.clean-card img {
+  width: 100% !important;
+  height: auto !important; /* Mantiene la proporción real y evita el estiramiento borroso */
+  max-height: 280px;
+  object-fit: contain !important; /* Muestra la imagen completa sin recortar ni pixelar */
+  display: block !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  border: none !important;
+  filter: grayscale(15%);
+  transition: filter 0.3s ease;
+}
+
+.clean-card img:hover {
   filter: grayscale(0%);
 }
 
-.gallery-caption {
+.clean-caption {
   padding: 12px 14px;
   font-size: 0.85rem;
-  color: #6b7280;
+  color: #4b5563;
   font-weight: 500;
   border-top: 1px solid #e5e7eb;
   background-color: #fafafa;
@@ -279,7 +300,7 @@ redirect_from:
 }
 
 @media (max-width: 768px) {
-  .gallery-container {
+  .clean-gallery {
     grid-template-columns: 1fr;
   }
 }
