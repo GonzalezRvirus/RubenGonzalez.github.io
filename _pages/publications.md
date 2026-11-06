@@ -6,169 +6,226 @@ author_profile: true
 ---
 
 <style>
-/* --- 1. GLOBAL VARIABLES & TYPOGRAPHY --- */
+/* --- 1. EDITORIAL VARIABLES & TYPOGRAPHY --- */
 :root {
-  --primary-color: #0f172a; 
-  --accent-color: #0284c7; 
-  --accent-light: #e0f2fe;
-  --text-color: #334155; 
-  --bg-light: #f8fafc; 
-  --border-color: #e2e8f0;
+  --ink-primary: #111827;       /* Casi negro, máxima legibilidad */
+  --ink-secondary: #374151;     /* Gris carbón para autores */
+  --ink-muted: #6b7280;         /* Gris medio para metadatos */
+  --accent-editorial: #1e3a8a;  /* Azul marino académico sobrio */
+  --rule-heavy: #111827;        /* Líneas principales de sección */
+  --rule-light: #e5e7eb;        /* Divisorias finas entre artículos */
+  --bg-subtle: #f9fafb;         /* Fondo casi imperceptible para hover */
+  
+  --font-serif: "Georgia", "Times New Roman", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
 }
 
 .archive {
-  font-size: 1.05em;
+  font-family: var(--font-sans);
+  color: var(--ink-primary);
+  max-width: 820px;
 }
 
-/* --- 2. AUTHORSHIP LEGEND --- */
-.pub-legend {
-  background-color: var(--bg-light);
-  border: 1px solid var(--border-color);
-  border-radius: 6px;
-  padding: 12px 20px;
-  margin-bottom: 30px;
+/* --- 2. TOP BAR: LEGEND & CONTROLS --- */
+.pub-topbar {
   display: flex;
-  gap: 20px;
-  font-size: 0.9em;
-  color: var(--text-color);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 2px solid var(--rule-heavy);
+  padding-bottom: 12px;
+  margin-bottom: 32px;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+}
+
+.pub-legend {
+  display: flex;
+  gap: 24px;
 }
 
 .pub-legend span {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
 }
 
 .pub-legend strong {
-  color: var(--primary-color);
+  color: var(--ink-primary);
+  font-weight: 600;
 }
 
-/* --- 3. SECTION HEADERS --- */
+.toggle-all-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--accent-editorial);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.toggle-all-btn:hover {
+  text-decoration: underline;
+}
+
+/* --- 3. RESEARCH AREA SECTIONS --- */
 .research-area {
-  margin-bottom: 25px;
-  background-color: transparent;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--rule-light);
 }
 
 .area-header {
-  padding: 22px 25px;
+  padding: 20px 0;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: var(--bg-light);
-  border-radius: 8px; 
-  transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
-  border-left: 6px solid var(--accent-color);
-  border-top: 1px solid var(--border-color);
-  border-right: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  align-items: flex-start;
+  background-color: transparent;
+  transition: opacity 0.15s ease;
+  user-select: none;
 }
 
 .area-header:hover {
-  background-color: #ffffff;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  opacity: 0.75;
 }
 
 .area-header h2 {
   margin: 0;
-  color: var(--primary-color);
-  font-weight: 700;
-  font-size: 1.4em;
-  letter-spacing: -0.01em;
+  color: var(--ink-primary);
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 1.45rem;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
 }
 
 .area-subtitle {
-  color: #64748b;
-  font-size: 0.95em;
-  margin-top: 6px;
-  font-weight: 500;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--ink-muted);
+  font-size: 0.9rem;
+  margin-top: 4px;
+  font-weight: 400;
 }
 
-/* --- 4. PAPER "CARDS" --- */
+/* Indicador +/- minimalista en lugar de flecha ▼ */
+.collapse-icon {
+  font-size: 0; /* Oculta el triángulo original sin romper tu HTML */
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.collapse-icon::after {
+  content: "−";
+  font-family: var(--font-sans);
+  font-size: 1.35rem;
+  font-weight: 300;
+  color: var(--ink-muted);
+  line-height: 1;
+}
+
+.collapsed .collapse-icon::after {
+  content: "+";
+}
+
+/* --- 4. PUBLICATIONS LIST (EDITORIAL LAYOUT) --- */
 .area-content {
-  padding: 10px 5px;
-  max-height: 5000px;
-  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+  max-height: 4000px;
+  transition: max-height 0.35s ease-in-out, opacity 0.25s ease;
+  opacity: 1;
   overflow: hidden;
+  padding-bottom: 16px;
 }
 
 .collapsed .area-content {
   max-height: 0;
-  padding: 0 5px;
+  opacity: 0;
+  padding-bottom: 0;
 }
 
 .paper {
-  background: #ffffff;
-  margin-bottom: 15px;
-  padding: 22px 25px;
-  border-radius: 6px;
-  border: 1px solid var(--border-color);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-  transition: all 0.2s ease;
-  position: relative;
+  padding: 16px 0 16px 16px;
+  margin-left: 4px;
+  border-left: 2px solid var(--rule-light);
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.paper + .paper {
+  border-top: 1px solid #f3f4f6;
 }
 
 .paper:hover {
-  border-color: #cbd5e1;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
-  transform: translateY(-2px); 
+  border-left-color: var(--accent-editorial);
+  background-color: var(--bg-subtle);
 }
 
 .paper-title {
-  font-size: 1.15em;
+  font-size: 1.04rem;
   font-weight: 600;
-  color: var(--primary-color);
-  line-height: 1.4;
-  margin-bottom: 8px;
+  color: var(--ink-primary);
+  line-height: 1.45;
+  margin-bottom: 5px;
+  letter-spacing: -0.005em;
 }
 
 .paper-authors {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.95em;
-  color: var(--text-color);
-  margin-bottom: 6px;
+  font-size: 0.92rem;
+  color: var(--ink-secondary);
+  margin-bottom: 4px;
   line-height: 1.5;
 }
 
 .paper-authors strong {
-  color: var(--primary-color);
-  font-weight: 700;
+  color: var(--ink-primary);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #9ca3af;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
 .paper-journal {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.95em;
-  color: #64748b;
+  font-size: 0.88rem;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
 }
 
 .paper-journal em {
-  color: var(--primary-color);
-  font-weight: 500;
-  font-style: normal;
+  color: var(--ink-primary);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.96rem;
 }
 
 .paper-commentary {
-  margin-top: 10px;
-  padding: 8px 12px;
-  background-color: #fffbeb;
-  border-left: 3px solid #f59e0b;
-  font-size: 0.85em;
-  color: #92400e;
-  border-radius: 0 4px 4px 0;
+  margin-top: 8px;
+  display: inline-block;
+  font-size: 0.82rem;
+  color: var(--accent-editorial);
+  background-color: #eff6ff;
+  padding: 3px 10px;
+  border-radius: 3px;
+  font-weight: 500;
 }
 
-/* --- 5. ICONS & UX --- */
-.collapse-icon {
-  font-size: 18px;
-  color: var(--accent-color);
-  transition: transform 0.3s ease;
+.paper-commentary em {
+  font-style: italic;
 }
 
-.collapsed .collapse-icon {
-  transform: rotate(-90deg);
+/* --- 5. FOOTER --- */
+.pub-footer {
+  margin: 48px 0 24px;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 </style>
 
@@ -176,12 +233,38 @@ author_profile: true
 function toggleSection(sectionId) {
   const section = document.getElementById(sectionId);
   section.classList.toggle('collapsed');
+  updateToggleButtonText();
+}
+
+function toggleAllSections() {
+  const sections = document.querySelectorAll('.research-area');
+  const anyCollapsed = Array.from(sections).some(s => s.classList.contains('collapsed'));
+  
+  sections.forEach(section => {
+    if (anyCollapsed) {
+      section.classList.remove('collapsed');
+    } else {
+      section.classList.add('collapsed');
+    }
+  });
+  updateToggleButtonText();
+}
+
+function updateToggleButtonText() {
+  const sections = document.querySelectorAll('.research-area');
+  const btn = document.getElementById('toggle-all-btn');
+  if (!btn) return;
+  const anyCollapsed = Array.from(sections).some(s => s.classList.contains('collapsed'));
+  btn.textContent = anyCollapsed ? 'Expand all' : 'Collapse all';
 }
 </script>
 
-<div class="pub-legend">
-  <span><strong>*</strong> Co-first author</span>
-  <span><strong>†</strong> Corresponding author</span>
+<div class="pub-topbar">
+  <div class="pub-legend">
+    <span><strong>*</strong> Co-first author</span>
+    <span><strong>†</strong> Corresponding author</span>
+  </div>
+  <button id="toggle-all-btn" class="toggle-all-btn" onclick="toggleAllSections()">Expand all</button>
 </div>
 
 <!-- SECTION 1: PHYSIOLOGY & AGING (Opened by default) -->
@@ -423,6 +506,4 @@ function toggleSection(sectionId) {
   </div>
 </div>
 
-<p style="text-align: center; margin: 50px 0; color: #94a3b8; font-size: 0.85em;">Updated July 2026</p>
-
-```
+<div class="pub-footer">Updated July 2026</div>
