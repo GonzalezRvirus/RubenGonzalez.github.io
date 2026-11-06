@@ -197,10 +197,11 @@ redirect_from:
 
   <div class="bio-paragraph">
     <p>
-      Currently, I serve as a <a href="https://cinbio.es/en/nano4talent/about/" target="_blank" rel="noopener">Nano4Talent Research Fellow</a> (MSCA-COFUND) at the Center for Research in Nanomaterials and Biomedicine (<a href="https://cinbio.es/en" target="_blank" rel="noopener">CINBIO</a>) of the University of Vigo, expanding my research line on host-pathogen interactions and antiviral resilience through advanced systems biology and nanotechnological approaches.
+      Currently, I serve am a <a href="https://cinbio.es/en/nano4talent/about/" target="_blank" rel="noopener">Nano4Talent Research Fellow</a> (MSCA-COFUND) at the Center for Research in Nanomaterials and Biomedicine (<a href="https://cinbio.es/en" target="_blank" rel="noopener">CINBIO</a>) of the University of Vigo, expanding my research line on host-pathogen interactions and antiviral resilience through advanced systems biology and nanotechnological approaches.
     </p>
   </div>
 </div>
+
 
 <div class="gallery-container">
   <div class="gallery-item">
@@ -220,3 +221,66 @@ redirect_from:
     <div class="gallery-caption">Evolutionary Systems Virology (Santiago F. Elena Lab, I2SysBio, 2021)</div>
   </div>
 </div>
+
+<style>
+.gallery-section-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #6b7280;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.gallery-item {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  filter: grayscale(15%);
+  transition: filter 0.3s ease;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.gallery-item img:hover {
+  filter: grayscale(0%);
+}
+
+.gallery-caption {
+  padding: 12px 14px;
+  font-size: 0.85rem;
+  color: #6b7280;
+  font-weight: 500;
+  border-top: 1px solid #e5e7eb;
+  background-color: #fafafa;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .gallery-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
